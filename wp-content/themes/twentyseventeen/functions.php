@@ -218,6 +218,8 @@ function twentyseventeen_setup() {
 					'link_twitter',
 					'link_instagram',
 					'link_email',
+					'link_youtube',
+					'link_github'
 				),
 			),
 		),
