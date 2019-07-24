@@ -35,7 +35,9 @@ function optionsframework_admin_init()
  */
 function optionsframework_add_admin() {
 	
-    $of_page = add_menu_page( THEMENAME, 'Workality Lite', 'edit_theme_options', 'northeme_framework', 'optionsframework_options_page',ADMIN_DIR.'/assets/images/northeme_admin.png',58);
+    //$of_page = add_menu_page( THEMENAME, 'Workality Lite', 'edit_theme_options', 'northeme_framework', 'optionsframework_options_page',ADMIN_DIR.'/assets/images/northeme_admin.png',58);
+	
+	$of_page = add_menu_page( THEMENAME, 'Web Create Code', 'edit_theme_options', 'northeme_framework', 'optionsframework_options_page',ADMIN_DIR.'/assets/images/menu_icon.png',58);
 
 	// Add framework functionaily to the head individually
 	add_action("admin_print_scripts-$of_page", 'of_load_only');

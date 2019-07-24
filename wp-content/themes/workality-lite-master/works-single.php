@@ -98,7 +98,7 @@
                           <hr />
                       </div>
                       
-                      <?php 
+                      <!--<?php 
 					  	  $sharittop = of_get_option('md_social_post_disable_top');
 						 if(!$sharittop) { $coln = 'twelve'; }else{ $coln = 'fifteen'; }
 						  
@@ -127,7 +127,7 @@
 							$workdesc .= '</div></div></div>';
 						 } 
                         $workdesc .='</div>';
-					  ?>
+					  ?>-->
               	
                       <?php 
 					  	  /// SHOW PROJECT DESCRIPTION
@@ -175,11 +175,11 @@
             
            
                 <div class="fifteensp columns offset-by-half alpha" style="margin-bottom:10px;">
-                    <div class="sharingbottom border-color bottoms"> 
+                    <!--<div class="sharingbottom border-color bottoms"> 
                   	<?php if(!of_get_option('md_social_post_disable_bottom')) {?>
                     	<div class="resdontshow shr"><strong><?php _e('SHARE : ','dronetv');?></strong></div>
                        <?php echo showshareingpost($permalink,@$pimg[0], @$ptitle,false); ?>
-					<?php } ?>
+					<?php } ?>-->
                     &nbsp;
                     </div>
                         <hr class="resshow border-color-works" /> 

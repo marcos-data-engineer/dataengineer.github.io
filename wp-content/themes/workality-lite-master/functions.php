@@ -174,6 +174,7 @@ add_filter('excerpt_length', 'custom_excerpt_length', 999 );
 /* Share Funcs
 /************************************************************/
 
+
 if ( ! function_exists( 'showshareingpost' ) ) {
 	function showshareingpost($url,$img, $title, $code=false,$top=false) { 
 	
@@ -297,6 +298,8 @@ if ( ! function_exists( 'showSharing' ) ) {
 		}
 	}                 
 }
+
+
 
 							
 /************************************************************

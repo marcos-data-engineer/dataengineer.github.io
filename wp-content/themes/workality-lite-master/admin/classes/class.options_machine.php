@@ -554,17 +554,17 @@ class Options_Machine {
 		
 	    $data =get_option(OPTIONS);
 		
-		$dontshow = '';
+		/* $dontshow = '';
 		$t_value = @$data[$id];
 		if(!$t_value) { $dontshow = 'nor-dontshow'; }
-		$hide = '';
+		$hide = ''; */
 		
 		return $output = '<div data-action="'.$id.'-container">
 					  <input type="hidden" name="'.$id.'" value="'.$t_value.'">
 					  <a href="#" data-id="'.$id.'" data-action="'.$id.'-upload" class="nor-upload-button gray nor-button"><i class="fa fa-upload"></i> UPLOAD</a>
-							<a href="#" data-id="'.$id.'" data-action="'.$id.'-remove" class="nor-image-remove-button white-low nor-button '.$dontshow.'" style="margin-left:2px;">
+							<a href="#" data-id="'.$id.'" data-action="'.$id.'-remove" class="nor-image-remove-button white-low nor-button" style="margin-left:2px;">
 							<i class="fa fa-times"></i> REMOVE</a>
-							<div data-id="'.$id.'" data-action="'.$id.'-image" class="nor-image-upload nor-image-upload-margin '.$dontshow.'">
+							<div data-id="'.$id.'" data-action="'.$id.'-image" class="nor-image-upload nor-image-upload-margin">
 								 <img src="'.( $t_value ).'">
 							</div>
 					</div>
@@ -599,7 +599,7 @@ class Options_Machine {
 		
 		$uploader .= '<div class="upload_button_div"><span class="button media_upload_button" id="'.$id.'" rel="' . $int . '">Upload</span>';
 		
-		if(!empty($upload)) {$hide = '';} else { $hide = 'hide';}
+		/*if(!empty($upload)) {$hide = '';} else { $hide = 'hide';}*/
 		$uploader .= '<span class="button mlu_remove_button '. $hide.'" id="reset_'. $id .'" title="' . $id . '">Remove</span>';
 		$uploader .='</div>' . "\n";
 		$uploader .= '<div class="screenshot">';

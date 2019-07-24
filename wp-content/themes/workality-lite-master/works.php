@@ -30,7 +30,7 @@ $getbr = getThumb($thumb);
 ?>         
          <div class="columns navibg withall border-color">
             <div class="four columns alpha">
-            	<h3><?php _e('Works','dronetv'); ?></h3>
+            	<h3><?php _e('Portifólio','dronetv'); ?></h3>
             </div>
             
             <div class="twelve columns omega">

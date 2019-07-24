@@ -26,9 +26,9 @@
 	color: #666;
 }
 
-#of_container .nor-dontshow {
+/* #of_container .nor-dontshow {
 	display: none;
-}
+} */
 
 #of_container .nor-image-upload {
 	margin: 20px 0 20px 0;
@@ -138,13 +138,11 @@
 }
 
 #of_container #info_bar {
-	background: #333;
-	border:solid #000;
-	border-bottom:1px solid #000;
+	background: #f8f8f8;
 	border-width:0px 1px 1px 1px;
 	padding: 10px 20px 5px 6px;
 	height: 31px;
-	text-align: right;
+	text-align: left;
 }
 
 #of_container #info_bar a.nor {

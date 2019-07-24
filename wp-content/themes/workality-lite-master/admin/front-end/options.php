@@ -17,41 +17,8 @@
 	<input type="hidden" id="security" name="security" value="<?php echo wp_create_nonce('of_ajax_nonce'); ?>" />
 
 	<form id="of_form" method="post" action="<?php echo esc_attr( $_SERVER['REQUEST_URI'] ) ?>" enctype="multipart/form-data" >
-	
-        <a href="https://northeme.com/theme/workality-plus" class="go-premium" target="_blank">
-        	<i class="fa fa-star"></i>
-            Upgrade to <strong class="link">Workality Plus</strong> and access full featured theme options, content builder, sliders, premium support and more!
-            <br>
-            <small>Here is an exclusive promo code to upgrade Workality Plus with <strong>20% discount!</strong> : <strong class="promo">UPGRADE20</strong></small> 
-        </a>
-        
-		<div id="header">
 		
-			<div class="logo">
-				<h2><?php echo THEMENAME; ?></h2>
-				<span><?php echo ('v'. THEMEVERSION); ?></span>
-			</div>
-		
-			<div id="js-warning">Warning- This options panel will not work properly without javascript!</div>
-			<div class="icon-option"></div>
-			<div class="clear"></div>
-		
-    	</div>
-        
-
-		<div id="info_bar">
-		
-            <a href="https://northeme.com/theme-docs/?theme=workality-lite" target="_blank" class="nor" style="color:#ffcc33;">
-            	→ THEME DOCUMENTATION
-            </a>
-            		
-			<img style="display:none" src="<?php echo ADMIN_DIR; ?>assets/images/loading-bottom.gif" class="ajax-loading-img ajax-loading-img-bottom" alt="Working..." />
-
-			<button id="of_save" type="button" class="button-primary">
-				<?php _e('Save All Changes','dronetv');?>
-			</button>
-			
-		</div><!--.info_bar--> 	
+		<div id="info_bar"> Web Create Code </div>
 		
 		<div id="main">
 		

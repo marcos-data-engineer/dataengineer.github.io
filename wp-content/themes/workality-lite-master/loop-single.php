@@ -68,7 +68,7 @@ $theblogtitle = of_get_option('md_theblog_title');
                         </span>
 					  </div>
                    </div>
-		
+					<!--
                     <div class="sharingbottom"> 
                     	<div class="resdontshow shr"><strong><?php _e('SHARE : ','dronetv');?></strong></div>
 						<?php
@@ -78,6 +78,7 @@ $theblogtitle = of_get_option('md_theblog_title');
                             echo showshareingpost($permalink,$pimg[0], $ptitle,false); 
                         ?>
                     </div>
+					-->
                     
                     <br class="clear" />
                     
