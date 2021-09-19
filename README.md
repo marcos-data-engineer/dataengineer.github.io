@@ -1,12 +1,4 @@
-# Dev Portfolio
-
-🚀 **[Dev Portfolio V2 has arrived. Meet Devfolio, a modern portfolio + blog template built with GatsbyJS and TailwindCSS](https://github.com/RyanFitzgerald/devfolio)** 🚀
-
-This repo contains an easy-to-customize personal dev portfolio template that was created with Sass and JavaScript. It is lightweight and fully responsive, as well as comes with the Bootstrap grid system and loaded with Font Awesome. The site is static and comes production ready if you just want to add your information and go. Alternatively, you can edit styles, colours, and scripts fairly easily. The site was built as modular as possible to make it easy to shift around styles and content.
-
-To view a live demo, [click here](https://ryanfitzgerald.github.io/devportfolio/).
-
-Looking for a blog template? Checkout [DevBlog](https://github.com/RyanFitzgerald/devblog).
+# Web Create Code
 
 ## Features
 
@@ -302,43 +294,6 @@ The optional section blocks have styling for h3 (the block title), h4, p, and ul
 
 ## Changelog
 
-### 1.2.2
-
-* Updated dependencies and gulpfile
-
-### 1.2.1
-
-* Updated dependencies and gulpfile
-* Added `no-image` optional class for projects without images (see above for usage)
-
-### 1.2.0
-
-* Added support for optional "Show More Projects" that hides some projects by default if included
-* Added optional sections to display certifications, languages, etc.
-
-### 1.1.3
-
-* Added default favicon to be used or changed
-* Added `sticky` class to make header fixed
-* Updated docs to add image section
-
-### 1.1.2
-
-* Added `no-scroll` class option to header navigation anchor if you want to link to external site
-* Changed contact form input / textarea colours to be based off `$base-color`
-* Changed main background to 100vh so it doesn't overflow if viewport height < 700px
-
-### 1.1.1
-
-* Made input placeholder text more readable
-* Removed timeline line when no JS
-* Added some basic styling to timeline when no JS
-
-### 1.1.0
-
-* Fixed menu toggle on mobile devices
-* Fixed z-index / scrolling issue with mobile menu
-* Mobile menu now closes once a nav element is hit
 
 ## License
 
