@@ -29,6 +29,16 @@
             scrollTop: 0
         }, 500);
     });
+    // $('#to-top2').click(function() {
+    //     $('html, body').animate({
+    //         scrollTop: 0
+    //     }, 500);
+    // });
+    
+    // $('#to-top3').click(function topFunction() {
+    //     document.body.scrollTop = 0; // For Safari
+    //     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    //   });
 
     // Scroll to first element
     $('#lead-down span').click(function() {
