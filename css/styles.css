@@ -53,24 +53,33 @@ header {
   animation-iteration-count: 1;
   animation-timing-function: ease;
   animation-duration: 0.75s;
+  margin-top: 4vh;
 }
 header ul {
   display: inline-block;
-  background: #fff;
+  background: whitesmoke;
   text-align: center;
-  padding: 10px;
+  padding-inline: 60px;
+  /* padding-inline-start: 100px;
+  padding-inline-end: 100px; */
   margin: 0;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-radius: 15px;
+  border-style: ridge;
+  /* border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px; */
 }
 header li {
   display: inline-block;
+  font-size: 1.1em;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 header a {
   display: block;
   /* color: #3498db; */
  color: #374054;
-  padding: 10px;
+  padding: 8px;
 }
 header a:hover {
   color: #217dbb;
@@ -123,16 +132,16 @@ header.sticky {
 #mobile-menu-close i {
   vertical-align: middle;
 }
-footer {
+/* footer {
   padding: 50px;
-}
-.copyright {
+} */
+/* .copyright {
   padding-top: 10px;
 }
 .copyright p {
   margin: 0;
   color: #74808a;
-}
+} */
 /* .copyright2 {
   padding-top: 20px;
 }
@@ -141,6 +150,11 @@ footer {
   color: #74808a;
   
 } */
+
+/* #lead .top {
+  display: none;
+} */
+
 .top {
   text-align: center;
 }
@@ -178,7 +192,7 @@ footer {
     cursor: pointer;
     margin-left: 50vmax;    
   } */
-.social {
+/* .social {
   text-align: right;
 }
 .social ul {
@@ -197,7 +211,7 @@ footer {
 }
 .social a:hover {
   color: #3498db;
-}
+} */
 .btn-rounded-white {
   display: inline-block;
   color: #fff;
@@ -236,7 +250,12 @@ footer {
   background: #3498db;
 }
 .background-alt {
-  background: #f2f2f5;
+  /* background: #f2f2f5; */
+  background: rgba(121, 24, 242, 0.8);
+  background: -webkit-linear-gradient(-45deg, rgba(172, 50, 228, 0.8), rgba(121, 24, 242, 0.8), rgba(72, 1, 255, 0.8));
+  background: -o-linear-gradient(-45deg, rgba(172, 50, 228, 0.8), rgba(121, 24, 242, 0.8), rgba(72, 1, 255, 0.8));
+  background: -moz-linear-gradient(-45deg, rgba(172, 50, 228, 0.8), rgba(121, 24, 242, 0.8), rgba(72, 1, 255, 0.8));
+  background: linear-gradient(-45deg, rgba(172, 50, 228, 0.8), rgba(121, 24, 242, 0.8), rgba(72, 1, 255, 0.8));
 }
 #lead {
   position: relative;
@@ -291,7 +310,7 @@ footer {
 
   z-index: 1;
 }
-#lead-down {
+/* #lead-down {
   position: absolute;
   left: 0;
   right: 0;
@@ -315,7 +334,7 @@ footer {
   animation: pulsate 1.5s ease;
   animation-iteration-count: infinite;
   padding-top: 5px;
-}
+} */
 @keyframes pulsate {
   0% {
     transform: scale(1, 1);
@@ -328,15 +347,25 @@ footer {
   }
 }
 #about {
+  display: flexbox;
   padding: 75px 15px;
   border-bottom: 1px solid #dcd9d9;
+  /* background: #e4e4ea; */
+  background: white;
+  text-align: center;
+  height: 100vh;
 }
 #about h2 {
   color: #374054;
 }
 #about p {
-  color: #74808a;
-  margin: 0;
+  /* color: #74808a; */
+  color: rgb(17, 17, 17,10);
+  text-align: justify;
+  padding: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 1.2em;
 }
 #experience {
   padding: 50px 15px;
@@ -402,7 +431,7 @@ footer {
 .vtimeline-point {
   position: relative;
   display: block;
-  vertical-align: top;
+  /* vertical-align: top; */
   margin-bottom: 30px;
 }
 .vtimeline-icon {
@@ -479,7 +508,8 @@ footer {
 }
 #projects h3 {
   display: flexbox;
-  color: #374054;
+  /* color: #374054; */
+  color: lightgray;
   font-weight: 400;
   padding: 0;
   margin: 50px;
@@ -495,27 +525,24 @@ footer {
     display: flexbox;
     position: relative;
     margin-top: 0;
-    margin-left: 30px;
-    padding: 5px;
+    margin-left: 10px;
+    padding: 1px;
     text-align: left;
-    color: #74808a;
+    /* color: #74808a; */
+    color: lightgray;
     list-style: disc;
     font-size: 1.1em;
   }
  .project {
   display: flexbox;
   position: relative;
-  max-width: 900px;
   margin: auto;
+  max-width: 900px;
   overflow: hidden;
-  background: #fff;
-  border-radius: 4px;
-  height: 45vh;
-}
-.project-image {
-  display: flexbox;
-  float: left;
-  padding: 35px;
+  background: black;
+  border-radius: 10px;
+  border-style: groove;
+  height: 50vh;
 }
 .project-info {
   display: flexbox;
@@ -530,8 +557,14 @@ footer {
   display: flexbox;
   font-size: 1.4em;
   font-weight: 400;
-  color: #374054;
+  /* color: #374054; */
+  color: lightgray;
   margin-top: 30px;
+}
+.project-image {
+  display: flexbox;
+  margin: 50px;
+  float: left;
 }
 /* .project-info p {
   color: #74808a;
@@ -566,7 +599,8 @@ footer {
   display: inline-block;
   margin: 25px;
   padding: 10px 15px;
-  color: #374054;
+  /* color: #374054; */
+  color: rgb(17, 17, 17,10);
   background: #e4e4ea;
   list-style: none;
   cursor: default;
@@ -574,7 +608,12 @@ footer {
 }
 #contact {
   padding: 50px 15px;
-  background: #3498db;
+  /* background: #3498db; */
+  background: rgba(121, 24, 242, 0.8);
+  background: -webkit-linear-gradient(-45deg, rgba(172, 50, 228, 0.8), rgba(121, 24, 242, 0.8), rgba(72, 1, 255, 0.8));
+  background: -o-linear-gradient(-45deg, rgba(172, 50, 228, 0.8), rgba(121, 24, 242, 0.8), rgba(72, 1, 255, 0.8));
+  background: -moz-linear-gradient(-45deg, rgba(172, 50, 228, 0.8), rgba(121, 24, 242, 0.8), rgba(72, 1, 255, 0.8));
+  background: linear-gradient(-45deg, rgba(172, 50, 228, 0.8), rgba(121, 24, 242, 0.8), rgba(72, 1, 255, 0.8));
   text-align: center;
   height: 100vh;
 }
@@ -595,7 +634,8 @@ footer {
   border-radius: 4px;
   border: none;
   margin-bottom: 10px;
-  background: #1d6fa5;
+  /* background: #1d6fa5; */
+  background: whitesmoke;
   color: #fff;
   transition: 0.5s ease all;
 }
@@ -633,8 +673,9 @@ footer {
   border-radius: 4px;
   padding: 5px 10px;
   border: none;
-  color: #3498db;
-  font-weight: 700;
+  /* color: #3498db; */
+  color: rgb(81, 58, 102);
+  font-weight: 650;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: 0.5s ease all;
 }
@@ -698,7 +739,7 @@ footer {
   }
 }
 @media only screen and (max-width: 992px) {
-  #lead {
+  /* #lead {
     height: auto;
     min-height: auto;
     max-height: auto;
@@ -715,15 +756,8 @@ footer {
   }
   #lead-content h2 {
     font-size: 1.75em;
-  }
-  #about {
-    text-align: center;
-  }
-  #about p {
-    text-align: left;
-  }
-}
-@media only screen and (max-width: 768px) {
+  } */
+  @media only screen and (max-width: 768px) {
   header {
     position: fixed;
     display: none;
@@ -763,7 +797,7 @@ footer {
   .education-block span {
     float: none;
   }
-  .project-image {
+  /* .project-image {
     display: none;
   }
   .project-info {
@@ -772,7 +806,7 @@ footer {
     padding: 30px 15px;
     top: auto;
     transform: none;
-  }
+  } */
   /* footer {
     text-align: center;
   } */
@@ -791,4 +825,5 @@ footer {
     font-size: 0.9em;
     padding: 5px 10px;
   }
+}
 }
