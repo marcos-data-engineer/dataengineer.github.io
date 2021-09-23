@@ -10,7 +10,8 @@
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet">
 </head>
 
@@ -34,10 +35,10 @@
                 <a href="#about">About</a>
             </li>
             <li>
-                <a href="#projects">Services</a>
+                <a href="#services">Services</a>
             </li>
             <li>
-                <a href="#systems">Systems</a>
+                <a href="#projects">Projects</a>
             </li>
             <li>
                 <a href="#skills">Skills</a>
@@ -81,10 +82,13 @@
     <div id="about">
         <div class="container">
             <div class="row">
-                <div>
+                <div class="col-">
                     <h2 class="heading">About Me</h2>
                 </div>
-                <div>
+            </div>
+            
+            <div class="row">
+                <div class="col-">
                     <p>
                         We carry out projects from simple website development to complex systems.
                     </p>    
@@ -102,95 +106,16 @@
         </div>
     </div>
      <!-- End #about -->
-
-    <!-- <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-        </div>
-    </div> -->
-    <!-- End #experience -->
-
-    <!-- <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
-        </div>
-        End .education-block
-
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
-        </div>
-        End .education-block
-    </div>
-    End #education -->
-
-    <div id="projects" class="background-alt">
+    
+    <div id="services" class="background-alt">
         <h3 class="heading">Services</h3>
         <div class="container">
-            <!--<div class="row">
-                <div class="project shadow-large">
-                     <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div> -->
-                    <!-- End .project-image -->
-                    <!-- <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div> -->
-                    <!-- End .project-info -->
-                <!--</div>
-                 End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
+                <div class="service shadow-large">
+                    <div class="service-image">
                         <img src="images/freela.jpg" />
                     </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
+                    <!-- End .service-image -->
+                    <div class="service-info">
                         <h2>Available Services</h2>
                         <ul>
                             <li>
@@ -221,64 +146,116 @@
                                 Development of data science projects in power bi or python.
                             </li>
                         </ul>
-                        <!-- <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p> -->
-                        <!-- <a href="#">View Project</a> -->
                     </div>
-                    <!-- End .project-info -->
+                    <!-- End .service-info -->
                 </div>
-                <!-- End .project -->
-            </div>
-            <!-- <div class="col-sm-2 top">
-                <span id="to-top">
-                    <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                </span>
-            </div> -->
+                <!-- End .service -->
         </div>
     </div>
-    <!-- End #projects -->
+    <!-- End #services -->
 
-    <div id="systems" class="background-alt">
-        <h3 class="heading">Systems</h3>
+    <div id="projects" class="background-alt">
+        <h3 class="heading">Projects</h3>
         <div class="container">
-            <!--<div class="row">
-                <div class="project shadow-large">
-                     <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div> -->
-                    <!-- End .project-image -->
-                    <!-- <div class="project-info">
-                        <h3>Project Name Here</h3>
+            <!-- linha 1 -->
+            <div class="row">
+                <!-- linha1 coluna1 -->
+                <div class="project col-">
+                    <div class="project-image">
+                        <img src="images/stocks.jpg" width="250" height="200" />
+                    </div>
+                    <div class="project-info">
+                        <h2>Stocks Monitor</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div> -->
-                    <!-- End .project-info -->
-                <!--</div>
-                 End .project -->
+                            Data Science Project in which the python programming language was used, in
+                            which a financial monitoring system was built, which seeks real-time quotes from
+                            any country in the world.
 
-                <div class="system shadow-large">
-                    <div class="system-image">
+                            The dashboard was created using streamlit which is an open source Python library
+                            that makes it easy to create and share of custom web apps for machine learning
+                             and data science.
+                        </p>
+                        <a class="btn btn-primary" href="http://localhost:8501" role="button" target="_blank">Access</a>
+                    </div>
+                
+                
+                </div>
+               <!-- linha1 coluna2 -->
+                <div class="project shadow-large col-">
+                    <div class="project-image">
+                        <img src="images/condominiumanager.jpg" width="250" height="200" />
+                    </div>
+                    <div class="project-info">
+                        <h2>Condominium Manager</h2>
+                        <p>
+                            Condominium Administration System developed with the following technologies:
+                            Vue Js, Node Js, Postgres, MongoDB. O The main purpose of the system is to
+                            contribute to a more agile and effective management for the liquidator and to
+                            provide more efficient communication between him and his unit owners.
+
+                            Free trial user: teste@mail.com password: 123
+                        </p>
+                        <a class="btn btn-primary" href="http://localhost:8080/" role="button" target="_blank">Access</a>
+                    </div>
+
+                
+                </div>
+                <!-- linha1 coluna3 -->
+                <!-- <div class="project shadow-large col-sm-4">
+                    <div class="project-image">
                         <img src="images/freela.jpg" />
                     </div>
-                    <!-- End .system-image -->
-                    <div class="system-info">
+                    <div class="project-info">
                         <h2>Available Services</h2>
                         <p>
                             descrição do sistema
                         </p>
                     </div>
-                    <!-- End .systems-info -->
+                </div> -->
+           </div> 
+           <!-- fim linha1 -->
+
+            <!-- linha2 -->
+            <!--<div class="row">
+                <-- linha2 coluna1  -->
+                <!-- <div class="project shadow-large col">
+                    <div class="project-image">
+                        <img src="images/freela.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <h2>Available Services</h2>
+                        <p>
+                            descrição do sistema
+                        </p>
+                    </div>
+                    </div> -->
+                <!-- linha2 coluna2      -->
+                <!-- <div class="project shadow-large col">
+                    <div class="project-image">
+                        <img src="images/freela.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <h2>Available Services</h2>
+                        <p>
+                            descrição do sistema
+                        </p>
+                    </div>
+                </div> -->
+                <!-- linha2 coluna3      -->
+                <!-- <div class="project shadow-large col">
+                    <div class="project-image">
+                        <img src="images/freela.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <h2>Available Services</h2>
+                        <p>
+                            descrição do sistema
+                        </p>
+                    </div>
                 </div>
-                <!-- End .systems -->
-            </div>
-            <!-- <div class="col-sm-2 top">
-                <span id="to-top">
-                    <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                </span>
             </div> -->
+            <!-- fim linha2 -->
+
         </div>
     </div>
     <!-- End #projects -->
@@ -301,6 +278,7 @@
             <li>React</li>
             <li>VueJs</li>
             <li>Java</li>
+            <li>Spring Boot</li>
             <li>Joomla</li>
             <li>Moodle</li>
             <li>DevOps</li>
@@ -325,28 +303,28 @@
     </div>
     <!-- End #contact -->
 
-    <!-- <footer>
+    <footer>
         <div class="container">
             <div class="row">
-                <div class="col-sm-5 copyright">
+                <div class="col-sm-5 email">
                     <p>
-                        Copyright &copy; 2021
+                       E-mail: jobs@webdeveloper.name
                     </p>
                 </div>
                 <div class="col-sm-2 top">
                     <span id="to-top">
-                            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
                     </span>
-                </div> -->
+                </div>
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; webdeveloper.name 2021
+                    </p>
+                </div>
                 <!-- <div class="col-sm-2 top"> 
                     <span id="to-top">
                         <i class="fa fa-chevron-up" aria-hidden="true"></i>
                     </span>
-                </div> -->
-                <!-- <div class="col-sm-5 copyright2">
-                    <p>
-                        webdeveloper.name
-                    </p>
                 </div> -->
                 <!-- <div class="col-sm-5 social">
                     <ul>
@@ -373,10 +351,14 @@
             </div>
         </div>
     </footer> -->
-    <!-- End footer -->
+    <!-- End footer-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+          
 </body>
 
 </html>
