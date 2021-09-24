@@ -239,7 +239,7 @@ header.sticky {
   font-size: 2.25em;
   margin-bottom: 15px;
 }
-#lead-overlay {
+/* #lead-overlay {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -247,7 +247,6 @@ header.sticky {
   right: 0;
   bottom: 0;
   left: 0;
-  /* background: rgba(33, 125, 187, 0.8); */
   background: rgba(121, 24, 242, 0.8);
   background: -webkit-linear-gradient(-45deg, rgba(172, 50, 228, 0.8), rgba(121, 24, 242, 0.8), rgba(72, 1, 255, 0.8));
   background: -o-linear-gradient(-45deg, rgba(172, 50, 228, 0.8), rgba(121, 24, 242, 0.8), rgba(72, 1, 255, 0.8));
@@ -266,7 +265,7 @@ header.sticky {
   100% {
     transform: scale(1, 1);
   }
-}
+} */
 #about {
   display: flexbox;
   padding: 100px 15px;
