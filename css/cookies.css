@@ -16,7 +16,7 @@
   }
   
   .cookie-container p {
-    margin-right: 950px;
+    margin-right: 95vh;
     text-align: justify;
   }
   
@@ -27,7 +27,7 @@
     padding: 12px 48px;
     font-size: 18px;
     margin-bottom: 16px;
-    margin-left: 20vh;
+    margin-left: 36vh;
     border-radius: 8px;
     cursor: pointer;
   }

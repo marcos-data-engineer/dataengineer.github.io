@@ -271,7 +271,7 @@ header.sticky {
   padding: 100px 15px;
   border-bottom: 1px solid #dcd9d9;
   /* background: #e4e4ea; */
-  background: white;
+  background: whitesmoke;
   /* text-align: center; */
   height: 100vh;
 }
@@ -424,6 +424,7 @@ header.sticky {
 #projects {
   /* display: flexbox;
   position: relative; */
+  background: #140c25;
   border-bottom: 1px solid #dcd9d9;
   text-align: center;
   height: 100vh;
@@ -510,6 +511,7 @@ header.sticky {
 }
 #skills {
   padding: 50px 15px;
+  background: whitesmoke;
   text-align: center;
   height: 100vh;
 }
@@ -528,8 +530,9 @@ header.sticky {
   margin: 25px;
   padding: 10px 15px;
   /* color: #374054; */
-  color: rgb(17, 17, 17,10);
-  background: #e4e4ea;
+  color: black;
+  background: rgba(73, 14, 211, 0.363);
+  border-radius: 5px;
   list-style: none;
   cursor: default;
   font-size: 1.2em;
