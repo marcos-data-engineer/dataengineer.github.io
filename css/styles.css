@@ -223,29 +223,6 @@ header.sticky {
   letter-spacing: 0.05em;
   line-height: 0.9em;
 }
-#lead .top {
-  /* text-align: center; */
-  margin-left: 10vh;
-}
-#lead .top span {
-  cursor: pointer;
-  /* display: block; */
-  position: fixed;
-  margin: 0 auto;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  border: 3px solid #b9bfc4;
-  /* border: 3px solid black; */
-  text-align: center;
-  margin-top: 45vmax;
-  margin-left: 40vmax;
-  }
-  #lead .top i {
-    /* color: #74808a; */
-    color: #b9bfc4;
-    /* color: black; */
-  }
 /* #lead-content h2 {
   color: #a0cfee;
   font-weight: 500;
@@ -281,18 +258,36 @@ header.sticky {
 } */
 #about {
   display: flexbox;
-  padding: 100px 15px;
+  padding: 5%;
   border-bottom: 1px solid #dcd9d9;
   /* background: #e4e4ea; */
   background: whitesmoke;
+  /* overflow: visible; */
   /* text-align: center; */
   height: 100vh;
+  /* z-index: 0; */
 }
 #about h2 {
-  /* display: flexbox; */
-   color: #374054;
-  /* text-align: center; */
+  position: relative;
+  color: #374054;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 10vh;
 }
+
+#about h2:after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  height: 1px;
+  width: 50px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: #3498db;
+}
+
 #about p {
   /* color: #74808a; */
   color: rgb(17, 17, 17,10);
@@ -303,6 +298,31 @@ header.sticky {
   font-size: 2rem;
   line-height: 3.5rem;
 }
+#about .top {
+  text-align: center;
+  margin-top: 15vh;
+  /* margin-left: 10vh; */
+  /* margin-bottom: 0; */
+}
+#about .top span {
+  cursor: pointer;
+  /* display: flexbox; */
+  /* position: fixed; */
+  /* margin: 0 auto; */
+  /* margin-top: 100vh; */
+  width: 35px;
+  height: 35px;
+  /* border-radius: 50%;
+  border: 3px solid #b9bfc4; */
+  /* border: 3px solid black; */
+  text-align: center;
+  margin-top: 45vmax;
+  margin-left: 43vmax;
+  }
+#about .top i {
+    color: black;
+    /* color: #b9bfc4; */
+  }
 /* .vtimeline-content {
   margin-left: 350px;
   background: #fff;
@@ -379,6 +399,31 @@ header.sticky {
   padding: 0;
   margin: 50px;
 }
+#services .top {
+  text-align: center;
+  margin-top: 15vh;
+  /* margin-left: 10vh; */
+  /* margin-bottom: 0; */
+}
+#services .top span {
+  cursor: pointer;
+  /* display: flexbox; */
+  /* position: fixed; */
+  /* margin: 0 auto; */
+  /* margin-top: 100vh; */
+  width: 35px;
+  height: 35px;
+  /* border-radius: 50%;
+  border: 3px solid #b9bfc4; */
+  /* border: 3px solid black; */
+  text-align: center;
+  margin-top: 45vmax;
+  margin-left: 48vmax;
+  }
+#services .top i {
+    color: whitesmoke;
+    /* color: #b9bfc4; */
+  }
 #services ul {
   display: flexbox;
    /* display: block; */
@@ -450,7 +495,34 @@ header.sticky {
   border-bottom: 1px solid #dcd9d9;
   text-align: center;
   height: 100vh;
+  /* margin: 0; */
 }
+#projects .top {
+  text-align: center;
+  margin-top: 8vh;
+  /* margin-left: 10vh; */
+  /* margin-bottom: 0; */
+}
+#projects .top span {
+  cursor: pointer;
+  /* display: flexbox; */
+  /* position: fixed; */
+  /* margin: 0 auto; */
+  /* margin-top: 100vh; */
+  width: 35px;
+  height: 35px;
+  /* border-radius: 50%;
+  border: 3px solid #b9bfc4; */
+  /* border: 3px solid black; */
+  text-align: center;
+  /* margin-top: 45vmax; */
+  margin-left: 48vmax;
+  /* margin-bottom: 25vh; */
+  }
+#projects .top i {
+    color: whitesmoke;
+    /* color: #b9bfc4; */
+  }
 #projects h3 {
   /* display: flexbox; */
   /* color: #374054; */
@@ -464,7 +536,7 @@ header.sticky {
    /* position: relative; */
   margin: auto;
   width: 90%;
-  max-width: 45%;
+  max-width: 48%;
   /* overflow: hidden; */
   background: whitesmoke;
   border-radius: 10px;
@@ -493,7 +565,7 @@ header.sticky {
   /* position: relative; */
   /* top: 40%;
   transform: translateY(-50%); */
-  margin: 0;
+  margin-bottom: 0;
   padding: 0;
   /* text-align: justify; */
   /* height: 30vh; */
@@ -539,6 +611,31 @@ header.sticky {
   text-align: center;
   height: 100vh;
 }
+#skills .top {
+  text-align: center;
+  margin-top: 15vh;
+  /* margin-left: 10vh; */
+  /* margin-bottom: 0; */
+}
+#skills .top span {
+  cursor: pointer;
+  /* display: flexbox; */
+  /* position: fixed; */
+  /* margin: 0 auto; */
+  /* margin-top: 100vh; */
+  width: 35px;
+  height: 35px;
+  /* border-radius: 50%;
+  border: 3px solid #b9bfc4; */
+  /* border: 3px solid black; */
+  text-align: center;
+  margin-top: 45vmax;
+  margin-left: 47vmax;
+  }
+#skills .top i {
+    color: black;
+    /* color: #b9bfc4; */
+  }
 #skills h2 {
   color: #374054;
   margin: 50px;
@@ -571,17 +668,46 @@ header.sticky {
   background: linear-gradient(-45deg, rgba(172, 50, 228, 0.8), rgba(121, 24, 242, 0.8), rgba(72, 1, 255, 0.8));
   padding: 15px 15px;
   text-align: center;
-  height: 94vh;
+  align-items: center;
+  height: 96vh;
 }
+#contact .top {
+  text-align: center;
+  margin-top: 6vh;
+  /* margin-left: 10vh; */
+  /* margin-bottom: 0; */
+}
+#contact .top span {
+  cursor: pointer;
+  /* display: flexbox; */
+  /* position: fixed; */
+  /* margin: 0 auto; */
+  /* margin-top: 100vh; */
+  width: 35px;
+  height: 35px;
+  /* border-radius: 50%;
+  border: 3px solid #b9bfc4; */
+  /* border: 3px solid black; */
+  text-align: center;
+  margin-top: 45vmax;
+  margin-left: 45vmax;
+  }
+#contact .top i {
+    color: black;
+    /* color: #b9bfc4; */
+  }
 #contact h2 {
-  margin: 25px;
+  margin: 6vh;
+  margin-right: 14vh;
+  text-align: center;
   color: #fff;
   font-weight: 500;
 }
 #contact-form {
   width: 90%;
   max-width: 600px;
-  margin: 0 auto;
+  margin: auto;
+  /* margin-left: 31.5%; */
 }
 #contact-form input,
 #contact-form textarea {
@@ -642,29 +768,30 @@ header.sticky {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 footer {
-  display: flex;
+  display: block;
  }
 /* .copyright {
   margin-bottom: 15px;
 } */
-#footer .copyright p {
+footer .copyright p {
   color: #74808a;
-  /* margin-left: 80vh; */
+  margin-left: 35%;
+  margin-right: 0;
 }
 /* .email {
   margin-bottom: 15px;
 } */
-#footer .email p {
+footer .email p {
   color: #74808a;
- /* margin-left: 100px; */
+ margin-left: 35%;
 }
 .cookie-container {
   position: fixed;
   bottom: -1000%;
   left: 0;
   right: 0;
-  /* background: #2f3640; */
-  background: #b9bfc4;
+  background: #2f3640;
+  /* background: #b9bfc4; */
   color: #140c25;
   padding: 5px 32px;
   box-shadow: 0 -2px 16px rgba(47, 54, 64, 0);

@@ -23,17 +23,32 @@
         }
     });
 
-    // Scroll to top
+    //Scroll to top
     $('#to-top').click(function() {
         $('html, body').animate({
             scrollTop: 0
         }, 500);
     });
-    // $('#to-top2').click(function() {
-    //     $('html, body').animate({
-    //         scrollTop: 0
-    //     }, 500);
-    // });
+    $('#to-top2').click(function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 500);
+    });
+    $('#to-top3').click(function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 500);
+    });
+    $('#to-top4').click(function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 500);
+    });
+    $('#to-top5').click(function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 500);
+    });
     
     // $('#to-top3').click(function topFunction() {
     //     document.body.scrollTop = 0; // For Safari
@@ -41,55 +56,55 @@
     //   });
 
     // Scroll to first element
-    $('#lead-down span').click(function() {
-        var scrollDistance = $('#lead').next().offset().top;
-        $('html, body').animate({
-            scrollTop: scrollDistance + 'px'
-        }, 500);
-    });
+    // $('#lead-down span').click(function() {
+    //     var scrollDistance = $('#lead').next().offset().top;
+    //     $('html, body').animate({
+    //         scrollTop: scrollDistance + 'px'
+    //     }, 500);
+    // });
 
     // Create timeline
-    $('#experience-timeline').each(function() {
+    // $('#experience-timeline').each(function() {
 
-        $this = $(this); // Store reference to this
-        $userContent = $this.children('div'); // user content
+    //     $this = $(this); // Store reference to this
+    //     $userContent = $this.children('div'); // user content
 
         // Create each timeline block
-        $userContent.each(function() {
-            $(this).addClass('vtimeline-content').wrap('<div class="vtimeline-point"><div class="vtimeline-block"></div></div>');
-        });
+        // $userContent.each(function() {
+        //     $(this).addClass('vtimeline-content').wrap('<div class="vtimeline-point"><div class="vtimeline-block"></div></div>');
+        // });
 
         // Add icons to each block
-        $this.find('.vtimeline-point').each(function() {
-            $(this).prepend('<div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div>');
-        });
+        // $this.find('.vtimeline-point').each(function() {
+        //     $(this).prepend('<div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div>');
+        // });
 
         // Add dates to the timeline if exists
-        $this.find('.vtimeline-content').each(function() {
-            var date = $(this).data('date');
-            if (date) { // Prepend if exists
-                $(this).parent().prepend('<span class="vtimeline-date">'+date+'</span>');
-            }
-        });
+        // $this.find('.vtimeline-content').each(function() {
+        //     var date = $(this).data('date');
+        //     if (date) { // Prepend if exists
+        //         $(this).parent().prepend('<span class="vtimeline-date">'+date+'</span>');
+        //     }
+        // });
 
-    });
+    // });
 
     // Open mobile menu
-    $('#mobile-menu-open').click(function() {
-        $('header, body').addClass('active');
-    });
+    // $('#mobile-menu-open').click(function() {
+    //     $('header, body').addClass('active');
+    // });
 
     // Close mobile menu
-    $('#mobile-menu-close').click(function() {
-        $('header, body').removeClass('active');
-    });
+    // $('#mobile-menu-close').click(function() {
+    //     $('header, body').removeClass('active');
+    // });
 
     // Load additional projects
-    $('#view-more-projects').click(function(e){
-        e.preventDefault();
-        $(this).fadeOut(300, function() {
-            $('#more-projects').fadeIn(300);
-        });
-    });
+    // $('#view-more-projects').click(function(e){
+    //     e.preventDefault();
+    //     $(this).fadeOut(300, function() {
+    //         $('#more-projects').fadeIn(300);
+    //     });
+    // });
 
 })(jQuery);
