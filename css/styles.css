@@ -401,7 +401,7 @@ header.sticky {
 }
 #services .top {
   text-align: center;
-  margin-top: 15vh;
+  margin-top: 3%;
   /* margin-left: 10vh; */
   /* margin-bottom: 0; */
 }
@@ -455,16 +455,16 @@ header.sticky {
   background: black;
   border-radius: 10px;
   border-style: groove;
-  height: 50vh;
+  height: 60vh;
 }
 .service-info {
   display: flexbox;
   position: relative;
-  top: 40%;
+  top: 45%;
   transform: translateY(-50%);
   margin-left: 300px;
   padding: 20px;
-  height: 40vh;
+  height: 60vh;
 }
 .service-info h2 {
   display: flexbox;
@@ -499,7 +499,7 @@ header.sticky {
 }
 #projects .top {
   text-align: center;
-  margin-top: 8vh;
+  margin-top: 5vh;
   /* margin-left: 10vh; */
   /* margin-bottom: 0; */
 }
@@ -541,7 +541,7 @@ header.sticky {
   background: whitesmoke;
   border-radius: 10px;
   border-style: groove;
-  height: 60vh;
+  height: 65vh;
 }
 .project-image {
   /* display: flexbox; */
@@ -568,7 +568,7 @@ header.sticky {
   margin-bottom: 0;
   padding: 0;
   /* text-align: justify; */
-  /* height: 30vh; */
+  /* height: 70vh; */
 }
 .project-info h2 {
   /* display: flexbox; */
@@ -606,7 +606,7 @@ header.sticky {
   display: none;
 }
 #skills {
-  padding: 50px 15px;
+  padding: 25px 15px;
   background: whitesmoke;
   text-align: center;
   height: 100vh;
@@ -697,8 +697,8 @@ header.sticky {
     /* color: #b9bfc4; */
   }
 #contact h2 {
-  margin: 6vh;
-  margin-right: 14vh;
+  margin: 2vh;
+  margin-right: 12vh;
   text-align: center;
   color: #fff;
   font-weight: 500;
@@ -792,7 +792,7 @@ footer .email p {
   right: 0;
   background: #2f3640;
   /* background: #b9bfc4; */
-  color: #140c25;
+  color: rgb(240, 231, 231);
   padding: 5px 32px;
   box-shadow: 0 -2px 16px rgba(47, 54, 64, 0);
   /* height: 19vh; */
@@ -805,8 +805,9 @@ footer .email p {
 
 .cookie-container p {
   /* margin-right: 95vh; */
-  margin-left: 0;
-  margin-right: 55%;
+  /* margin: 0; */
+  margin-right: 8%;
+  padding-bottom: 1%;
   text-align: justify;
 }
 
@@ -858,11 +859,6 @@ footer .email p {
   padding: 0 0 0 15px;
 } */
 /* Tablets */
-@media (max-width: 768px) {
-  html {
-    font-size: 50%;
-  }
-}
 /* Celulares */
 /* @media screen and (max-width: 600px) {
   

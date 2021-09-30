@@ -1,0 +1,350 @@
+@media (max-width: 1200px) {
+    .cookie-container p {
+      margin: 0;
+    }
+    #lead-content h1 {
+        font-size: 3rem;
+    }
+    header ul{
+        padding-inline: 5%;
+        padding: 0;
+    }
+    header li {
+        font-size: 1.4rem;
+        padding: 0;
+    }
+    #about  p {
+        margin: 0;
+    }
+    .service {
+        height: 62vh;
+    }
+    .service-info {
+        top: 18%;
+        padding: 10px;
+        height: 30vh;
+    }
+    .service-info h2 {
+        font-size: 2rem;
+    }
+    #services li {
+        font-size: 1.5rem;
+    }
+    #services .top {
+        margin: 0;
+        margin-top: 1%;
+        padding: 0;
+    }
+    #projects h3 {
+        margin: 2%;
+    }
+    .project {
+        height: 75vh;
+    }
+    .project-image {
+        margin: 2%;
+        padding: 0;
+    }
+    #contact {
+        padding: 1%;
+    }
+    #contact h2 {
+        margin: 4vh;
+    }
+    #contact-form {
+        max-width: 400px;
+    }
+    #contact-form input,
+    #contact-form textarea {
+        width: 360px;
+    }
+    #contact-form textarea {
+        height: 250px;
+    }
+    #contact-form button {
+        display: block;
+        
+    }
+
+
+  }
+
+  @media (max-width: 992px) {
+      .service-image {
+          display: none;
+      }
+      .service-info h2 {
+          font-size: 1.8rem;
+          margin: 10%;
+          margin-bottom: 5%;
+      }
+      .service-info {
+          margin: 0;
+          padding: 0;
+      }
+      #services li {
+          font-size: 1.5rem;
+          line-height: 2.5rem;
+      }
+      #services h3 {
+          margin: 2%;
+      }
+      #projects h3 {
+          font-size: 2rem;
+      }
+      .project-info h2 {
+          font-size: 1.5rem;
+          margin: 1%;
+      }
+      .project-info p {
+          font-size: 1.2rem;
+          line-height: 2rem;
+          margin: 1%;
+      }
+      .project-info a {
+          font-size: 1.2rem;
+      }
+      .project-info .btn {
+          margin: auto;
+      }
+      .project-image {
+          float: none;
+      }
+      #skills h2 {
+          margin: 5%;
+          font-size: 2.5rem;
+      }
+      #skills li {
+          font-size: 1.2rem;
+          margin: 3%;
+      }
+      #contact-form {
+        margin-left: 30vh;
+    }
+  }
+
+  @media (max-width: 686px) {
+      .cookie-container {
+          position: absolute;
+          padding: 2%;
+      }
+
+      .cookie-container p {
+          font-size: 1.2rem;
+      }
+      .cookie-btn {
+          font-size: 1.2rem;
+          padding: 6px 24px;
+          margin: 0;
+      }
+      #lead {
+          min-height: 300px;
+          max-height: 400px;
+      }
+      #lead-content h1 {
+        font-size: 2rem;
+    }
+    #about h2 {
+        font-size: 1.8rem;
+        margin: 0;
+    }
+    #about p {
+        margin: auto;
+        font-size: 1.5rem;
+        padding: auto;
+    }
+    #about .top {
+        margin:0;
+        padding: 0;
+    }
+    #services .top {
+        margin: 0;
+        margin-top: 3%;
+    }
+    #services .top span {
+        margin-left: 45vh;
+    }    
+    .project {
+        height: 50vh;
+    }
+    .project-image {
+        display: none;
+    }
+    .project-info h2 {
+        margin: 5%;
+    }
+    .project-info p {
+        line-height: 2.5rem;
+    }
+    #projects .top {
+        margin-top: 10%;
+        padding: 0;
+    }
+    #skills .top {
+        margin: 0;
+        padding: 0;
+    }
+    #skills .top span {
+        margin-left: 40vh;
+    }
+    #contact .top {
+        margin: 5%;
+    }
+    #contact .top span {
+        margin-left: 35vh;
+    }
+  }
+
+  @media (max-width: 580px) {
+
+      .cookie-container {
+        padding: 1%;
+      }
+
+      .cookie-container p {
+          font-size: 1rem;
+          margin: 0;
+          margin-right: 15%;
+      }
+
+      .cookie-btn {
+          font-size: 1rem;
+          margin-right: 5%;
+          padding: 1%;
+      }
+      header {
+          margin-top: 0;
+      }
+      header ul {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 0;
+        padding: 0;
+        margin: 0 35% 0 35%;
+      }
+      header li {
+          font-size: 1.2rem;
+          margin: 0;
+          padding: 0;
+      }
+      header a {
+          padding: 4px;
+      }
+      #about .top span {
+        display: inline-block;
+        margin: auto;
+        padding: auto;
+      }
+      #services .top span {
+        margin: 0;
+      }
+      #projects {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;          
+      }
+      #projects .top {
+          margin: 0;
+      }
+      #projects .top span {
+          margin: 0;
+      }
+      .project {
+          height: 70vh;
+      }
+      #skills h2 {
+          font-size: 2rem;
+          padding: 0;
+          margin: 5%;
+      }
+      #skills li {
+          margin: 1%;
+          font-size: 1rem;
+      }
+      #skills .top {
+          margin:5%;
+      }
+      #skills .top span {
+          margin: 0;
+      }
+      #contact .top {
+        margin: 3%;
+    }
+    #contact .top span {
+        margin: 0;
+    }
+    #contact h2 {
+        margin: 1vh;
+    }
+    #contact-form {
+        max-width: 300px;
+        margin-left: 12vh;
+    }
+    #contact-form input,
+    #contact-form textarea {
+        width: 270px;
+    }
+    #contact-form textarea {
+        height: 200px;
+    }
+    #contact-form button {
+        display: block;
+        
+    }
+    }
+
+  @media (max-width: 390px) {
+      .cookie-container p{
+        font-size: 0.9rem;
+      }
+      .cookie-btn {
+          margin: auto;
+          font-size: 0.9rem;
+          padding: 0.5%;
+      }
+      #about p {
+          font-size: 1.2rem;
+          margin: 0;
+          padding: 0;
+      }
+      .service-info h2 {
+          font-size: 1.5rem;
+          margin-top: 15%;
+      }
+      #services li {
+          font-size: 1.4rem;
+          line-height: 1.8rem;
+      }
+      #services h3 {
+          font-size: 2rem;
+          margin: 10%;
+      }
+      .project-info h2 {
+          font-size: 1.5rem;
+      }
+      .project-info p {
+          font-size: 1.2rem;
+          line-height: 1.8rem;
+      }
+      #contact-form {
+        max-width: 200px;
+        margin-left: auto;
+    }
+    #contact-form input,
+    #contact-form textarea {
+        width: 200px;
+        font-size: 1.2rem;
+    }
+    #contact-form textarea {
+        height: 150px;
+    }
+    #contact-form button {
+        display: block;
+        width: 200px;
+        font-size: 1.2rem;
+    }
+    #contact h2 {
+        font-size: 1.5rem;
+    }
+
+  }
