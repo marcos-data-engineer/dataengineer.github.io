@@ -1,11 +1,11 @@
 @media (max-width: 1200px) {
     .cookie-container p {
-      margin: 0;
+        margin: 0;
     }
     #lead-content h1 {
         font-size: 3rem;
     }
-    header ul{
+    header ul {
         padding-inline: 5%;
         padding: 0;
     }
@@ -13,19 +13,20 @@
         font-size: 1.4rem;
         padding: 0;
     }
-    #about  p {
+    #about p {
         margin: 0;
     }
     .service {
         height: 62vh;
     }
     .service-info {
-        top: 18%;
-        padding: 10px;
+        top: 15vh;
+        padding: 20px;
         height: 30vh;
     }
     .service-info h2 {
         font-size: 2rem;
+        margin-bottom: 5%;
     }
     #services li {
         font-size: 1.5rem;
@@ -63,85 +64,151 @@
     }
     #contact-form button {
         display: block;
-        
     }
+    footer .copyright p {
+        margin: auto;
+        padding: 0;
+    }
+    footer .email p {
+        margin: auto;
+        padding: 0;
+    }
+}
 
-
-  }
-
-  @media (max-width: 992px) {
-      .service-image {
-          display: none;
-      }
-      .service-info h2 {
-          font-size: 1.8rem;
-          margin: 10%;
-          margin-bottom: 5%;
-      }
-      .service-info {
-          margin: 0;
-          padding: 0;
-      }
-      #services li {
-          font-size: 1.5rem;
-          line-height: 2.5rem;
-      }
-      #services h3 {
-          margin: 2%;
-      }
-      #projects h3 {
-          font-size: 2rem;
-      }
-      .project-info h2 {
-          font-size: 1.5rem;
-          margin: 1%;
-      }
-      .project-info p {
-          font-size: 1.2rem;
-          line-height: 2rem;
-          margin: 1%;
-      }
-      .project-info a {
-          font-size: 1.2rem;
-      }
-      .project-info .btn {
-          margin: auto;
-      }
-      .project-image {
-          float: none;
-      }
-      #skills h2 {
-          margin: 5%;
-          font-size: 2.5rem;
-      }
-      #skills li {
-          font-size: 1.2rem;
-          margin: 3%;
-      }
-      #contact-form {
+@media (max-width: 992px) {
+    .service {
+        height: 40vh;
+    }
+    .service-image {
+        display: none;
+    }
+    .service-info h2 {
+        font-size: 1.8rem;
+        margin: 10%;
+        margin-bottom: 5%;
+    }
+    .service-info {
+        margin: 0;
+        padding: 0;
+    }
+    #services li {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+    #services h3 {
+        margin: 2%;
+    }
+    #services .top {
+        margin-top: 10vh;
+    }
+    #services .top span {
+        margin: 0;
+        margin-left: 32vh;
+    }
+    #projects h3 {
+        font-size: 2rem;
+        margin: 5vh;
+    }
+    #projects .top {
+        margin-top: 8vh;
+    }
+    #projects .top span {
+        margin: 0;
         margin-left: 30vh;
     }
-  }
+    .project {
+        height: 40vh;
+    }
+    .project-info h2 {
+        font-size: 1.5rem;
+        margin: 1%;
+    }
+    .project-info p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        margin: 1%;
+    }
+    .project-info a {
+        font-size: 1.2rem;
+    }
+    .project-info .btn {
+        margin: auto;
+    }
+    .project-image {
+        float: none;
+    }
+    #skills h2 {
+        margin: 5%;
+        font-size: 2.5rem;
+    }
+    #skills li {
+        font-size: 1.2rem;
+        margin: 3%;
+    }
+    #skills .top {
+        margin-top: 10vh;
+    }
+    #skills .top span {
+        margin: 0;
+        margin-left: 29vh;
+    }
+    #contact-form {
+        margin: 0;
+        margin-left: 17vh;
+    }
+    #contact .top {
+        margin-top: 10vh;
+    }
+    #contact .top span {
+        margin: 0;
+        margin-left: 27vh;
+    }
+    #about .top {
+        margin-top: 15vh;
+    }
+    #about .top span {
+        margin: 0;
+        margin-left: 27vh;
+    }
+}
 
-  @media (max-width: 686px) {
-      .cookie-container {
-          position: absolute;
-          padding: 2%;
-      }
-
-      .cookie-container p {
-          font-size: 1.2rem;
-      }
-      .cookie-btn {
-          font-size: 1.2rem;
-          padding: 6px 24px;
-          margin: 0;
-      }
-      #lead {
-          min-height: 300px;
-          max-height: 400px;
-      }
-      #lead-content h1 {
+@media (max-width: 686px) {
+    .cookie-container {
+        position: absolute;
+        padding: 2%;
+    }
+    .cookie-container p {
+        font-size: 1.2rem;
+    }
+    .cookie-btn {
+        font-size: 1.2rem;
+        padding: 6px 24px;
+        margin: 0;
+    }
+    header {
+        margin-top: 15vh;
+    }
+    header ul {
+        display: flex;
+        flex-direction: row;
+        padding-inline: 0;
+        padding: 1vh;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    header li {
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+    }
+    header a {
+        padding: 4px;
+    }
+    #lead {
+        min-height: 300px;
+        max-height: 400px;
+    }
+    #lead-content h1 {
         font-size: 2rem;
     }
     #about h2 {
@@ -154,7 +221,7 @@
         padding: auto;
     }
     #about .top {
-        margin:0;
+        margin: 0;
         padding: 0;
     }
     #services .top {
@@ -163,7 +230,7 @@
     }
     #services .top span {
         margin-left: 45vh;
-    }    
+    }
     .project {
         height: 50vh;
     }
@@ -193,81 +260,77 @@
     #contact .top span {
         margin-left: 35vh;
     }
-  }
-
-  @media (max-width: 580px) {
-
-      .cookie-container {
-        padding: 1%;
-      }
-
-      .cookie-container p {
-          font-size: 1rem;
-          margin: 0;
-          margin-right: 15%;
-      }
-
-      .cookie-btn {
-          font-size: 1rem;
-          margin-right: 5%;
-          padding: 1%;
-      }
-      header {
-          margin-top: 0;
-      }
-      header ul {
-        display: flex;
-        flex-direction: column;
-        padding-inline: 0;
+    footer .copyright p {
+        margin: 0;
         padding: 0;
-        margin: 0 35% 0 35%;
-      }
-      header li {
-          font-size: 1.2rem;
-          margin: 0;
-          padding: 0;
-      }
-      header a {
-          padding: 4px;
-      }
-      #about .top span {
+    }
+    footer .email p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 580px) {
+    .cookie-container {
+        padding: 1%;
+    }
+    .cookie-container p {
+        font-size: 1rem;
+        margin: 0;
+        margin-right: 15%;
+    }
+    .cookie-btn {
+        font-size: 1rem;
+        margin-right: 5%;
+        padding: 1%;
+    }
+    header ul {
+        margin-top: 2vh;
+        padding-inline: 5vh;
+        margin-left: 14%;
+        margin-right: 14%;
+    }
+    #about .top span {
         display: inline-block;
         margin: auto;
         padding: auto;
-      }
-      #services .top span {
+    }
+    .service {
+        height: 65vh;
+    }
+    #services .top span {
         margin: 0;
-      }
-      #projects {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: wrap;          
-      }
-      #projects .top {
-          margin: 0;
-      }
-      #projects .top span {
-          margin: 0;
-      }
-      .project {
-          height: 70vh;
-      }
-      #skills h2 {
-          font-size: 2rem;
-          padding: 0;
-          margin: 5%;
-      }
-      #skills li {
-          margin: 1%;
-          font-size: 1rem;
-      }
-      #skills .top {
-          margin:5%;
-      }
-      #skills .top span {
-          margin: 0;
-      }
-      #contact .top {
+    }
+    #projects {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #projects .top {
+        margin: 0;
+    }
+    #projects .top span {
+        margin: 0;
+    }
+    .project {
+        height: 70vh;
+    }
+    #skills h2 {
+        font-size: 2rem;
+        padding: 0;
+        margin: 5%;
+    }
+    #skills li {
+        margin: 1%;
+        font-size: 1rem;
+    }
+    #skills .top {
+        margin: 5%;
+    }
+    #skills .top span {
+        margin: 0;
+    }
+    #contact .top {
         margin: 3%;
     }
     #contact .top span {
@@ -289,46 +352,67 @@
     }
     #contact-form button {
         display: block;
-        
     }
-    }
+}
 
-  @media (max-width: 390px) {
-      .cookie-container p{
+@media (max-width: 390px) {
+    .cookie-container p {
         font-size: 0.9rem;
-      }
-      .cookie-btn {
-          margin: auto;
-          font-size: 0.9rem;
-          padding: 0.5%;
-      }
-      #about p {
-          font-size: 1.2rem;
-          margin: 0;
-          padding: 0;
-      }
-      .service-info h2 {
-          font-size: 1.5rem;
-          margin-top: 15%;
-      }
-      #services li {
-          font-size: 1.4rem;
-          line-height: 1.8rem;
-      }
-      #services h3 {
-          font-size: 2rem;
-          margin: 10%;
-      }
-      .project-info h2 {
-          font-size: 1.5rem;
-      }
-      .project-info p {
-          font-size: 1.2rem;
-          line-height: 1.8rem;
-      }
-      #contact-form {
+    }
+    .cookie-btn {
+        margin: auto;
+        font-size: 0.9rem;
+        padding: 0.5%;
+    }
+    header {
+        margin-top: 9vh;
+    }
+    header ul {
+        padding-inline: 5vh;
+        margin-left: 9%;
+        margin-right: 9%;
+    }
+    #about p {
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+    }
+    .service {
+        height: 75vh;
+    }
+    .service-info h2 {
+        font-size: 1.5rem;
+        margin-top: 5%;
+    }
+    #services li {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+    #services h3 {
+        font-size: 2rem;
+        margin: 10%;
+    }
+    .project {
+        height: 68vh;
+    }
+    .project-info .btn {
+        display: flex;
+        flex-direction: column;
+    }
+    .project-info h2 {
+        font-size: 1.5rem;
+        margin: 1%;
+    }
+    .project-info p {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+    #projects h3 {
+        margin: 2%;
+    }
+    #contact-form {
         max-width: 200px;
-        margin-left: auto;
+        margin-left: 12vh;
     }
     #contact-form input,
     #contact-form textarea {
@@ -346,5 +430,11 @@
     #contact h2 {
         font-size: 1.5rem;
     }
-
-  }
+    #skills .top {
+        margin-top: 10vh;
+    }
+    #skills .top span {
+        margin: 0;
+        margin-left: 0;
+    }
+}
