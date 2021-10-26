@@ -344,7 +344,7 @@ header.sticky {
     background: #140c25;
     border-bottom: 1px solid #dcd9d9;
     text-align: center;
-    height: 100vh;
+    height: 200vh;
 }
 
 #projects .top {
@@ -373,7 +373,7 @@ header.sticky {
 
 .project {
     display: flexbox;
-    margin: auto;
+    margin: 10px;
     width: 90%;
     max-width: 48%;
     background: whitesmoke;
