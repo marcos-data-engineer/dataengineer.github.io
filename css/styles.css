@@ -311,7 +311,8 @@ header.sticky {
     transform: translateY(-50%);
     margin-left: 350px;
     padding: 20px;
-    height: 55vh;
+    /* height: 55vh; */
+    height: auto;
 }
 
 .service-info h2 {
@@ -379,7 +380,8 @@ header.sticky {
     background: whitesmoke;
     border-radius: 10px;
     border-style: groove;
-    height: 65vh;
+    height: auto;
+    padding-bottom: 20px;
 }
 
 .project-image {
@@ -493,9 +495,8 @@ header.sticky {
 }
 
 #contact .top {
-    text-align: center;
     margin-top: 5vh;
-    margin-left: 2vh;
+    margin-left: 3.8vh;
 }
 
 #contact .top span {
@@ -592,6 +593,7 @@ header.sticky {
 
 footer {
     display: block;
+    font-weight: 600;
 }
 
 footer .copyright p {
