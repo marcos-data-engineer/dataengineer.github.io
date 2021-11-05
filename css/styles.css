@@ -178,7 +178,7 @@ header.sticky {
 
 #about {
     display: flexbox;
-    padding: 5%;
+    padding: 30px;
     border-bottom: 1px solid #dcd9d9;
     background: whitesmoke;
     height: 100vh;
@@ -190,7 +190,6 @@ header.sticky {
     text-align: center;
     font-size: 3rem;
     font-weight: 300;
-    margin-bottom: 10vh;
 }
 
 #about h2:after {
@@ -208,16 +207,28 @@ header.sticky {
 #about p {
     color: rgb(17, 17, 17, 10);
     text-align: justify;
-    padding: 10px;
-    margin-left: 350px;
-    margin-right: 350px;
-    font-size: 2.2rem;
+    padding: 5px;
+    margin-top: 2%;
+    margin-left: 18%;
+    margin-right: 15%;
+    font-size: 2rem;
     line-height: 3.5rem;
+}
+
+#about ul, li {
+    color: rgb(17, 17, 17, 10);
+    text-align: left;
+    padding: 5px;
+    margin-left: 12%;
+    margin-right: 8%;
+    font-size: 1.8rem;
+    line-height: 3.4rem;
 }
 
 #about .top {
     text-align: center;
-    margin-top: 15vh;
+    margin-top: auto;
+    margin-left: 5%;
 }
 
 #about .top span {
@@ -281,14 +292,15 @@ header.sticky {
 #services li {
     display: flexbox;
     position: relative;
-    margin-top: 0;
-    margin-left: 10px;
-    padding: 1px;
+    margin-top: auto;
+    margin-left: 10%;
+    margin-bottom: auto;
+    padding: 0;
     text-align: left;
     color: lightgray;
     list-style: disc;
-    font-size: 1.7rem;
-    line-height: 3rem;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
 }
 
 .service {
@@ -301,7 +313,7 @@ header.sticky {
     background: black;
     border-radius: 10px;
     border-style: groove;
-    height: 60vh;
+    height: 75vh;
 }
 
 .service-info {
@@ -311,7 +323,6 @@ header.sticky {
     transform: translateY(-50%);
     margin-left: 350px;
     padding: 20px;
-    /* height: 55vh; */
     height: auto;
 }
 
@@ -433,7 +444,7 @@ header.sticky {
 }
 
 #skills {
-    padding: 25px 15px;
+    padding: 20px 10px;
     background: whitesmoke;
     text-align: center;
     height: 100vh;
@@ -459,7 +470,7 @@ header.sticky {
 
 #skills h2 {
     color: #374054;
-    margin: 50px;
+    margin: 2%;
 }
 
 #skills ul {
@@ -472,7 +483,7 @@ header.sticky {
 
 #skills li {
     display: inline-block;
-    margin: 25px;
+    margin: 2.5%;
     padding: 10px 15px;
     color: whitesmoke;
     background: black;
