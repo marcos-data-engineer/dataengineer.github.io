@@ -52,58 +52,60 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#services">Services</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <!-- End header -->
+    <div id="home">
+        <header>
+            <nav>
+                <ul id="menu">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- End header -->
 
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Developer Services</h1>
+        <div id="lead">
+            <div id="lead-content">
+                <h1>Developer Services</h1>
+            </div>
+
+            <!-- cookies accept police -->
+            <div class="cookie-container">
+                <p>
+                    Please note that on our website we use cookies necessary to give you the best experience
+                    and show you relevant ads. If you continue browsing, we take that to mean you accept
+                    their use. Please accept cookies for optimal performance.
+
+                    <b>You will not be asked again!</b>
+                </p>
+
+                <a href="https://google.com/">
+                    <button class="btn btn-secondary">
+                    Close this window
+                </button>
+                </a>
+
+                <button class="cookie-btn">
+                    Yes, I accept Cookies
+                </button>
+
+            </div>
+
         </div>
-
-        <!-- cookies accept police -->
-        <div class="cookie-container">
-            <p>
-                Please note that on our website we use cookies necessary to give you the best experience
-                and show you relevant ads. If you continue browsing, we take that to mean you accept
-                their use. Please accept cookies for optimal performance.
-
-                <b>You will not be asked again!</b>
-            </p>
-
-            <a href="https://google.com/">
-                <button class="btn btn-secondary">
-                Close this window
-            </button>
-            </a>
-
-            <button class="cookie-btn">
-                Yes, I accept Cookies
-            </button>
-
-        </div>
-
+        <!-- End #lead -->
     </div>
-    <!-- End #lead -->
 
     <div id="about">
 
@@ -123,7 +125,7 @@
                 <li><b> In 2017:</b> Advanced Word, 8 hours; Advanced Excell, 16 hours; Business Intelligence
                       with Power BI - Case Studies, 5.5 hours; Monitoring with Zabbix, 8 hours; and Complete
                       Database and SQL Course, No Mysteries, 17.5 hours.</li>  
-                <li><b>In 2010:</b> Security Applied to Information Technology Internship, 20 hours; and Panda
+                <li><b>In 2010:</b> Security Applied to Information Technology Internship, 20 hours; Panda
                       Business Partner Technician, from Panda Security.</li>  
                 <li><b>In 2008:</b> Computer Intrusion Course for Security Purposes, 20 hours; Course on Mozilla,
                       20 hours; and Linux Server Administration Course, 30 hours.</li>  
@@ -151,14 +153,14 @@
                     <h2>Available Services</h2>
                     <ul>
                         <li>
-                            Projects ranging from simple website development to complex systems and logical
+                            Projects range from simple website development to complex systems and logical
                             infrastructure services.
                         </li>
                         <li>
-                            Development of complete custom systems with database.
+                            Development of complete custom systems with the database.
                         </li>
                         <li>
-                            CMS in Joomla, Moodle or Wordpress.
+                            CMS in Joomla, Moodle, or Wordpress.
                         </li>
                         <li>
                             DevOps services, in remote mode, from Linux server configuration to VPS server administration.
@@ -173,10 +175,14 @@
                             Development of data science projects in Power BI or Python.
                         </li>
                         <li>
-                            Service maintenance, which can be performed on time or regularly, according to customer demand.
+                            Installation of own infrastructure for affiliates.
                         </li>
                         <li>
-                            The services will be performed on demand, like a freelancer.
+                            Service maintenance, which can be performed on time or regularly, according to
+                            customer demand.
+                        </li>
+                        <li>
+                            The services will be performed on-demand, like a freelancer.
                         </li>
                     </ul>
                 </div>
@@ -210,7 +216,7 @@
                             in the world. The dashboard was created using streamlit which is an open source Python
                             library that makes it easy to create and share of custom web apps for machine learning and data science.
                         </p>
-                        <a class="btn btn-primary" href="https://stocks.webdeveloper.name" role="button" target="_blank">View</a>
+                        <a class="btn btn-primary" href="https://stocks.webdeveloper.name" role="button" target="_blank">Click Here</a>
                     </div>
 
                 </div>
@@ -223,12 +229,10 @@
                         <h2>Condominium Manager</h2>
                         <p>
                             Condominium Administration System developed with the following technologies:
-                            Vue Js, Node Js, Postgres, MongoDB. O The main purpose of the system is to contribute
-                             to a more agile and effective management for the liquidator and to provide more efficient
-                            communication between him and his unit owners. <strong> Free trial user: admin@mail.com
+                            Vue Js, Node Js, Postgres, MongoDB. <strong> Free trial user: admin@mail.com
                             password: 123 --> Disclaimer: CPF must be 11 characters.</strong>
                         </p>
-                        <a class="btn btn-primary" href="http://condominiumanager.com" role="button" target="_blank">View</a>
+                        <a class="btn btn-primary" href="http://condominiumanager.com" role="button" target="_blank">Click Here</a>
                     </div>
 
                 </div>
@@ -238,21 +242,35 @@
 
             <!-- linha 2 coluna 1 -->
             <div class="row">
-                <div class="project shadow-large col-">
+                <div class="project  col-">
                     <div class="project-image">
-                        <img src="images/blog.png" alt="Condominium Management System" width="250" height="200" />
+                        <img src="images/blog2.png" alt="Technology and Marketing" width="250" height="200" />
                     </div>
                     <div class="project-info">
-                        <h2>Technology Blog</h2>
+                        <h2>Technology and Marketing Blog</h2>
                         <p>
                             Technology blog using WordPress, which is a free and open source content management
                             system (CMS) written in PHP and for the database MariaDB was used, which is a free database based on MySql.
                         </p>
-                        <a class="btn btn-primary" href="https://blog.webdeveloper.name" role="button " target="_blank ">View</a>
+                        <a class="btn btn-primary" href="https://blog.webdeveloper.name" role="button " target="_blank ">Click Here</a>
                     </div>
-                    <!-- fim da linha 2 -->
+                </div>
+                    
+                <!-- linha 2 coluna 2 -->
+                <div class="project shadow-large col-">
+                        <div class="project-image">
+                            <img src="images/infoproducts.png" alt="Affiliate Marketing" width="250" height="200" />
+                        </div>
+                        <div class="project-info">
+                            <h2>Affiliate Marketing</h2>
+                            <p>
+                                Project to install own infrastructure for affiliates developed with Wordpress.
+                            </p>
+                            <a class="btn btn-primary" href="https://official-site-infoproducts.com" role="button " target="_blank ">Click Here</a>
+                        </div>
                 </div>
             </div>
+            <!-- fim da linha 2 -->
 
         </div>
         <div class="col-sm-2 top">
@@ -292,6 +310,8 @@
             <li>Linux</li>
             <li>PenTest</li>
             <li>Zabbix</li>
+            <li>Digital Marketing</li>
+            <li>Google Ads</li>
         </ul>
         <div class="col-sm-2 top">
             <span id="to-top4">
