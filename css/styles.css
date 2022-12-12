@@ -624,9 +624,13 @@ footer .email p {
     right: 0;
     background: #2f3640;
     color: rgb(240, 231, 231);
-    padding: 5px 32px;
+    padding: 10px 32px;
     box-shadow: 0 -2px 16px rgba(47, 54, 64, 0);
     transition: 400ms;
+    margin-right: 75%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    border-radius: 8%;
 }
 
 .cookie-container.active {
@@ -634,8 +638,7 @@ footer .email p {
 }
 
 .cookie-container p {
-    margin-right: 10%;
-    margin-top: 0;
+    margin: 1%;
     padding-bottom: 0;
     text-align: justify;
 }
@@ -644,8 +647,8 @@ footer .email p {
     background: #e84118;
     border: 0;
     color: #f5f6fa;
-    padding: 12px 48px;
-    font-size: 1.5rem;
+    padding: 2%;
+    font-size: 1.3rem;
     margin-bottom: 16px;
     margin-left: 10%;
     border-radius: 8px;
