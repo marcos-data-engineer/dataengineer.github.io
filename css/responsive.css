@@ -14,29 +14,40 @@
         padding: 0;
     }
 
+    #menu a {
+        font-size: 2rem;
+    }
+
     #about {
-        height: auto;
+        height: 100vh;
     }
     
     #about p {
-        margin-left: 20%;
+        margin-left: 11%;
     }
 
-    #about ul,li {
-        font-size: 1.6rem;
+    #about li {
+        font-size: 2rem;
+        line-height: 3rem;
     }
      
     .service {
         height: auto;
     }
     .service-info {
-        top: 35vh;
+        top: 30vh;
         height: auto;
     }
     .service-info h2 {
         font-size: 2rem;
-        margin-bottom: 5%;
     }
+
+    .service-info ul,li {
+        line-height: 1.2;
+        margin: 0;
+        font-size: 2rem;
+    }
+
     #services li {
         font-size: 1.5rem;
     }
@@ -49,39 +60,60 @@
         margin: 2%;
     }
     .project {
-        height: 75vh;
+        height: auto;
     }
     .project-image {
         margin: 2%;
         padding: 0;
     }
+
+    #skills {
+        height: auto;
+    }
+    
     #contact {
-        padding: 1%;
+        height: 93vh;
     }
     #contact h2 {
-        margin: 4vh;
+        margin: 2%;
     }
     #contact-form {
-        max-width: 400px;
+        max-width: 600px;
+        height: auto;
     }
     #contact-form input,
     #contact-form textarea {
-        width: 360px;
+        width: 600px;
     }
     #contact-form textarea {
         height: 250px;
     }
     #contact-form button {
         display: block;
+        width: 600px;
     }
+    
+    footer {
+        padding: 1%;
+        margin-left: 25%;
+        height: auto;
+    }
+    
     footer .copyright p {
-        margin: auto;
-        padding: 0;
+        margin: auto;        
     }
     footer .email p {
         margin: auto;
-        padding: 0;
     }
+
+    footer .top {
+        margin: auto;
+    }
+
+    footer .top span {
+        margin: auto;
+    }
+
 }
 /* laptop */
 @media (max-width: 1024px) {
