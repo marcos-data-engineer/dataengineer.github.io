@@ -117,36 +117,108 @@
 }
 /* laptop */
 @media (max-width: 1024px) {
+    
+    #about {
+        height: 100vh;
+    }
+    
+    #about p {
+        margin-left: 11%;
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    #about li {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+    
     .service {
-        height: 80vh;
+        height: auto;
     }
-    #services ul li{
+    
+    .service-info {
+        top: 35vh;
+        height: auto;
+    }
+    .service-info h2 {
         font-size: 1.5rem;
-        line-height: 2.5rem;
     }
+
+    #services li {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    #services .top {
+        margin: 0;
+        padding: 0;
+    }
+    
     .project {
         height: auto;
         margin: 1%;
     }
+
+    .project-info h2 {
+        font-size: 2rem;
+    }
+
+    .project-info p {
+        font-size: 1.3rem;
+    }
+
     #projects {
         height: auto;
     }
-    #contact {
+
+    #projects .top {
+        margin: 0;
+        padding: 0;
+    }
+
+    #skills {
+        height: 100vh;
+    }
+
+    #skills h2 {
+        margin: 1%;
+    }
+    #skills li {
+        font-size: 1.5rem;
+        margin: 2.5%;
+    }
+    #skills .top {
         margin: auto;
+    }
+    #skills .top span {
+        margin: auto;
+    }
+
+    #contact {
+        height: auto;
+    }
+    #contact h2 {
+        margin: 1%;
     }
     #contact-form {
-        margin-left: 32%;
-    }
-    #contact .top {
-        margin: auto;
+        max-width: 400px;
         height: auto;
     }
-    #contact .top span {
-        margin: auto;
-        height: auto;
+    #contact-form input,
+    #contact-form textarea {
+        width: 400px;
+    }
+    #contact-form textarea {
+        height: 200px;
+    }
+    #contact-form button {
+        display: block;
+        width: 400px;
     }
     footer{
         margin-left: 20%;
+        height: auto;
     }
 
 }
