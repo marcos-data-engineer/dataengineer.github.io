@@ -139,7 +139,7 @@ header.sticky {
     left: 0;
     right: 0;
     margin: 0 auto;
-    background: #3498db;
+    background: #0f9b0f;
 }
 
 #lead {
@@ -177,7 +177,6 @@ header.sticky {
 #about {
     display: flexbox;
     padding: 30px;
-    border-bottom: 1px solid #dcd9d9;
     height: auto;
 }
 
@@ -224,26 +223,20 @@ header.sticky {
 
 #about .top {
     text-align: center;
-    margin-top: auto;
-    margin-left: 5%;
-}
+    margin: auto;
+}     
 
 #about .top span {
     cursor: pointer;
-    width: 35px;
-    height: 35px;
-    text-align: center;
-    margin-top: 45vmax;
-    margin-left: 43vmax;
+    margin: auto;
 }
 
 #about .top i {
-    color: black;
+    color: #202020;
 }
 
 #services {
     display: flexbox;
-    border-bottom: 1px solid #dcd9d9;
     text-align: center;
     height: auto;
 }
@@ -256,28 +249,36 @@ header.sticky {
     margin: 30px;
 }
 
+#services h3:after {
+    position: absolute;
+    content: "";
+    top: 100%;
+    height: 1px;
+    width: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: whitesmoke;
+}
+
 #services .top {
     text-align: center;
-    margin-top: 3%;
+    margin: auto;
 }
 
 #services .top span {
     cursor: pointer;
-    width: 35px;
-    height: 35px;
-    text-align: center;
-    margin-top: 45vmax;
-    margin-left: 48vmax;
+    margin: auto;    
 }
 
 #services .top i {
-    color: whitesmoke;
+    color: #202020;
 }
 
 #services ul {
     display: flexbox;
     position: relative;
-    width: 90%;
+    width: auto;
     max-width: 650px;
 }
 
@@ -292,26 +293,26 @@ header.sticky {
     color: whitesmoke;
     list-style: disc;
     font-size: 1.6rem;
-    line-height: 3.2rem;
+    line-height: 2.2rem;
 }
 
 .service {
     display: flexbox;
     position: relative;
     margin: auto;
-    width: 90%;
+    width: 100%;
     max-width: 980px;
     overflow: hidden;
     background: black;
     border-radius: 10px;
     border-style: groove;
-    height: auto;
+    height: 95vh;
 }
 
 .service-info {
     display: flexbox;
     position: relative;
-    top: 45%;
+    top: 0;
     transform: translateY(-50%);
     margin-left: 350px;
     padding: 20px;
@@ -322,8 +323,8 @@ header.sticky {
     display: flexbox;
     font-size: 2.5rem;
     font-weight: 400;
-    color: lightgray;
-    margin-top: 5%;
+    color: whitesmoke;
+    margin-top: 100%;
     margin-bottom: 5%;
 }
 
@@ -345,54 +346,58 @@ header.sticky {
 }
 
 #projects {
-    background: #140c25;
-    border-bottom: 1px solid #dcd9d9;
     text-align: center;
-    height: 200vh;
+    height: auto;
 }
 
 #projects .top {
     text-align: center;
-    margin-top: 5vh;
+    margin: auto;
 }
 
 #projects .top span {
     cursor: pointer;
-    width: 35px;
-    height: 35px;
-    text-align: center;
-    margin-left: 48vmax;
+    margin: auto;
 }
 
 #projects .top i {
-    color: whitesmoke;
+    color: #202020;
 }
 
 #projects h3 {
-    color: lightgray;
+    color: whitesmoke;
     font-weight: 400;
     padding: 0;
-    margin: 60px;
+    margin: 1%;
+}
+
+#projects h3:after {
+    position: absolute;
+    content: "";
+    top: 100%;
+    height: 1px;
+    width: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: whitesmoke;
 }
 
 .project {
     display: flexbox;
-    margin: 10px;
-    width: 90%;
+    margin: 1%;
+    width: auto;
     max-width: 48%;
     background: whitesmoke;
     border-radius: 10px;
     border-style: groove;
     height: auto;
-    padding-bottom: 20px;
+    padding: 1%;
 }
 
 .project-image {
-    margin-top: 45px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    padding: 2px;
+    margin: 3%;
+    padding: 1%;
     float: left;
     width: auto;
     height: auto;
@@ -401,24 +406,25 @@ header.sticky {
 }
 
 .project-info {
-    margin-bottom: 0;
+    margin: 0;
     padding: 0;
 }
 
 .project-info h2 {
     font-size: 2rem;
     font-weight: 400;
-    color: black;
-    margin-top: 55px;
-    margin-right: 20px;
+    color: #202020;
+    margin-top: 1%;
+    margin-right: 1%;
 }
 
 .project-info p {
-    color: #74808a;
-    padding: 10px;
-    font-size: 1.7rem;
-    line-height: 3rem;
-    text-align: left;
+    color: #202020;
+    padding: 1%;
+    margin: 1%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: start;
 }
 
 .project-info a {
@@ -436,28 +442,22 @@ header.sticky {
 }
 
 #skills {
-    padding: 20px 10px;
-    background: whitesmoke;
     text-align: center;
-    height: 100vh;
+    height: auto;
 }
 
 #skills .top {
     text-align: center;
-    margin-top: 15vh;
+    margin: auto;
 }
 
 #skills .top span {
     cursor: pointer;
-    width: 35px;
-    height: 35px;
-    text-align: center;
-    margin-top: 45vmax;
-    margin-left: 47vmax;
+    margin: auto;
 }
 
 #skills .top i {
-    color: black;
+    color: #202020;
 }
 
 #skills h2 {
@@ -486,11 +486,6 @@ header.sticky {
 }
 
 #contact {
-    background: rgba(121, 24, 242, 0.8);
-    background: -webkit-linear-gradient(-45deg, rgba(172, 50, 228, 0.8), rgba(121, 24, 242, 0.8), rgba(72, 1, 255, 0.8));
-    background: -o-linear-gradient(-45deg, rgba(172, 50, 228, 0.8), rgba(121, 24, 242, 0.8), rgba(72, 1, 255, 0.8));
-    background: -moz-linear-gradient(-45deg, rgba(172, 50, 228, 0.8), rgba(121, 24, 242, 0.8), rgba(72, 1, 255, 0.8));
-    background: linear-gradient(-45deg, rgba(172, 50, 228, 0.8), rgba(121, 24, 242, 0.8), rgba(72, 1, 255, 0.8));
     padding: 15px 15px;
     text-align: center;
     align-items: center;
@@ -498,21 +493,17 @@ header.sticky {
 }
 
 #contact .top {
-    margin-top: 5vh;
-    margin-left: 3.8vh;
+    text-align: center;
+    margin: auto;
 }
 
 #contact .top span {
     cursor: pointer;
-    width: 35px;
-    height: 35px;
-    text-align: center;
-    margin-top: 45vmax;
-    margin-left: 44vmax;
+    margin: auto;
 }
 
 #contact .top i {
-    color: black;
+    color: #202020;
 }
 
 #contact h2 {
@@ -600,13 +591,13 @@ footer {
 }
 
 footer .copyright p {
-    color: #74808a;
+    color: whitesmoke;
     margin-left: 35%;
     margin-right: 0;
 }
 
 footer .email p {
-    color: #74808a;
+    color: whitesmoke;
     margin-left: 35%;
 }
 
@@ -615,15 +606,13 @@ footer .email p {
     bottom: -1000%;
     left: 0;
     right: 0;
-    background: #2f3640;
     color: rgb(240, 231, 231);
-    padding: 10px 32px;
+    padding: 1%;
     box-shadow: 0 -2px 16px rgba(47, 54, 64, 0);
     transition: 400ms;
-    margin-right: 75%;
-    margin-left: 1%;
+    margin-right: 70%;
     margin-bottom: 1%;
-    border-radius: 8%;
+    margin-left: 1%;
 }
 
 .cookie-container.active {
@@ -631,18 +620,16 @@ footer .email p {
 }
 
 .cookie-container p {
-    margin: 1%;
-    padding-bottom: 0;
     text-align: justify;
+    font-size: 75%;
 }
 
 .cookie-btn {
-    background: #e84118;
+    background: #f5f6fa;
     border: 0;
-    color: #f5f6fa;
-    padding: 2%;
+    color: #202020;
+    padding: 2vh;
     font-size: 1.3rem;
-    margin-bottom: 16px;
     margin-left: 10%;
     border-radius: 8px;
     cursor: pointer;
