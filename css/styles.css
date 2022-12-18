@@ -1,3 +1,10 @@
+/* resetando a configuração padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     /* a cada 1rem será considerado 10px */
     font-size: 62.5%;
@@ -68,6 +75,33 @@ header.sticky {
     position: fixed;
     z-index: 999;
 }
+
+/* hamburguer menu */
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+    display: none;
+    justify-content: end;
+    margin-top: 5%;
+    margin-right: 20%;
+    color: whitesmoke;
+    cursor: pointer;  
+  }
+
+  .mobile-menu-icon {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }  
+
+  .open {
+    display: block;
+  }
 
 #menu.active {
     display: block;

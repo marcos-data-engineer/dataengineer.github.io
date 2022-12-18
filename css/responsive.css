@@ -1,5 +1,44 @@
 /* 320px */
-@media (min-width: 20em) {
-    body {
-    }
+@media (max-width: 730px) {
+/* hamburguer menu */
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+    display: flex;
+    justify-content: end;
+    margin-top: 5%;
+    margin-right: 20%;
+    color: whitesmoke;
+    cursor: pointer;  
+  }
+
+  header {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .mobile-menu ul .itens {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-menu .itens li {
+    display: block;
+    padding-top: 1.2rem;
+    color: whitesmoke;
+  }
+
+
 }
