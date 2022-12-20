@@ -29,23 +29,29 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    text-align: center;
-    margin-top: 1%;
+    margin-top: 1%;;
 }
 
 header ul {
-    display: flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    text-align: center;
     background: whitesmoke;
-    margin: auto 20%;
+    margin: auto 30%;
     padding: 1%;
     border-radius: 15px;
     border-style: hidden;
 }
 
 header li {
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     font-size: 1.8rem;
-    margin: 1%;
+    margin: 0;
     padding: 1%;
     }
 
@@ -103,9 +109,9 @@ header.sticky {
     display: block;
   }
 
-#menu.active {
+/* #menu.active {
     display: block;
-}
+} */
 
 /* pages title h1 */
 .heading {
@@ -129,10 +135,9 @@ header.sticky {
 }
 
 #lead {
-    /* position: relative; */
     height: 100vh;
-    min-height: 500px;
-    max-height: 1080px;
+    min-height: 320px;
+    max-height: 1920px;
     padding: 15px;
     overflow: hidden;
 }
@@ -161,9 +166,10 @@ header.sticky {
 }
 
 #about {
-    display: flexbox;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
-    height: auto;
+    height: 100vh;
 }
 
 #about p {
