@@ -107,7 +107,8 @@ header a:focus {
 }
 
 .about {
-    display: flexbox;
+    display: flex;
+    flex-wrap: wrap;
     height: auto;
 }
 
@@ -115,13 +116,13 @@ header a:focus {
     color: whitesmoke;
     font-size: 3rem;
     font-weight: 600;
-    text-align: center;
     padding: 1%;
+    margin: auto;    
 }
 
 .about p {
     color: whitesmoke;
-    text-align: justify;
+    text-align: start;
     padding: 5px;
     margin-top: 2%;
     margin-left: 18%;
@@ -154,28 +155,53 @@ header a:focus {
     color: #202020;
 }
 
-/* .services {
-    display: flexbox;
-    height: 100vh;
-    margin-top: 1%;
+.services {
+    display: grid;
+    height: auto;
+    margin: auto;
+    padding: 1%;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 10% 80% 10%;
 }
+
+.services #services-title {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding: 0;
+    text-align: center;
+    margin: 0;    
+}   
 
 .services h1 {
     color: whitesmoke;
     font-size: 3rem;
     font-weight: 600;
-    text-align: center;
-    padding: 1%;
+    margin: 0;
+    padding: 0;
 }
+
+#service-image {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 3%;
+}    
 
 .services ul {
     width: auto;
     max-width: 650px;
+    margin: auto;
 }
 
 .services li {
     margin-top: auto;
-    margin-left: 10%;
+    margin-left: 30%;
+    margin-right: 0;
     margin-bottom: auto;
     padding: 0;
     text-align: left;
@@ -185,30 +211,39 @@ header a:focus {
     line-height: 2.2rem;
 }
 
-#service-image {
-    margin: 8%;
-    float: left;
-}
-
 #service-info {
-    top: 0;
-    transform: translateY(-50%);
-    margin-left: 350px;
-    padding: 20px;
+    padding: 3%;
     height: auto;
+    width: 80%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: auto;
+    background-color: #000000;
+    border-radius: 5pt;
+    z-index: -1;
 }
 
 #service-info h2 {
     font-size: 2.5rem;
     font-weight: 400;
     color: whitesmoke;
-    margin-top: 100%;
-    margin-bottom: 5%;
+    margin: 1%;
+    margin-bottom: 3%;
+    padding: 1%;
+    text-align: center;
+    
 }
 
 .services .top {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
     text-align: center;
     margin: auto;
+    padding: 3%;
 }
 
 .services .top span {
@@ -220,6 +255,7 @@ header a:focus {
     color: #202020;
 }
 
+/*
 .projects {
     text-align: center;
     height: auto;
