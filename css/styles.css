@@ -144,6 +144,7 @@ header a:focus {
 .about .top {
     text-align: center;
     margin: auto;
+    padding: 1%;
 }     
 
 .about .top span {
@@ -289,7 +290,29 @@ header a:focus {
     margin: 0;
     padding: 1%;
     text-align: center;
-    
+}
+
+.projects p {
+    margin: 1%;
+    color: lightgray;
+    font-size: 1.6rem;
+}
+
+.projects a {
+    font-size: 1.6rem;
+    margin: 1%;
+    background-color: #0f9b0f;
+    border-color: #0f9b0f;
+}
+
+.projects img {
+    border-radius: 5%;
+    width: 300px;
+    height: 250px;
+}
+
+#projects-button {
+    text-align: center;
 }
 
 #project-image-stocks {
@@ -297,16 +320,15 @@ header a:focus {
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
-}
+}    
 
 #project-info-stocks {
-    padding-top: 0;
-    padding-bottom: 3%;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
-    margin: 1%;
+    margin-bottom: 8%;
+    margin-left: 1%;
     color: lightgrey;
 }
 
@@ -318,13 +340,12 @@ header a:focus {
 }
 
 #project-info-condominium {
-    padding-top: 0;
-    padding-bottom: 3%;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
-    margin: 1%;
+    margin-bottom: 10%;
+    margin-left: 1%;
     color: lightgray;
 }
 
@@ -341,7 +362,8 @@ header a:focus {
     grid-column-end: 3;
     grid-row-start: 4;
     grid-row-end: 5;
-    margin: 1%;
+    margin-bottom: 8%;
+    margin-left: 1%;
     color: lightgray;
 }
 
@@ -350,32 +372,16 @@ header a:focus {
     grid-column-end: 2;
     grid-row-start: 5;
     grid-row-end: 6;
-    margin: 0;
-    padding: 3%;
 }
 
 #project-info-infoproducts {
-    padding: 3%;
-    height: auto;
-    width: auto;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 5;
     grid-row-end: 6;
-    margin: auto;
-}
-
-#project-info p {
-    color: #202020;
-    padding: 1%;
-    margin: 1%;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    text-align: start;
-}
-
-#project-info a {
-    font-size: 1.5rem;
+    margin-bottom: 8%;
+    margin-left: 1%;
+    color: lightgrey;
 } 
 
 .projects .top {
@@ -385,7 +391,7 @@ header a:focus {
     grid-row-end: 7;
     text-align: center;
     margin: auto;
-    padding: 3%;
+    padding: 1%;
 }
 
 .projects .top span {
