@@ -403,15 +403,42 @@ header a:focus {
     color: #202020;
 }
 
-/*
 .skills {
+    display: flexbox;
     text-align: center;
     height: auto;
+}
+
+.skills h1 {
+    color: whitesmoke;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 3%;
+    margin: auto; 
+}
+
+.skills ul {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 980px;
+}
+
+.skills li {
+    display: inline-block;
+    margin: 2.5%;
+    padding: 20px 25px;
+    color: whitesmoke;
+    background: black;
+    border-radius: 5px;
+    list-style: none;
+    cursor: default;
+    font-size: 1.8rem;
 }
 
 .skills .top {
     text-align: center;
     margin: auto;
+    margin-top: 3%;
 }
 
 .skills .top span {
@@ -423,30 +450,19 @@ header a:focus {
     color: #202020;
 }
 
-.skills ul {
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: 90%;
-    max-width: 980px;
-}
-
-.skills li {
-    display: inline-block;
-    margin: 2.5%;
-    padding: 10px 15px;
-    color: whitesmoke;
-    background: black;
-    border-radius: 5px;
-    list-style: none;
-    cursor: default;
-    font-size: 1.8rem;
-}
-
 .contact {
+    display: flexbox;
     text-align: center;
-    align-items: center;
     height: auto;
+}
+
+.contact h1 {
+    color: whitesmoke;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 2%;
+    margin: auto; 
+    margin-top: 3%;   
 }
 
 #contact-form {
@@ -457,7 +473,6 @@ header a:focus {
 
 #contact-form input,
 #contact-form textarea {
-    display: flex;
     width: 100%;
     max-width: 600px;
     padding: 15px;
@@ -506,7 +521,7 @@ header a:focus {
     display: block;
     width: 100%;
     max-width: 600px;
-    background: #202020;
+    background: #0f9b0f;
     border-radius: 4px;
     padding: 5px 10px;
     border: none;
@@ -520,17 +535,17 @@ header a:focus {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-#contact .top {
-    text-align: center;
+.contact .top {
     margin: auto;
+    padding: 1%;
 }
 
-#contact .top span {
+.contact .top span {
     cursor: pointer;
     margin: auto;
 }
 
-#contact .top i {
+.contact .top i {
     color: #202020;
 }
 
@@ -553,8 +568,7 @@ footer .email p {
     color: whitesmoke;
     margin: auto;
     text-align: center;
-} */
-
+}
 .cookie-container {
     position: fixed;
     bottom: -1000%;

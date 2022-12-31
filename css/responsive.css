@@ -1,6 +1,5 @@
-/* 320px */
-@media (max-width: 730px) {
 /* hamburguer menu */
+@media (max-width: 1024px) {
 .material-symbols-outlined {
     font-variation-settings:
     'FILL' 0,
@@ -40,5 +39,16 @@
     color: whitesmoke;
   }
 
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+
+.cookie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}  
 
 }
