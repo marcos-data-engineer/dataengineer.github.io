@@ -106,13 +106,13 @@ header a:focus {
     margin-top: 30vh;
 }
 
-.about {
+#about {
     display: flex;
     flex-wrap: wrap;
     height: auto;
 }
 
-.about h1 {
+#about h1 {
     color: whitesmoke;
     font-size: 3rem;
     font-weight: 600;
@@ -120,7 +120,7 @@ header a:focus {
     margin: auto;    
 }
 
-.about p {
+#about p {
     color: whitesmoke;
     text-align: start;
     padding: 5px;
@@ -131,7 +131,7 @@ header a:focus {
     line-height: 3.5rem;
 }
 
-.about ul, li {
+#about ul, li {
     color: whitesmoke;
     text-align: left;
     padding: 5px;
@@ -141,22 +141,22 @@ header a:focus {
     line-height: 3.4rem;
 }
 
-.about .top {
+#about .top {
     text-align: center;
     margin: auto;
     padding: 1%;
 }     
 
-.about .top span {
+#about .top span {
     cursor: pointer;
     margin: auto;
 }
 
-.about .top i {
+#about .top i {
     color: #202020;
 }
 
-.services {
+#services {
     display: grid;
     height: auto;
     margin: auto;
@@ -165,7 +165,7 @@ header a:focus {
     grid-template-rows: 10% 80% 10%;
 }
 
-.services #services-title {
+#services #services-title {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -175,12 +175,12 @@ header a:focus {
     margin: 0;    
 }   
 
-.services h1 {
+#services h1 {
     color: whitesmoke;
     font-size: 3rem;
     font-weight: 600;
-    margin: 0;
-    padding: 0;
+    margin: 1%;
+    padding: 1%;
 }
 
 #service-image {
@@ -193,13 +193,13 @@ header a:focus {
     padding: 3%;
 }    
 
-.services ul {
+#services ul {
     width: auto;
     max-width: 650px;
     margin: auto;
 }
 
-.services li {
+#services li {
     margin-top: auto;
     margin-left: 30%;
     margin-right: 0;
@@ -237,7 +237,7 @@ header a:focus {
     
 }
 
-.services .top {
+#services .top {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 3;
@@ -247,16 +247,16 @@ header a:focus {
     padding: 3%;
 }
 
-.services .top span {
+#services .top span {
     cursor: pointer;
     margin: auto;    
 }
 
-.services .top i {
+#services .top i {
     color: #202020;
 }
 
-.projects {
+#projects {
     display: grid;
     height: auto;
     margin: 1%;
@@ -265,7 +265,7 @@ header a:focus {
     grid-template-rows: 10% auto auto auto auto;
 }
 
-.projects #projects-title {
+#projects #projects-title {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -275,7 +275,7 @@ header a:focus {
     margin: 1%;    
 }
 
-.projects h1 {
+#projects h1 {
     color: whitesmoke;
     font-size: 3rem;
     font-weight: 600;
@@ -283,7 +283,7 @@ header a:focus {
     padding: 0;
 }
 
-.projects h2 {
+#projects h2 {
     font-size: 2.5rem;
     font-weight: 400;
     color: whitesmoke;
@@ -292,20 +292,20 @@ header a:focus {
     text-align: center;
 }
 
-.projects p {
+#projects p {
     margin: 1%;
     color: lightgray;
     font-size: 1.6rem;
 }
 
-.projects a {
+#projects a {
     font-size: 1.6rem;
     margin: 1%;
     background-color: #0f9b0f;
     border-color: #0f9b0f;
 }
 
-.projects img {
+#projects img {
     border-radius: 5%;
     width: 300px;
     height: 250px;
@@ -384,7 +384,7 @@ header a:focus {
     color: lightgrey;
 } 
 
-.projects .top {
+#projects .top {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 6;
@@ -394,22 +394,22 @@ header a:focus {
     padding: 1%;
 }
 
-.projects .top span {
+#projects .top span {
     cursor: pointer;
     margin: auto;
 }
 
-.projects .top i {
+#projects .top i {
     color: #202020;
 }
 
-.skills {
+#skills {
     display: flexbox;
     text-align: center;
     height: auto;
 }
 
-.skills h1 {
+#skills h1 {
     color: whitesmoke;
     font-size: 3rem;
     font-weight: 600;
@@ -417,13 +417,13 @@ header a:focus {
     margin: auto; 
 }
 
-.skills ul {
+#skills ul {
     margin: 0 auto;
     padding: 0;
     max-width: 980px;
 }
 
-.skills li {
+#skills li {
     display: inline-block;
     margin: 2.5%;
     padding: 20px 25px;
@@ -435,28 +435,28 @@ header a:focus {
     font-size: 1.8rem;
 }
 
-.skills .top {
+#skills .top {
     text-align: center;
     margin: auto;
     margin-top: 3%;
 }
 
-.skills .top span {
+#skills .top span {
     cursor: pointer;
     margin: auto;
 }
 
-.skills .top i {
+#skills .top i {
     color: #202020;
 }
 
-.contact {
+#contact {
     display: flexbox;
     text-align: center;
     height: auto;
 }
 
-.contact h1 {
+#contact h1 {
     color: whitesmoke;
     font-size: 3rem;
     font-weight: 600;
@@ -535,17 +535,17 @@ header a:focus {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-.contact .top {
+#contact .top {
     margin: auto;
     padding: 1%;
 }
 
-.contact .top span {
+#contact .top span {
     cursor: pointer;
     margin: auto;
 }
 
-.contact .top i {
+#contact .top i {
     color: #202020;
 }
 
@@ -582,6 +582,7 @@ footer .email p {
     margin-right: 70%;
     margin-bottom: 1%;
     margin-left: 1%;
+    border-radius: 1%;
 }
 
 .cookie-container.active {
