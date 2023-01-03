@@ -95,7 +95,7 @@
 #service-info {
   padding: 1%;
   margin: 1%;
-  width: 95%;
+  width: 94%;
 }
 
 #service-info h2 {
@@ -105,19 +105,24 @@
 #service-info li {
   text-align: justify;
   margin: 1%;
-  padding: 1%;
-  max-width: auto;
-  background-color: red;  
-}
+  padding: 4%;
+}  
 
 .cookie-container {
   display: flex;
   flex-wrap: wrap;
   position: absolute;
-  width: 90%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
   margin: auto;
-  padding: auto;
-  margin-bottom: 35%;
+  padding: 2%;
+  background: #202020;
+  box-shadow: 0 -2px 16px rgba(47, 54, 64, 0);
+  transition: 400ms;
+  border-radius: 1%;
+  color: whitesmoke;
 }  
 
 .cookie-container p {
@@ -128,10 +133,14 @@
 }
 
 .cookie-btn {
+  background: #f5f6fa;
+  border: 0;
+  color: #202020;
   margin: auto;
   padding: 1.5%;
   font-size: 1rem;
   border-radius: 5pt;
+  cursor: pointer;
 }
 
 }
