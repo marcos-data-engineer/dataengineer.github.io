@@ -571,36 +571,36 @@ footer .email p {
 }
 .cookie-container {
     position: fixed;
-    bottom: -1000%;
-    left: 0;
-    right: 0;
-    color: whitesmoke;
-    background: #202020;
-    padding: 1%;
-    box-shadow: 0 -2px 16px rgba(47, 54, 64, 0);
-    transition: 400ms;
-    margin-right: 70%;
-    margin-bottom: 1%;
-    margin-left: 1%;
-    border-radius: 1%;
+    bottom: -1000%;       
 }
 
 .cookie-container.active {
+    margin: 1%;
+    padding: 1%;
+    width: auto;
+    color: whitesmoke;
+    left: 0;
+    right: 0;
     bottom: 0;
+    background: #202020;
+    box-shadow: 0 -2px 16px rgba(47, 54, 64, 0);
+    transition: 400ms; 
 }
 
 .cookie-container p {
     text-align: justify;
-    font-size: 75%;
+    font-size: 1rem;
+    margin: auto;
+    padding: auto;
 }
 
 .cookie-btn {
     background: #f5f6fa;
     border: 0;
     color: #202020;
-    padding: 2vh;
-    font-size: 1.3rem;
-    margin-left: 10%;
-    border-radius: 8px;
+    padding: 1%;
+    margin: auto;
+    font-size: 1rem;
+    border-radius: 2pt;
     cursor: pointer;
 }
