@@ -57,6 +57,11 @@
   font-size: 2rem;
 }
 
+#about {
+  margin: 4%;
+  padding: 1%;
+}
+
 #about h1 {
   font-size: 2rem;
 }
@@ -65,22 +70,30 @@
   text-align: justify;
   font-size: 1.5rem;
   margin: 1%;
+  margin-bottom: 0;
   padding: 1%;
   line-height: 2rem;
 }
 
-#about ul, li {
-  text-align: justify;
-  margin: 1%;
+#about ul {
+  margin: 4%;
+  margin-top: 0;
+  padding: 0;
+}
+
+#about li {
+  display: list-item;
   padding: 1%;
+  margin: 1%;
   font-size: 1.5rem;
   line-height: 2rem;
+  text-align: justify;
 }
 
 #services {
-  display: flexbox;
+  display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
 }
 
 #services h1 {
@@ -102,10 +115,40 @@
   font-size: 2rem;
 }
 
+#service-info ul {
+  margin: auto;
+  margin-left: 5%;
+}
+
 #service-info li {
+  display: list-item;
   text-align: justify;
   margin: 1%;
-  padding: 4%;
+  padding: 1%;  
 }  
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#skills li {
+  font-size: 1.5rem;
+  margin: 1%;
+  padding: 10px 15px;
+}
+
+#contact-form {
+  margin: 5%;
+}
+
+footer {
+  flex-wrap: wrap;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
 
 }
