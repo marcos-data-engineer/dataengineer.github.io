@@ -130,7 +130,31 @@
 #projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center;  
+}
+
+#projects-title {
+  width: 100%;
+}
+
+#project-info-stocks {
+  background-color: unset;
+}
+
+#project-info-condominium {
+  background-color: unset;
+}
+
+#project-info-blog {
+  background-color: unset;
+}
+
+#project-info-infoproducts {
+  background-color: unset;
+}
+
+#skills {
+  height: auto;
 }
 
 #skills li {
@@ -140,7 +164,8 @@
 }
 
 #contact-form {
-  margin: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 footer {
@@ -150,5 +175,12 @@ footer {
   padding: 0;
 }
 
+}
+
+@media (min-width: 1025px) and (max-width: 1370px) {
+
+  #service-image {
+    display: none;
+  }
 
 }
