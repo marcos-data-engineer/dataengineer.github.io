@@ -183,4 +183,12 @@ footer {
     display: none;
   }
 
+  #service-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: unset;
+    padding-right: 15%;
+  }
+
 }

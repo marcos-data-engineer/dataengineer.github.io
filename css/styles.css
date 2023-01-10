@@ -117,18 +117,16 @@ header a:focus {
     font-size: 3rem;
     font-weight: 600;
     padding: 1%;
-    margin: auto;    
+    margin: auto;   
 }
 
 #about p {
     color: whitesmoke;
-    text-align: start;
     padding: 5px;
     margin-top: 2%;
     margin-left: 18%;
     margin-right: 15%;
     font-size: 2rem;
-    line-height: 3.5rem;
 }
 
 #about ul, li {
@@ -327,6 +325,10 @@ header a:focus {
     grid-row-end: 3;
 }    
 
+#project-image-stocks img {
+    height: 30vh;
+}
+
 #project-info-stocks {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -336,9 +338,9 @@ header a:focus {
     margin-left: 3%;
     margin-right: 3%;
     color: lightgrey;
-    padding: 0.7%;
     background-color: #202020;
     border-radius: 5pt;
+    height: 30vh;
 }
 
 #project-image-condominium {
@@ -346,6 +348,10 @@ header a:focus {
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
+}
+
+#project-image-condominium img {
+    height: 30vh;
 }
 
 #project-info-condominium {
@@ -357,9 +363,9 @@ header a:focus {
     margin-left: 3%;
     margin-right: 3%;
     color: lightgray;
-    padding: 1.5%;
     background-color: #202020;
     border-radius: 5pt;
+    height: 30vh;
 }
 
 #project-image-blog {
@@ -367,6 +373,10 @@ header a:focus {
     grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 5;    
+}
+
+#project-image-blog img {
+    height: 30vh;
 }
 
 #project-info-blog {
@@ -379,7 +389,7 @@ header a:focus {
     margin-left: 3%;
     margin-right: 3%;
     color: lightgray;
-    padding: 1.9%;
+    height: 30vh;
     background-color: #202020;
     border-radius: 5pt;
 }
@@ -391,6 +401,10 @@ header a:focus {
     grid-row-end: 6;
 }
 
+#project-image-infoproducts img {
+    height: 30vh;
+}
+
 #project-info-infoproducts {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -400,7 +414,7 @@ header a:focus {
     margin-left: 3%;
     margin-right: 3%;
     color: lightgrey;
-    padding: 2.5%;
+    height: 30vh;
     background-color: #202020;
     border-radius: 5pt;
 } 
