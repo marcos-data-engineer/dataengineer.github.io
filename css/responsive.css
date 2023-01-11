@@ -130,7 +130,7 @@
 #projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;  
+  justify-content: center; 
 }
 
 #projects-title {
@@ -139,18 +139,22 @@
 
 #project-info-stocks {
   background-color: unset;
+  height: auto;
 }
 
 #project-info-condominium {
   background-color: unset;
+  height: auto;
 }
 
 #project-info-blog {
   background-color: unset;
+  height: auto;
 }
 
 #project-info-infoproducts {
   background-color: unset;
+  height: auto;
 }
 
 #skills {
