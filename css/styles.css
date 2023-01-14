@@ -103,7 +103,7 @@ header a:focus {
     text-align: center;
     color: whitesmoke;
     font-size: 3em;
-    margin-top: 30vh;
+    margin-top: 35vh;
 }
 
 #about {
@@ -116,27 +116,34 @@ header a:focus {
     color: whitesmoke;
     font-size: 3rem;
     font-weight: 600;
-    padding: 1%;
-    margin: auto;   
+    padding: 2%;
+    margin: auto;
+    text-decoration: underline;
+    text-decoration-style: wavy;
 }
 
 #about p {
     color: whitesmoke;
+    text-indent: 15%;
+    text-align: justify;
+    word-spacing: 0;
     padding: 5px;
     margin-top: 2%;
     margin-left: 18%;
     margin-right: 15%;
     font-size: 2rem;
+    word-break: break-all;
 }
 
-#about ul, li {
+#about ul,li {
     color: whitesmoke;
-    text-align: left;
+    text-align: justify;
     padding: 5px;
     margin-left: 12%;
     margin-right: 8%;
     font-size: 1.8rem;
     line-height: 3.5rem;
+    /* word-break: break-all; */
 }
 
 #about .top {
@@ -200,6 +207,7 @@ header a:focus {
     width: auto;
     max-width: 650px;
     margin: auto;
+    word-break: break-all;
 }
 
 #services li {
@@ -299,6 +307,7 @@ header a:focus {
     margin: 1%;
     color: lightgray;
     font-size: 1.6rem;
+    word-break: break-all;
 }
 
 #projects a {
@@ -326,7 +335,7 @@ header a:focus {
 }    
 
 #project-image-stocks img {
-    height: 30vh;
+    height: 35vh;
 }
 
 #project-info-stocks {
@@ -340,7 +349,7 @@ header a:focus {
     color: lightgrey;
     background-color: #202020;
     border-radius: 5pt;
-    height: 30vh;
+    height: 35vh;
 }
 
 #project-image-condominium {
@@ -351,7 +360,7 @@ header a:focus {
 }
 
 #project-image-condominium img {
-    height: 30vh;
+    height: 35vh;
 }
 
 #project-info-condominium {
@@ -365,7 +374,7 @@ header a:focus {
     color: lightgray;
     background-color: #202020;
     border-radius: 5pt;
-    height: 30vh;
+    height: 35vh;
 }
 
 #project-image-blog {
@@ -376,7 +385,7 @@ header a:focus {
 }
 
 #project-image-blog img {
-    height: 30vh;
+    height: 35vh;
 }
 
 #project-info-blog {
@@ -389,7 +398,7 @@ header a:focus {
     margin-left: 3%;
     margin-right: 3%;
     color: lightgray;
-    height: 30vh;
+    height: 35vh;
     background-color: #202020;
     border-radius: 5pt;
 }
@@ -402,7 +411,7 @@ header a:focus {
 }
 
 #project-image-infoproducts img {
-    height: 30vh;
+    height: 35vh;
 }
 
 #project-info-infoproducts {
@@ -414,7 +423,7 @@ header a:focus {
     margin-left: 3%;
     margin-right: 3%;
     color: lightgrey;
-    height: 30vh;
+    height: 35vh;
     background-color: #202020;
     border-radius: 5pt;
 } 

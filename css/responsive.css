@@ -34,20 +34,15 @@
     align-items: center;
     padding: 0;
     margin: 0;
-    font-size: 1.2rem;
-    line-height: 3rem;
+    font-size: 2rem;
+    line-height: 5rem;
   }
-
+  
   #itens a {
-    color: whitesmoke;
+    color: #fff;
     text-decoration: none;
   }
-
-  #itens a:hover {
-    color: #202020;
-    text-decoration: none;
-  }
-
+ 
 }
 
 /* mobile devices portrait */
@@ -67,33 +62,25 @@
 }
 
 #about p {
-  text-align: justify;
   font-size: 1.5rem;
   margin: 1%;
   margin-bottom: 0;
   padding: 1%;
-  line-height: 2rem;
+  text-align: justify;
 }
 
-#about ul {
-  margin: 4%;
-  margin-top: 0;
-  padding: 0;
-}
-
-#about li {
-  display: list-item;
-  padding: 1%;
-  margin: 1%;
+#about ul, li {
   font-size: 1.5rem;
   line-height: 2rem;
+  padding: 2%;
   text-align: justify;
+  margin-left: 1%;
 }
 
 #services {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center;  
 }
 
 #services h1 {
@@ -116,15 +103,14 @@
 }
 
 #service-info ul {
-  margin: auto;
-  margin-left: 5%;
+  margin: 5%;
 }
 
 #service-info li {
   display: list-item;
   text-align: justify;
   margin: 1%;
-  padding: 1%;  
+  padding: 3%;  
 }  
 
 #projects {
@@ -140,21 +126,25 @@
 #project-info-stocks {
   background-color: unset;
   height: auto;
+  padding: 3%;
 }
 
 #project-info-condominium {
   background-color: unset;
   height: auto;
+  padding: 3%;
 }
 
 #project-info-blog {
   background-color: unset;
   height: auto;
+  padding: 3%;
 }
 
 #project-info-infoproducts {
   background-color: unset;
   height: auto;
+  padding: 3%;
 }
 
 #skills {
@@ -174,7 +164,7 @@
 
 footer {
   flex-wrap: wrap;
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin: 0;
   padding: 0;
 }
