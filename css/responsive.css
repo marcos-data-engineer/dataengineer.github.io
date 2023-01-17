@@ -64,17 +64,18 @@
 #about p {
   font-size: 1.5rem;
   margin: 1%;
-  margin-bottom: 0;
-  padding: 1%;
+  margin-bottom: 1;
+  padding-bottom: 1%;
   text-align: justify;
 }
 
 #about ul, li {
   font-size: 1.5rem;
   line-height: 2rem;
-  padding: 2%;
+  padding-bottom: 2%;
   text-align: justify;
   margin-left: 1%;
+  margin-right: 0;
 }
 
 #services {
@@ -103,7 +104,7 @@
 }
 
 #service-info ul {
-  margin: 5%;
+  margin-left: 10%;
 }
 
 #service-info li {
@@ -126,25 +127,29 @@
 #project-info-stocks {
   background-color: unset;
   height: auto;
-  padding: 3%;
+  padding: 1%;
+  text-align: justify;
 }
 
 #project-info-condominium {
   background-color: unset;
   height: auto;
-  padding: 3%;
+  padding: 1%;
+  text-align: justify;
 }
 
 #project-info-blog {
   background-color: unset;
   height: auto;
-  padding: 3%;
+  padding: 1%;
+  text-align: justify;
 }
 
 #project-info-infoproducts {
   background-color: unset;
   height: auto;
-  padding: 3%;
+  padding: 1%;
+  text-align: justify;
 }
 
 #skills {
