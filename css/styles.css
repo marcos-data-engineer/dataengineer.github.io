@@ -161,7 +161,7 @@ header a:focus {
     color: #202020;
 }
 
-#services {
+/* #services {
     display: grid;
     height: auto;
     margin: auto;
@@ -265,7 +265,7 @@ header a:focus {
 
 #services .top i {
     color: #202020;
-}
+} */
 
 #projects {
     display: grid;

@@ -78,7 +78,7 @@
   margin-right: 0;
 }
 
-#services {
+/* #services {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;  
@@ -112,7 +112,7 @@
   text-align: justify;
   margin: 1%;
   padding: 3%;  
-}  
+}   */
 
 #projects {
   display: flex;
