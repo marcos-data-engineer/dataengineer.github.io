@@ -161,112 +161,6 @@ header a:focus {
     color: #202020;
 }
 
-/* #services {
-    display: grid;
-    height: auto;
-    margin: auto;
-    padding: 1%;
-    grid-template-columns: 30% 70%;
-    grid-template-rows: 10% 80% 10%;
-}
-
-#services-title {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    padding: 0;
-    text-align: center;
-    margin: 0;    
-}   
-
-#services h1 {
-    color: whitesmoke;
-    font-size: 3rem;
-    font-weight: 600;
-    margin: 1%;
-    padding: 1%;
-}
-
-#service-image {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    margin-top: 10%;
-    margin-left: 20%;
-    padding: auto;
-} 
-
-#service-image img {
-    width: 250px;
-    height: 250px;
-}
-
-#services ul {
-    width: auto;
-    max-width: 650px;
-    margin: auto;
-    word-break: break-word;
-}
-
-#services li {
-    margin-top: auto;
-    margin-left: 30%;
-    margin-right: 0;
-    margin-bottom: auto;
-    padding: 0;
-    text-align: left;
-    color: whitesmoke;
-    list-style: disc;
-    font-size: 1.6rem;
-    line-height: 2.2rem;
-}
-
-#service-info {
-    padding: 3%;
-    height: auto;
-    width: 70%;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    margin: auto;
-    background-color: #000000;
-    border-radius: 5pt;
-    z-index: -1;
-}
-
-#service-info h2 {
-    font-size: 2.5rem;
-    font-weight: 400;
-    color: whitesmoke;
-    margin: 1%;
-    margin-bottom: 3%;
-    padding: 1%;
-    text-align: center;
-    
-}
-
-#services .top {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    text-align: center;
-    margin: auto;
-    padding: 3%;
-}
-
-#services .top span {
-    cursor: pointer;
-    margin: auto;    
-}
-
-#services .top i {
-    color: #202020;
-} */
-
 #projects {
     display: grid;
     height: auto;
@@ -450,7 +344,7 @@ header a:focus {
 #skills {
     display: flexbox;
     text-align: center;
-    height: 100vh;
+    height: auto;
 }
 
 #skills h1 {

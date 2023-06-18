@@ -78,42 +78,6 @@
   margin-right: 0;
 }
 
-/* #services {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;  
-}
-
-#services h1 {
-  font-size: 2rem;
-}
-
-
-#service-image {
-  display: none;
-}
-
-#service-info {
-  padding: 1%;
-  margin: 1%;
-  width: 94%;
-}
-
-#service-info h2 {
-  font-size: 2rem;
-}
-
-#service-info ul {
-  margin-left: 10%;
-}
-
-#service-info li {
-  display: list-item;
-  text-align: justify;
-  margin: 1%;
-  padding: 3%;  
-}   */
-
 #projects {
   display: flex;
   flex-wrap: wrap;
@@ -153,7 +117,7 @@
 }
 
 #skills {
-  height: auto;
+ height: auto;
 }
 
 #skills li {
