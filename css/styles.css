@@ -115,6 +115,18 @@ header a:focus {
     display: flex;
     flex-wrap: wrap;
     height: auto;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-bottom: 8%;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: lightgrey;
+    background-color: #202020;
+    border-radius: 5pt;
+    /* height: 35vh; */
+    opacity: 0.8;
 }
 
 #about h1 {
@@ -148,7 +160,6 @@ header a:focus {
     margin-right: 8%;
     font-size: 1.8rem;
     line-height: 3.5rem;
-    /* word-break: break-word; */
 }
 
 #about .top {
@@ -163,7 +174,7 @@ header a:focus {
 }
 
 #about .top i {
-    color: #202020;
+    color: whitesmoke;
     font-weight: bold;
 }
 
@@ -353,7 +364,7 @@ header a:focus {
 }
 
 #projects .top i {
-    color: #202020;
+    color: whitesmoke;
     font-weight: bold;
 }
 
@@ -402,7 +413,7 @@ header a:focus {
 }
 
 #skills .top i {
-    color: #202020;
+    color: whitesmoke;
     font-weight: bold;
 }
 
@@ -504,7 +515,7 @@ header a:focus {
 }
 
 #contact .top i {
-    color: #202020;
+    color: whitesmoke;
     font-weight: bold;
 }
 
