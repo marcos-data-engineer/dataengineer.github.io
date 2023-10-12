@@ -19,6 +19,7 @@ body {
     background: linear-gradient(to right, #0f9b0f, #000000);
     background-image: url("/images/dataengineer2.jpg");
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
 }
 
@@ -235,6 +236,7 @@ header a:focus {
 
 #project-image-stocks img {
     height: 35vh;
+    opacity: 0.8;
 }
 
 #project-info-stocks {
@@ -257,6 +259,7 @@ header a:focus {
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
+    opacity: 0.8;
 }
 
 #project-image-condominium img {
@@ -283,10 +286,12 @@ header a:focus {
     grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 5;    
+    opacity: 0.8;
 }
 
 #project-image-blog img {
     height: 35vh;
+    opacity: 0.8;
 }
 
 #project-info-blog {
@@ -310,6 +315,7 @@ header a:focus {
     grid-column-end: 2;
     grid-row-start: 5;
     grid-row-end: 6;
+    opacity: 0.8;
 }
 
 #project-image-infoproducts img {
@@ -480,6 +486,7 @@ header a:focus {
     font-weight: 550;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: 0.5s ease all;
+    opacity: 0.8;
 }
 
 #contact-form button:hover {
@@ -537,6 +544,7 @@ footer .email p {
     background: #202020;
     box-shadow: 0 -2px 16px rgba(47, 54, 64, 0);
     transition: 400ms; 
+    opacity: 0.8;
 }
 
 .cookie-container p {
@@ -550,9 +558,10 @@ footer .email p {
     background: #f5f6fa;
     border: 0;
     color: #202020;
-    padding: 1%;
-    margin: auto;
+    padding: 0.3%;
+    margin: 0.3%;
     font-size: 1rem;
-    border-radius: 2pt;
+    border-radius: 1pt;
     cursor: pointer;
+    opacity: 0.8;
 }
