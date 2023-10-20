@@ -120,8 +120,8 @@ header a:focus {
     grid-row-start: 2;
     grid-row-end: 3;
     margin-bottom: 8%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     color: lightgrey;
     background-color: #202020;
     border-radius: 5pt;
@@ -135,29 +135,33 @@ header a:focus {
     font-weight: 600;
     padding: 2%;
     margin: auto;
-    text-decoration: underline;
-    text-decoration-style: wavy;
 }
+
 
 #about p {
     color: whitesmoke;
     text-indent: 15%;
     text-align: justify;
     word-spacing: 0;
-    padding: 5px;
     margin-top: 2%;
-    margin-left: 18%;
-    margin-right: 15%;
+    margin: auto;
+    padding: 3%;
     font-size: 2rem;
     word-break: break-word;
+}
+
+#about h2 {
+    color: whitesmoke;
+    font-weight: bolder;
+    margin-left: 3%;    
 }
 
 #about ul,li {
     color: whitesmoke;
     text-align: justify;
-    padding: 5px;
-    margin-left: 12%;
-    margin-right: 8%;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding: 0.5%;
     font-size: 1.8rem;
     line-height: 3.5rem;
 }
