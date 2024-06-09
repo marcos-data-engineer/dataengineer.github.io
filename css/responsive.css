@@ -88,6 +88,13 @@
   width: 100%;
 }
 
+ #project-info-lab-natty-or-not {
+  background-color: unset;
+  height: auto;
+  padding: 1%;
+  text-align: justify;
+}
+    
 #project-info-stocks {
   background-color: unset;
   height: auto;
