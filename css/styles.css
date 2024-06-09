@@ -242,19 +242,19 @@ header a:focus {
     text-align: center;
 }
 
-#project-image-stocks {
+#project-image-lab-natty-or-not {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
 }    
 
-#project-image-stocks img {
+#project-image-lab-natty-or-not img {
     height: 35vh;
     opacity: 0.8;
 }
 
-#project-info-stocks {
+#project-info-lab-natty-or-not {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -269,38 +269,11 @@ header a:focus {
     opacity: 0.8;
 }
 
-#project-image-condominium {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    opacity: 0.8;
-}
-
-#project-image-condominium img {
-    height: 35vh;
-}
-
-#project-info-condominium {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    margin-bottom: 10%;
-    margin-left: 3%;
-    margin-right: 3%;
-    color: lightgray;
-    background-color: #202020;
-    border-radius: 5pt;
-    height: 35vh;
-    opacity: 0.8;
-}
-
 #project-image-blog {
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 5;    
+    grid-row-start: 3;
+    grid-row-end: 4;    
     opacity: 0.8;
 }
 
@@ -313,8 +286,8 @@ header a:focus {
     padding: 1%;
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
     margin-bottom: 8%;
     margin-left: 3%;
     margin-right: 3%;
@@ -328,8 +301,8 @@ header a:focus {
 #project-image-infoproducts {
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
     opacity: 0.8;
 }
 
@@ -340,8 +313,8 @@ header a:focus {
 #project-info-infoproducts {
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
     margin-bottom: 3%;
     margin-left: 3%;
     margin-right: 3%;
@@ -352,13 +325,68 @@ header a:focus {
     opacity: 0.8;
 } 
 
-#projects .top {
+#project-image-stocks {
     grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}    
+
+#project-image-stocks img {
+    height: 35vh;
+    opacity: 0.8;
+}
+
+#project-info-stocks {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    margin-bottom: 8%;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: lightgrey;
+    background-color: #202020;
+    border-radius: 5pt;
+    height: 35vh;
+    opacity: 0.8;
+}
+
+#project-image-condominium {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    opacity: 0.8;
+}
+
+#project-image-condominium img {
+    height: 35vh;
+}
+
+#project-info-condominium {
+    grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 6;
     grid-row-end: 7;
+    margin-bottom: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: lightgray;
+    background-color: #202020;
+    border-radius: 5pt;
+    height: 35vh;
+    opacity: 0.8;
+}
+
+#projects .top {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 8;
     text-align: center;
     margin: auto;
+    margin-bottom: 5%;
     padding: 1%;
 }
 
