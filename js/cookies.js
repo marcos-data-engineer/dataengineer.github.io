@@ -14,4 +14,4 @@ setTimeout(() => {
 
 setTimeout(() => {
     cookieContainer.classList.remove("active")
-}, 5000);
+}, 10000);
