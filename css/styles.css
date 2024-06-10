@@ -255,6 +255,12 @@ header a:focus {
     opacity: 0.8;
 }
 
+#project-image-lab-natty-or-not a {
+    color: #202020;
+    padding: 1%;
+    margin: 1%;
+}
+
 #project-info-lab-natty-or-not {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -333,6 +339,12 @@ header a:focus {
     grid-row-end: 6;
 }    
 
+#project-image-stocks a {
+    color: #202020;
+    padding: 1%;
+    margin: 1%;
+}
+
 #project-image-stocks img {
     height: 35vh;
     opacity: 0.8;
@@ -363,6 +375,12 @@ header a:focus {
 
 #project-image-condominium img {
     height: 35vh;
+}
+
+#project-image-condominium a {
+    color: #202020;
+    padding: 1%;
+    margin: 1%;
 }
 
 #project-info-condominium {
