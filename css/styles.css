@@ -144,8 +144,9 @@ header a:focus {
     text-align: justify;
     word-spacing: 0;
     margin: auto;
-    margin-top: 2%;
-    padding: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
     font-size: 2rem;
     word-break: break-word;
 }
