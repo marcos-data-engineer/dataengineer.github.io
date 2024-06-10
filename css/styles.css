@@ -255,24 +255,6 @@ header a:focus {
     opacity: 0.8;
 }
 
-#project-image-lab-natty-or-not a {
-    color: #202020;
-    padding: 1%;
-    margin: 1%;
-}
-
-#project-image-lab-natty-or-not a:hover {
-    color: #0f9b0f;
-    text-decoration: none;
-    background: whitesmoke;
-    border-radius: 4px;
-}
-
-#project-image-lab-natty-or-not a:focus {
-    color: #0f9b0f;
-    text-decoration: none;
-}
-
 #project-info-lab-natty-or-not {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -286,6 +268,24 @@ header a:focus {
     border-radius: 5pt;
     height: 35vh;
     opacity: 0.8;
+}
+
+#project-info-lab-natty-or-not a {
+    color: #202020;
+    padding: 1%;
+    margin: 1%;
+}
+
+#project-info-lab-natty-or-not a:hover {
+    color: #0f9b0f;
+    text-decoration: none;
+    background: whitesmoke;
+    border-radius: 4px;
+}
+
+#project-info-lab-natty-or-not a:focus {
+    color: #0f9b0f;
+    text-decoration: none;
 }
 
 #project-image-blog {
@@ -351,24 +351,6 @@ header a:focus {
     grid-row-end: 6;
 }    
 
-#project-image-stocks a {
-    color: #202020;
-    padding: 1%;
-    margin: 1%;
-}
-
-#project-image-stocks a:hover {
-    color: #0f9b0f;
-    text-decoration: none;
-    background: whitesmoke;
-    border-radius: 4px;
-}
-
-#project-image-stocks a:focus {
-    color: #0f9b0f;
-    text-decoration: none;
-}
-
 #project-image-stocks img {
     height: 35vh;
     opacity: 0.8;
@@ -389,6 +371,24 @@ header a:focus {
     opacity: 0.8;
 }
 
+#project-info-stocks a {
+    color: #202020;
+    padding: 1%;
+    margin: 1%;
+}
+
+#project-info-stocks a:hover {
+    color: #0f9b0f;
+    text-decoration: none;
+    background: whitesmoke;
+    border-radius: 4px;
+}
+
+#project-info-stocks a:focus {
+    color: #0f9b0f;
+    text-decoration: none;
+}
+
 #project-image-condominium {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -399,24 +399,6 @@ header a:focus {
 
 #project-image-condominium img {
     height: 35vh;
-}
-
-#project-image-condominium a {
-    color: #202020;
-    padding: 1%;
-    margin: 1%;
-}
-
-#project-image-condominium a:hover {
-    color: #0f9b0f;
-    text-decoration: none;
-    background: whitesmoke;
-    border-radius: 4px;
-}
-
-#project-image-condominium a:focus {
-    color: #0f9b0f;
-    text-decoration: none;
 }
 
 #project-info-condominium {
@@ -432,6 +414,24 @@ header a:focus {
     border-radius: 5pt;
     height: 35vh;
     opacity: 0.8;
+}
+
+#project-info-condominium a {
+    color: #202020;
+    padding: 1%;
+    margin: 1%;
+}
+
+#project-info-condominium a:hover {
+    color: #0f9b0f;
+    text-decoration: none;
+    background: whitesmoke;
+    border-radius: 4px;
+}
+
+#project-info-condominium a:focus {
+    color: #0f9b0f;
+    text-decoration: none;
 }
 
 #projects .top {
