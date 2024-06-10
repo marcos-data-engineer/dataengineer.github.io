@@ -261,6 +261,18 @@ header a:focus {
     margin: 1%;
 }
 
+#project-image-lab-natty-or-not a:hover {
+    color: #0f9b0f;
+    text-decoration: none;
+    background: whitesmoke;
+    border-radius: 4px;
+}
+
+#project-image-lab-natty-or-not a:focus {
+    color: #0f9b0f;
+    text-decoration: none;
+}
+
 #project-info-lab-natty-or-not {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -345,6 +357,18 @@ header a:focus {
     margin: 1%;
 }
 
+#project-image-stocks a:hover {
+    color: #0f9b0f;
+    text-decoration: none;
+    background: whitesmoke;
+    border-radius: 4px;
+}
+
+#project-image-stocks a:focus {
+    color: #0f9b0f;
+    text-decoration: none;
+}
+
 #project-image-stocks img {
     height: 35vh;
     opacity: 0.8;
@@ -381,6 +405,18 @@ header a:focus {
     color: #202020;
     padding: 1%;
     margin: 1%;
+}
+
+#project-image-condominium a:hover {
+    color: #0f9b0f;
+    text-decoration: none;
+    background: whitesmoke;
+    border-radius: 4px;
+}
+
+#project-image-condominium a:focus {
+    color: #0f9b0f;
+    text-decoration: none;
 }
 
 #project-info-condominium {
