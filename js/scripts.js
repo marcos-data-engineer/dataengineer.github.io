@@ -24,7 +24,7 @@
     });
 
     //Scroll to top
-    $('#to-top').click(function() {
+    $('#to-top1').click(function() {
         $('html, body').animate({
             scrollTop: 0
         }, 500);
@@ -45,6 +45,16 @@
         }, 500);
     });
     $('#to-top5').click(function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 500);
+    });
+    $('#to-top6').click(function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 500);
+    });
+    $('#to-top7').click(function() {
         $('html, body').animate({
             scrollTop: 0
         }, 500);
