@@ -151,6 +151,16 @@ header a:focus {
     word-break: break-word;
 }
 
+#about span {
+    color: whitesmoke;
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+    font-size: 2rem;
+}
+
 #about h2 {
     color: whitesmoke;
     font-weight: bolder;
