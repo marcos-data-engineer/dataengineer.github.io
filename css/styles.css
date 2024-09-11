@@ -112,7 +112,7 @@ header a:focus {
 }
 
 #about {
-    display: flex;
+    display: flexbox;
     flex-wrap: wrap;
     height: auto;
     grid-column-start: 2;
@@ -125,7 +125,6 @@ header a:focus {
     color: lightgrey;
     background-color: #202020;
     border-radius: 5pt;
-    /* height: 35vh; */
     opacity: 0.8;
 }
 
@@ -154,12 +153,10 @@ header a:focus {
 #about span {
     color: whitesmoke;
     text-align: left;
-    font-size: 2rem;
     margin-top: 1%;
     margin-bottom: 1%;
     padding: 1%;
-    font-size: 2rem;
-}
+}    
 
 #about h2 {
     color: whitesmoke;
