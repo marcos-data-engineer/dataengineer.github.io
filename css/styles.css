@@ -112,8 +112,10 @@ header a:focus {
 }
 
 #about {
-    display: flexbox;
-    flex-wrap: wrap;
+    display: flex; /* Correct way to use flexbox */
+    flex-direction: column; /* Stacks content vertically */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
     height: auto;
     grid-column-start: 2;
     grid-column-end: 3;
@@ -126,6 +128,7 @@ header a:focus {
     background-color: #202020;
     border-radius: 5pt;
     opacity: 0.8;
+    text-align: center; /* Ensure text is centered */
 }
 
 #about h1 {
@@ -152,7 +155,8 @@ header a:focus {
 
 #about span {
     color: whitesmoke;
-    text-align: left;
+    justify-content: left; /* Horizontally center the content */
+    align-items: left;
     margin-top: 1%;
     margin-bottom: 1%;
     padding: 1%;
