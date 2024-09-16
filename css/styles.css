@@ -21,6 +21,17 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    /* margin-top: 50px; Offset to avoid the widget covering content */
+}
+
+#google_translate_element {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
 }
 
 /* menu */
@@ -114,21 +125,21 @@ header a:focus {
 #about {
     display: flex; /* Correct way to use flexbox */
     flex-direction: column; /* Stacks content vertically */
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
+    justify-content: left; /* Horizontally center the content */
+    align-items: left; /* Vertically center the content */
     height: auto;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
-    margin-bottom: 8%;
+    margin-bottom: 1%;
     margin-left: 15%;
     margin-right: 15%;
     color: lightgrey;
     background-color: #202020;
     border-radius: 5pt;
     opacity: 0.8;
-    text-align: center; /* Ensure text is centered */
+    /* text-align: left; Ensure text is centered */
 }
 
 #about h1 {
@@ -142,10 +153,11 @@ header a:focus {
 
 #about p {
     color: whitesmoke;
-    text-indent: 15%;
+    text-indent: 10%;
     text-align: justify;
     word-spacing: 0;
-    margin: auto;
+    margin-right: 5%;
+    margin-left: 5%;
     margin-top: 1%;
     margin-bottom: 1%;
     padding: 1%;
@@ -160,6 +172,7 @@ header a:focus {
     margin-top: 1%;
     margin-bottom: 1%;
     padding: 1%;
+    text-indent: 5%;
 }    
 
 #about h2 {
