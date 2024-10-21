@@ -308,65 +308,9 @@ header a:focus {
 }
 
 #project-info-lab-natty-or-not a:focus {
-    color: #0f9b0f;
+    color: #202020;
     text-decoration: none;
 }
-
-#project-image-blog {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4;    
-    opacity: 0.8;
-}
-
-#project-image-blog img {
-    height: 35vh;
-    opacity: 0.8;
-}
-
-#project-info-blog {
-    padding: 1%;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    margin-bottom: 8%;
-    margin-left: 3%;
-    margin-right: 3%;
-    color: lightgray;
-    height: 35vh;
-    background-color: #202020;
-    border-radius: 5pt;
-    opacity: 0.8;
-}
-
-#project-image-infoproducts {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    opacity: 0.8;
-}
-
-#project-image-infoproducts img {
-    height: 35vh;
-}
-
-#project-info-infoproducts {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    margin-bottom: 3%;
-    margin-left: 3%;
-    margin-right: 3%;
-    color: lightgrey;
-    height: 35vh;
-    background-color: #202020;
-    border-radius: 5pt;
-    opacity: 0.8;
-} 
 
 #project-image-stocks {
     grid-column-start: 1;
@@ -409,7 +353,7 @@ header a:focus {
 }
 
 #project-info-stocks a:focus {
-    color: #0f9b0f;
+    color: #202020;
     text-decoration: none;
 }
 
@@ -454,7 +398,7 @@ header a:focus {
 }
 
 #project-info-condominium a:focus {
-    color: #0f9b0f;
+    color: #202020;
     text-decoration: none;
 }
 
