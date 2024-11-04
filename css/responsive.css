@@ -27,7 +27,7 @@
     border: none;
     cursor: pointer;
   }
-     
+    
   #itens ul, li {
     display: flex;
     flex-direction: column;
@@ -42,7 +42,7 @@
     color: #fff;
     text-decoration: none;
   }
- 
+
 }
 
 /* mobile devices portrait */
@@ -57,7 +57,7 @@
   padding: 1%;
 }
 
-#about h1 {
+#about h2 {
   font-size: 2rem;
 }
 
