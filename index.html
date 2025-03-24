@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XSYDD7JPNQ"></script>
@@ -61,14 +62,53 @@
 
 <body>
 
-<!-- Google Translate Widget -->
 <div id="google_translate_element"></div>
 
-<script type="text/javascript">
+<!-- Custom Mobile Language Switcher (Hidden on Desktop) -->
+<select id="custom-language-switcher" class="mobile-only">
+    <option value="en">English</option>
+    <option value="es">Spanish</option>
+    <option value="fr">French</option>
+    <!-- Add more languages as needed -->
+</select>
+
+<script>
     function googleTranslateElementInit() {
-        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        new google.translate.TranslateElement(
+            { pageLanguage: 'en' },
+            'google_translate_element'
+        );
     }
+
+    // Custom language switcher for mobile
+    document.getElementById('custom-language-switcher').addEventListener('change', function(e) {
+        var lang = e.target.value;
+        var googleTranslate = document.querySelector('.goog-te-combo');
+        if (googleTranslate) {
+            googleTranslate.value = lang;
+            googleTranslate.dispatchEvent(new Event('change'));
+        }
+    });
 </script>
+
+<style>
+    /* Hide default Google Translate on mobile */
+    @media (max-width: 767px) {
+        #google_translate_element {
+            display: none !important;
+        }
+        .mobile-only {
+            display: block;
+        }
+    }
+
+    /* Hide custom switcher on desktop */
+    @media (min-width: 768px) {
+        .mobile-only {
+            display: none !important;
+        }
+    }
+</style>
 
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
@@ -101,8 +141,37 @@
 </header>
 <!-- End header -->
 
+<!-- <div class="mobile-menu-icon">
+    <span class="material-symbols-outlined" onclick="clickMenu()"></span>
+</div> -->
+
 <div class="mobile-menu-icon">
-    <span class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+    <span class="material-symbols-outlined" onclick="clickMenu()">Menu</span>
+</div>
+
+<div class="mobile-menu">
+    <span class="close-btn material-symbols-outlined" onclick="clickMenu()">close</span>
+    <ul id="itens">
+        <li>
+            <a href="#about">About</a>
+        </li>
+        
+        <li>
+            <a href="https://marcos-data-engineer.github.io/blog/" target="_blank" title="Visit my blog">Blog</a>
+        </li>
+
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+        
+        <li>
+            <a href="#skills">Skills</a>
+        </li>
+    </ul>
 </div>
 
 <div class="mobile-menu">
@@ -126,7 +195,7 @@
         <li>
             <a href="#skills">Skills</a>
         </li>
-</ul>
+    </ul>
 </div>
 
 <div class="home">

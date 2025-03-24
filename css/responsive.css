@@ -1,32 +1,57 @@
+@media (max-width: 767px) {
 /* hamburguer menu */
-@media (max-width: 1024px) {
-.material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 5%;
-    margin-right: 20%;
-    color: whitesmoke;
-    cursor: pointer;  
-  }
+/* Mobile menu icon (positioned to the right) */
+.mobile-menu-icon {
+  display: none; /* Hidden by default (visible only on mobile) */
+  cursor: pointer;
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Pushes it to the far right */
+  z-index: 1000; /* Ensures it stays above other elements */
+}
 
-  header {
-    display: none;
-  }
-
+/* Show the hamburger icon only on mobile */
+@media (max-width: 767px) {
   .mobile-menu-icon {
-    display: block;
+      display: block;
   }
 
-  .mobile-menu-icon button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
+  /* Hide desktop navigation */
+  header nav {
+      display: none;
   }
+}
+
+/* Mobile menu styling (slides in from the right) */
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0; /* Aligns menu to the right */
+  width: 70%; /* Adjust width as needed */
+  height: 100vh;
+  background: #333; /* Dark background */
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  transform: translateX(100%); /* Starts off-screen */
+  transition: transform 0.3s ease;
+}
+
+/* When menu is open */
+.mobile-menu.open {
+  display: block;
+  transform: translateX(0); /* Slides in from the right */
+}
+
+/* Close button (optional) */
+.mobile-menu .close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  cursor: pointer;
+}
     
   #itens ul, li {
     display: flex;
