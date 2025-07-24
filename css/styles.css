@@ -40,7 +40,7 @@ header {
     left: 0;
     right: 0;
     margin-top: 1%;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 header ul {
@@ -50,7 +50,7 @@ header ul {
     align-content: center;
     align-items: center;
     text-align: center;
-    background: whitesmoke;
+    background: transparent;
     margin: auto 35%;
     padding: 1%;
     border-radius: 15px;
@@ -61,15 +61,15 @@ header li {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    font-size: 1.8rem;
-    margin: 0;
-    padding: 1%;
+    font-size: 2.2rem;
+    margin: auto;
+    padding: auto;
     }
 
 header a {
-    color: #202020;
-    padding: 1%;
-    margin: 1%;
+    color: whitesmoke;
+    padding: auto;
+    margin: auto
 }
 
 header a:hover {
@@ -120,6 +120,14 @@ header a:focus {
     color: whitesmoke;
     font-size: 3em;
     margin-top: 35vh;
+}
+
+.home h2 {
+    height: 100vh;
+    color: #f2f2f2;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 1%;
 }
 
 #about {
