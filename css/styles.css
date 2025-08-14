@@ -12,9 +12,26 @@ html {
 }
 
 body {
+  font-family: "Chivo Mono", sans-serif;
+  font-size: 1.6rem;
+  /* Combine o gradient e a imagem na mesma linha */
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("/images/dataengineer2.jpg");
+  
+  /* Mantém as outras propriedades da imagem de fundo */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+  /* Você pode remover as linhas de background antigas */
+  /* background: #000000; */
+  /* background: -webkit-linear-gradient(to right, #0f9b0f, #000000); */
+  /* background: linear-gradient(to right, #0f9b0f, #000000); */
+}
+
+/* body {
     font-family: "Chivo Mono", sans-serif;
     font-size: 1.6rem;
-    background: #000000;
+    background: #000000; */
     background: -webkit-linear-gradient(to right, #0f9b0f, #000000);
     background: linear-gradient(to right, #0f9b0f, #000000);
     background-image: url("/images/dataengineer2.jpg");
@@ -22,7 +39,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     /* margin-top: 50px; Offset to avoid the widget covering content */
-}
+} */
 
 #google_translate_element {
     position: fixed;
@@ -130,6 +147,10 @@ header a:focus {
     margin-top: 1%;
     margin-left: 30%;
     margin-right: 30%;
+}
+
+.home a {
+    color: rgb(60, 241, 5);
 }
 
 #about {
