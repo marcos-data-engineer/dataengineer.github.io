@@ -5,8 +5,8 @@
   display: none; /* Hidden by default (visible only on mobile) */
   cursor: pointer;
   position: absolute;
-  top: 20px; /* Adjust as needed */
-  right: 20px; /* Pushes it to the far right */
+  top: 1%; /* Adjust as needed */
+  right: 5%; /* Pushes it to the far right */
   z-index: 1000; /* Ensures it stays above other elements */
 }
 
@@ -26,9 +26,9 @@
 .mobile-menu {
   display: none;
   position: fixed;
-  top: 0;
-  right: 0; /* Aligns menu to the right */
-  width: 70%; /* Adjust width as needed */
+  top: 10%;
+  right: 10%; /* Aligns menu to the right */
+  width: 65%; /* Adjust width as needed */
   height: 100vh;
   background: #333; /* Dark background */
   padding: 20px;
@@ -47,8 +47,8 @@
 /* Close button (optional) */
 .mobile-menu .close-btn {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 0;
+  right: 1%;
   color: white;
   cursor: pointer;
 }
@@ -59,13 +59,12 @@
     align-items: center;
     padding: 0;
     margin: 0;
-    font-size: 2rem;
-    line-height: 5rem;
-  }
+    }
   
   #itens a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.5rem;
   }
 
 }
@@ -74,12 +73,19 @@
 @media (min-width: 320px) and (max-width: 1024px) {
 
 .home h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
+}
+
+.home h2 {
+  font-size: 1.5rem;
+  margin: auto;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 #about {
-  margin: 4%;
-  padding: 1%;
+  margin: 3%;
+  padding: auto;
 }
 
 #about h2 {
@@ -87,7 +93,7 @@
 }
 
 #about p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 1%;
   margin-bottom: 1;
   padding-bottom: 1%;
@@ -95,18 +101,48 @@
 }
 
 #about ul, li {
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.3rem;
+  line-height: 1rem;
   padding-bottom: 2%;
   text-align: justify;
   margin-left: 1%;
-  margin-right: 0;
+  margin-right: 1%;
+}
+
+#about span {
+  margin-left: 0;
+  color: greenyellow;
+  
+}
+
+#about a {
+  word-wrap: break-word;
+  margin-left: 1%;
+  margin-right: 1%;
+  font-size: 1.2rem;
 }
 
 #projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; 
+  font-size: 1.5rem;
+}
+
+#projects h2 {
+  font-size: 2rem;
+}
+
+#projects h3 {
+  font-size: 1.4rem;
+}
+
+#projects a {
+  font-size: 1.2rem;
+}
+
+#projects p {
+  font-size: 1.3rem;
 }
 
 #projects-title {
@@ -149,23 +185,32 @@
 }
 
 #skills {
- height: auto;
+  height: auto;
+}
+
+#skills h2 {
+  font-size: 2rem;
 }
 
 #skills li {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 1%;
   padding: 10px 15px;
+}
+
+#contact h2 {
+  font-size: 2rem;
 }
 
 #contact-form {
   margin-left: 5%;
   margin-right: 5%;
+  font-size: 1.3rem;
 }
 
 footer {
   flex-wrap: wrap;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin: 0;
   padding: 0;
 }
