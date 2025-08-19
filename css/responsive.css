@@ -27,7 +27,7 @@
   display: none;
   position: fixed;
   top: 10%;
-  right: 10%; /* Aligns menu to the right */
+  right: 5%; /* Aligns menu to the right */
   width: 65%; /* Adjust width as needed */
   height: 100vh;
   background: #333; /* Dark background */
@@ -57,7 +57,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0;
+    padding: 20%;
     margin: 0;
     }
   
