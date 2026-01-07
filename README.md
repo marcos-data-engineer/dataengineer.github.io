@@ -2,7 +2,11 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-> Template de portfólio estático pronto para GitHub Pages — leve, responsivo e fácil de customizar. Este repositório contém HTML, CSS (Sass), JavaScript e assets para você montar seu portfólio pessoal.
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/marcos-data-engineer) [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcos-data-engineer) [![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/dataengineer.jobs) [![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCyNq6Jt-P3L2oPkV1qUtXaA)
+
+> Template de portfólio estático para GitHub Pages — leve, responsivo e de fácil personalização. Este repositório contém HTML, CSS (Sass), JavaScript e assets necessários para a construção de um portfólio pessoal.
+>
+> Se desejar apoiar o projeto, considere seguir o autor no GitHub e avaliar o repositório com uma estrela.
 
 ---
 
@@ -21,9 +25,9 @@
 
 ## Sobre
 
-Site estático de portfólio (template) pensado para profissionais que desejam apresentar experiência, projetos e contato de forma simples e elegante.
+Site estático de portfólio (template) desenvolvido para profissionais que desejam apresentar experiência, projetos e informações de contato de forma clara e elegante.
 
-Não esqueça de me seguir e clicar na estrela.
+Considere seguir o perfil no GitHub e avaliar o repositório com uma estrela.
 
 ## Funcionalidades principais
 
@@ -38,7 +42,7 @@ O site está disponível para visualação em: https://dataengineer.net.br e ref
 
 ---
 
-## Rodando localmente 🧭
+## Execução local
 
 Pré-requisitos: Node.js e npm instalados.
 
@@ -69,7 +73,7 @@ Dica: Para gerar versões finais otimizadas, rode o script de build (se existir)
 
 ---
 
-## Como personalizar ✍️
+## Personalização
 
 - Cores: edite as variáveis no arquivo Sass (ex.: `$base-color`, `$background`).
 - Seções: adicione/remoção seções no `index.html` e mantenha ids consistentes para navegação.
@@ -112,9 +116,21 @@ Este projeto está licenciado sob a licença MIT — consulte o arquivo `LICENSE
 
 ---
 
-## Contato ✉️
+## Contato
 
-Se quiser, adicione seu e-mail e links das suas redes (GitHub, LinkedIn, Twitter) na seção de rodapé do site para facilitar contato.
+Para assuntos profissionais, utilize o formulário de contato disponível no site ou envie um e‑mail para: <contact@dataengineer.net.br>. Também é possível conectar‑se pelo perfil no GitHub ou no LinkedIn.
 
 
 ---
+
+## Créditos e agradecimentos
+
+Caso este projeto seja utilizado como base para outro portfólio, solicita‑se a inclusão de créditos mencionando este repositório.
+
+Apoios e contribuições são bem‑vindos — seguir o perfil no GitHub e avaliar o repositório com uma estrela é uma forma simples de apoiar o projeto.
+
+**Siga o autor:**
+
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/marcos-data-engineer) [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcos-data-engineer) [![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/dataengineer.jobs) [![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCyNq6Jt-P3L2oPkV1qUtXaA)
+
+
