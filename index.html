@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="robots" content="index, follow">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Google Search Console -->
-    <meta name="google-site-verification" content="brEs0opbGfoyXUoOQ8QALewYvIIMnxyTlrILvkj-PdE" />
+    <meta name="google-site-verification" 
+          content="brEs0opbGfoyXUoOQ8QALewYvIIMnxyTlrILvkj-PdE" />
 
     <title>Portifólio do Marcos</title>
 
-    <meta name="description" content="Experienced Data Engineer with expertise in designing cloud-based data pipelines and real-time analytics solutions. Proficient in SQL, Python, Spark, Kafka, and AWS Cloud Computing.">
+    <meta name="description" 
+          content="Experienced Data Engineer with expertise in designing 
+                   cloud-based data pipelines and real-time analytics 
+                   solutions. Proficient in SQL, Python, Spark, Kafka, 
+                   and AWS Cloud Computing.">
 
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Marcos Data Engineer Portfolio">
-    <meta property="og:description" content="Experienced Data Engineer with expertise in designing cloud-based data pipelines and real-time analytics solutions.">
-    <meta property="og:image" content="https://dataengineer.net.br/images/dataengineer2.jpg">
+    <meta property="og:title" 
+          content="Marcos Data Engineer Portfolio">
+    <meta property="og:description" 
+          content="Experienced Data Engineer with expertise in designing 
+                   cloud-based data pipelines and real-time analytics 
+                   solutions.">
+    <meta property="og:image" 
+          content="https://dataengineer.net.br/images/dataengineer2.jpg">
     <meta property="og:url" content="https://dataengineer.net.br">
     <meta name="twitter:card" content="summary_large_image">
 
@@ -25,301 +34,411 @@
     <link rel="canonical" href="https://dataengineer.net.br/">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    
+    <link rel="shortcut icon" href="favicon.ico" 
+          type="image/x-icon">
+
     <!-- Fonts and Stylesheets -->
-    <link href="https://fonts.googleapis.com/css?family=Chivo+Mono:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chivo+Mono:300,400,700,900" 
+          rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" 
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+          crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" 
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XSYDD7JPNQ"></script>
+    <script async 
+            src="https://www.googletagmanager.com/gtag/js?id=G-XSYDD7JPNQ"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'G-XSYDD7JPNQ');
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-XSYDD7JPNQ');
     </script>
 
     <!-- Tawk.to Live Chat Script -->
     <script type="text/javascript">
-        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-        (function () {
-            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/614f55b3d326717cb6835029/1fgeudh8b';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
+      var Tawk_API = Tawk_API || {}, 
+          Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"), 
+            s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/614f55b3d326717cb6835029/1fgeudh8b';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+      })();
     </script>
-</head>
+  </head>
 
-<body>
+  <body>
+    <div id="google_translate_element"></div>
 
-<div id="google_translate_element"></div>
+    <!-- Custom Mobile Language Switcher (Hidden on Desktop) -->
+    <select id="custom-language-switcher" class="mobile-only">
+      <option value="en">English</option>
+      <option value="es">Spanish</option>
+      <option value="fr">French</option>
+      <!-- Add more languages as needed -->
+    </select>
 
-<!-- Custom Mobile Language Switcher (Hidden on Desktop) -->
-<select id="custom-language-switcher" class="mobile-only">
-    <option value="en">English</option>
-    <option value="es">Spanish</option>
-    <option value="fr">French</option>
-    <!-- Add more languages as needed -->
-</select>
-
-<script>
-    function googleTranslateElementInit() {
+    <script>
+      function googleTranslateElementInit() {
         new google.translate.TranslateElement(
-            { pageLanguage: 'pt-br' },
-            'google_translate_element'
+          { pageLanguage: 'pt-br' },
+          'google_translate_element'
         );
-    }
+      }
 
-    // Custom language switcher for mobile
-    document.getElementById('custom-language-switcher').addEventListener('change', function(e) {
+      // Custom language switcher for mobile
+      var switcher = document.getElementById(
+        'custom-language-switcher'
+      );
+      switcher.addEventListener('change', function(e) {
         var lang = e.target.value;
-        var googleTranslate = document.querySelector('.goog-te-combo');
+        var googleTranslate = document.querySelector(
+          '.goog-te-combo'
+        );
         if (googleTranslate) {
-            googleTranslate.value = lang;
-            googleTranslate.dispatchEvent(new Event('change'));
+          googleTranslate.value = lang;
+          googleTranslate.dispatchEvent(new Event('change'));
         }
-    });
-</script>
+      });
+    </script>
 
-<style>
-    /* Hide default Google Translate on mobile */
-    @media (max-width: 767px) {
+    <style>
+      /* Hide default Google Translate on mobile */
+      @media (max-width: 767px) {
         #google_translate_element {
-            display: none !important;
+          display: none !important;
         }
         .mobile-only {
-            display: block;
+          display: block;
         }
-    }
+      }
 
-    /* Hide custom switcher on desktop */
-    @media (min-width: 768px) {
+      /* Hide custom switcher on desktop */
+      @media (min-width: 768px) {
         .mobile-only {
-            display: none !important;
+          display: none !important;
         }
-    }
-</style>
+      }
+    </style>
 
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" 
+            src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-<!-- Your website content here -->
+    <!-- Your website content here -->
 
-<header>
-    <nav>
+    <header>
+      <nav>
         <ul>
-            <li>
-                <a href="#about">Sobre</a>
-            </li>
-            
-            <li>
-                <a href="https://blog.dataengineer.net.br/" target="_blank" title="Visite meu blog">Blog</a>
-            </li>
+          
 
-            <li>
-                <a href="#contact">Contato</a>
-            </li>
+          <!-- <li>
+            <a href="https://blog.dataengineer.net.br/" 
+               target="_blank" 
+               title="Visite meu blog">Blog</a>
+          </li> -->
 
-            <li>
-                <a href="#projects">Projetos</a>
-            </li>
-            
-            <li>
-                <a href="#skills">Habilidades</a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<!-- End header -->
+          
 
-<!-- <div class="mobile-menu-icon">
-    <span class="material-symbols-outlined" onclick="clickMenu()"></span>
-</div> -->
-
-<div class="mobile-menu-icon">
-    <span class="material-symbols-outlined" onclick="clickMenu()">Menu</span>
-</div>
-
-<div class="mobile-menu">
-    <span class="close-btn material-symbols-outlined" onclick="clickMenu()">close</span>
-    <ul id="itens">
-        <li>
-            <a href="#about">Sobre</a>
-        </li>
-        
-        <li>
-            <a href="https://marcos-data-engineer.github.io/blog/" target="_blank" title="Visit my blog">Blog</a>
-        </li>
-
-        <li>
-            <a href="#contact">Contato</a>
-        </li>
-
-        <li>
+          <li>
             <a href="#projects">Projetos</a>
-        </li>
-        
-        <li>
+          </li>
+
+          <li>
             <a href="#skills">Habilidades</a>
+          </li>
+
+          <li>
+            <a href="#about">Sobre</a>
+          </li>
+
+          <li>
+            <a href="#contact">Contato</a>
+          </li>
+
+        </ul>
+      </nav>
+    </header>
+    <!-- End header -->
+
+    <div class="mobile-menu-icon">
+      <span class="material-symbols-outlined" 
+            onclick="clickMenu()">Menu</span>
+    </div>
+
+    <div class="mobile-menu">
+      <span class="close-btn material-symbols-outlined" 
+            onclick="clickMenu()">close</span>
+      <ul id="itens">
+        <li>
+          <a href="#about">Sobre</a>
         </li>
-    </ul>
-</div>
 
-<div class="home">
-    <h1>Olá! Me chamo Marcos Vasconcellos de Andrade.</h1>
+        <li>
+          <a href="https://marcos-data-engineer.github.io/blog/" 
+             target="_blank" 
+             title="Visit my blog">Blog</a>
+        </li>
 
-    <h2>
-    Seja bem-vindo a minha página pessoal e te convido a visitar o meu blog em <a href="https://blog.dataengineer.net.br" target="_blank">blog.dataengineer.net.br</a>
-    para uma exploração aprofundada de como a inteligência artificial está transformando o nosso mundo.
-    </h2>
+        <li>
+          <a href="#contact">Contato</a>
+        </li>
 
-    <!-- cookies accept police -->
-    <div class="cookie-container">
+        <li>
+          <a href="#projects">Projetos</a>
+        </li>
+
+        <li>
+          <a href="#skills">Habilidades</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="home">
+      <h1>Olá! Me chamo Marcos Vasconcellos de Andrade.</h1>
+
+      <h2>Seja bem-vindo ao meu portfólio profissional!</h2>
+
+      <!-- cookies accept police -->
+      <div class="cookie-container">
         <p>
-            Observe que em nosso site usamos cookies necessários para oferecer a melhor experiência
-            e exibir anúncios relevantes. Se você continuar navegando, consideraremos que aceita
-            seu uso. Por favor, aceite os cookies para garantir o melhor desempenho.
-            <b>Você não será solicitado novamente!</b>
+          Observe que em nosso site usamos cookies necessários 
+          para oferecer a melhor experiência e exibir anúncios 
+          relevantes. Se você continuar navegando, 
+          consideraremos que aceita seu uso. Por favor, aceite 
+          os cookies para garantir o melhor desempenho.
+          <b>Você não será solicitado novamente!</b>
         </p>
 
         <a href="https://google.com/">
-            <button class="btn btn-secondary">
-                Fechar esta janela
-            </button>
+          <button class="btn btn-secondary">
+            Fechar esta janela
+          </button>
         </a>
 
         <button class="cookie-btn">
-            Sim, eu aceito os cookies
+          Sim, eu aceito os cookies
         </button>
+      </div>
     </div>
-</div>
     <!-- End #home -->
 
     <div id="about">
+      <h2>Sobre mim</h2>
 
-        <h2>Sobre mim</h2>
+      <p>
+        Meu interesse por tecnologia começou nos meados da 
+        década de 1990, quando tive meu primeiro contato com 
+        sistemas DOS e Linux. Ao longo dos anos, aprofundei meu 
+        conhecimento em várias distribuições, como CentOS, 
+        Debian e Ubuntu, atuando em administração de servidores 
+        Linux, redes e suporte a usuários até 2015.
+      </p>
 
+      <p>
+        Em 2020, concluí a graduação em Tecnologia em Sistemas 
+        para Internet no Instituto Federal de Brasília (IFB), 
+        onde adquiri proficiência em Java, Node.js, SQL e outras 
+        ferramentas de desenvolvimento.
+      </p>
+
+      <p>
+        Após a graduação, meu interesse por dados e inteligência 
+        artificial me levou a uma pós-graduação em Engenharia e 
+        Arquitetura de Dados, com dupla certificação em 
+        Inteligência Artificial, concluída no final de 2024, na 
+        XP Educação. Durante essa especialização, explorei 
+        tecnologias como Apache Spark, Apache Airflow, Python, 
+        SQL, pipelines de dados, IA generativa e agentes de IA.
+      </p>
+
+      <p>
+        Atualmente, continuo me especializando por meio de 
+        cursos e bootcamps nas áreas de dados e IA.
+      </p>
+
+      <p>
+        Embora não esteja ativamente procurando por uma nova 
+        posição, estou aberto a considerar oportunidades de 
+        trabalho <strong>REMOTAS</strong>, preferencialmente. 
+        Tenho interesse especial nas áreas de dados e IA, mas 
+        também estou aberto a funções nas minhas áreas de 
+        atuação anteriores, como Linux por exemplo.
+      </p>
+
+      <p>
+        Como hobby, gosto de estudar idiomas e acredito estar 
+        nos seguintes níveis:
+      </p>
+
+      <ul>
+        <li>Inglês e Espanhol: B1</li>
+        <li>Francês e Italiano: A1</li>
+      </ul>
+
+      <p>
+        Estou sempre aberto a conectar-me, trocar ideias e 
+        colaborar - especialmente se for algo interessante 
+        relacionado a IA ou dados.
+      </p>
+
+      <span>
+        <b>Vamos nos conectar?</b>
+      </span>
+
+      <span>
         <p>
-            Meu interesse por tecnologia começou nos meados da década de 1990, quando tive meu primeiro contato com sistemas DOS e Linux. Ao longo dos anos, aprofundei meu conhecimento em várias distribuições, como CentOS, Debian e Ubuntu, atuando em administração de servidores Linux, redes e suporte a usuários até 2015.
+          <a href="https://github.com/marcos-data-engineer" 
+             target="_blank" 
+             aria-label="GitHub"><img 
+             src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" 
+             alt="GitHub" /></a>
+          <a href="https://www.linkedin.com/in/marcos-data-engineer" 
+             target="_blank" 
+             aria-label="LinkedIn"><img 
+             src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" 
+             alt="LinkedIn" /></a>
+          <a href="https://instagram.com/dataengineer.jobs" 
+             target="_blank" 
+             aria-label="Instagram"><img 
+             src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" 
+             alt="Instagram" /></a>
+          <a href="https://www.youtube.com/channel/UCyNq6Jt-P3L2oPkV1qUtXaA" 
+             target="_blank" 
+             aria-label="YouTube"><img 
+             src="https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" 
+             alt="YouTube" /></a>
         </p>
+      </span>
 
-        <p>
-            Em 2020, concluí a graduação em Tecnologia em Sistemas para Internet no Instituto Federal de Brasília (IFB), onde adquiri proficiência em Java, Node.js, SQL e outras ferramentas de desenvolvimento.
-        </p>
-
-        <p>
-            Após a graduação, meu interesse por dados e inteligência artificial me levou a uma pós-graduação em Engenharia e Arquitetura de Dados, com dupla certificação em Inteligência Artificial, concluída no final de 2024, na XP Educação. Durante essa especialização, explorei tecnologias como Apache Spark, Apache Airflow, Python, SQL, pipelines de dados, IA generativa e agentes de IA.
-        </p>
-
-        <p>
-            Atualmente, continuo me especializando por meio de cursos e bootcamps nas áreas de dados e IA. Também trabalho em um projeto pessoal que é um blog sobre IA (<a href="http://blog.dataengineer.net.br" target="_blank">blog.dataengineer.net.br</a>), um projeto open-source e sem custo com assuntos e tendências sobre Inteligência Artificial e seu impacto na sociedade.
-        </p>
-
-        <p>
-            Embora não esteja ativamente procurando por uma nova posição, estou aberto a considerar oportunidades de trabalho <strong>REMOTAS</strong>, preferencialmente. Tenho interesse especial nas áreas de dados e IA, mas também estou aberto a funções nas minhas áreas de atuação anteriores, como Linux por exemplo.
-        </p>
-
-        <p>
-            Como hobby, gosto de estudar idiomas e acredito estar nos seguintes níveis:
-        </p>
-
-        <ul>
-            <li>Inglês e Espanhol: B1</li>
-            <li>Francês e Italiano: A1</li>
-        </ul>
-
-        <p>
-            Estou sempre aberto a conectar-me, trocar ideias e colaborar - especialmente se for algo interessante relacionado a IA ou dados.
-        </p>
-
-        <span>
-            <b>Vamos nos conectar?</b>
+      <div class="col-sm-2 top">
+        <span id="to-top4">
+          <i class="fa fa-chevron-up" aria-hidden="true"></i>
         </span>
+      </div>
+    </div>
 
-        <span>
-        <p>
-            <a href="https://github.com/marcos-data-engineer" target="_blank" aria-label="GitHub"><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-            <a href="https://www.linkedin.com/in/marcos-data-engineer" target="_blank" aria-label="LinkedIn"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-            <a href="https://instagram.com/dataengineer.jobs" target="_blank" aria-label="Instagram"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-            <a href="https://www.youtube.com/channel/UCyNq6Jt-P3L2oPkV1qUtXaA" target="_blank" aria-label="YouTube"><img src="https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" /></a>
-        </p>
-        </span>
-    
-        <div class="col-sm-2 top">
-            <span id="to-top4">
-                <i class="fa fa-chevron-up" aria-hidden="true"></i>
-            </span>
-        </div>
-        </div>
+    <!-- End #about -->
 
-<!-- End #about -->
-
-<div id="projects">
-
-    <div id="projects-title">
+    <div id="projects">
+      <div id="projects-title">
         <h2>Projetos</h2>
-    </div>
+      </div>
 
-    <div id="project-image-lab-natty-or-not">
-        <img src="images/imagem_criada_chatgpt2.jpg" alt="Natty natural ou falso? Como vencer na era das AIs generativas" />
-    </div>
-    
-    <div id="project-info-lab-natty-or-not">
-        <h3>2024 - DIO CHALLENGE - Natural or Fake Natty? Como vencer na era das AIs generativas</h3>
-            <p><b>Descrição</b>: Criar insights sobre a visão da IA a respeito do futuro da IA generativa.
-            <b>Tecnologias utilizadas:</b> ChatGPT para texto, leonardo.ai para arte e VS Code para edição.
-            <b>Processo de criação:</b> Pensei em algo curioso e possivelmente polêmico; usei a versão gratuita do ChatGPT e questionei a IA sobre sua própria perspectiva de futuro.</p>
+      <!-- <div id="project-image-blog">
+        <img src="images/blog2.png" 
+             alt="Blog de Data Engineering" />
+      </div>
+
+      <div id="project-info-blog">
+        <h3>Blog - Data Engineering & AI</h3>
+        <p>
+          <b>Descrição</b>: Blog dedicado a compartilhar 
+          conhecimento e insights sobre Engenharia de Dados, 
+          Inteligência Artificial, Python, SQL e tecnologias 
+          de dados em geral.
+          <b>Objetivo</b>: Criar um espaço para aprender, 
+          compartilhar experiências e conectar com a comunidade 
+          de dados e IA.
+          <b>Conteúdo</b>: Artigos técnicos, tutoriais, boas 
+          práticas e discussões sobre o futuro da engenharia 
+          de dados.
+        </p>
         </br>
-            <a href="https://github.com/marcosvandrade/lab-natty-or-not" target="_blank">Link para o projeto no GitHub</a>
-    </div>
-        
-    <div id="project-image-stocks">
-        <img src="images/stocks.jpg" alt="Captura de tela do Stocks Monitor" />
-    </div>
-    
-    <div id="project-info-stocks">
+        <a href="https://github.com/marcos-data-engineer/blog" 
+           target="_blank">Link para o projeto no GitHub</a>
+      </div> -->
+
+      <div id="project-image-lab-natty-or-not">
+        <img src="images/imagem_criada_chatgpt2.jpg" 
+             alt="Natty natural ou falso? Como vencer na era das AIs generativas" />
+      </div>
+
+      <div id="project-info-lab-natty-or-not">
+        <h3>
+          2024 - DIO CHALLENGE - Natural or Fake Natty? Como 
+          vencer na era das AIs generativas
+        </h3>
+        <p>
+          <b>Descrição</b>: Criar insights sobre a visão da IA a 
+          respeito do futuro da IA generativa.
+          <b>Tecnologias utilizadas:</b> ChatGPT para texto, 
+          leonardo.ai para arte e VS Code para edição.
+          <b>Processo de criação:</b> Pensei em algo curioso e 
+          possivelmente polêmico; usei a versão gratuita do 
+          ChatGPT e questionei a IA sobre sua própria perspectiva 
+          de futuro.
+        </p>
+        </br>
+        <a href="https://github.com/marcosvandrade/lab-natty-or-not" 
+           target="_blank">Link para o projeto no GitHub</a>
+      </div>
+
+      <div id="project-image-stocks">
+        <img src="images/stocks.jpg" 
+             alt="Captura de tela do Stocks Monitor" />
+      </div>
+
+      <div id="project-info-stocks">
         <h3>2024 - Monitoramento de Ações</h3>
-            <p>Este projeto foi criado para desenvolver uma plataforma de análise de ações rápida e intuitiva, sem distrações como pop-ups ou inscrições forçadas. Utilizando dados em tempo real de APIs financeiras relevantes, a ferramenta permite que investidores realizem suas análises de forma eficiente e sem interrupções.</p>
-            </br>
-            <a href="https://github.com/marcos-data-engineer/realtime-stock-analysis-XPe" target="_blank">Link para o projeto no GitHub</a>
-    </div>
+        <p>
+          Este projeto foi criado para desenvolver uma 
+          plataforma de análise de ações rápida e intuitiva, 
+          sem distrações como pop-ups ou inscrições forçadas. 
+          Utilizando dados em tempo real de APIs financeiras 
+          relevantes, a ferramenta permite que investidores 
+          realizem suas análises de forma eficiente e sem 
+          interrupções.
+        </p>
+        </br>
+        <a href="https://github.com/marcos-data-engineer/
+                 realtime-stock-analysis-XPe" 
+           target="_blank">Link para o projeto no GitHub</a>
+      </div>
 
-    <div id="project-image-condominium">
-        <img src="images/condominiumanager.jpg" alt="Captura de tela do sistema de gestão de condomínios" />
-    </div>
-    
-    <div id="project-info-condominium">
-        <h3>Sistema para Administração de Condomínios (Trabalho de Conclusão de Curso - IFB 2020)</h3>
-            <p>
-                Este projeto é uma aplicação web desenvolvida para a gestão de condomínios. Oferece uma interface amigável e ferramentas poderosas para síndicos e moradores.
-            </p>
-            </br>
-            <a href="https://github.com/marcosvandrade/condominium-management"
-            target="_blank">Link para o projeto no GitHub</a>
-    </div>
+      <div id="project-image-condominium">
+        <img src="images/condominiumanager.jpg" 
+             alt="Captura de tela do sistema de gestão de condomínios" />
+      </div>
 
-    <div class="col-sm-2 top">
+      <div id="project-info-condominium">
+        <h3>
+          Sistema para Administração de Condomínios (Trabalho 
+          de Conclusão de Curso - IFB 2020)
+        </h3>
+        <p>
+          Este projeto é uma aplicação web desenvolvida para a 
+          gestão de condomínios. Oferece uma interface amigável 
+          e ferramentas poderosas para síndicos e moradores.
+        </p>
+        </br>
+        <a href="https://github.com/marcosvandrade/
+                 condominium-management" 
+           target="_blank">Link para o projeto no GitHub</a>
+      </div>
+
+      <div class="col-sm-2 top">
         <span id="to-top5">
-            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+          <i class="fa fa-chevron-up" aria-hidden="true"></i>
         </span>
+      </div>
     </div>
-</div>
-<!-- End #projects -->
+    <!-- End #projects -->
 
-<div id="skills">
+    <div id="skills">
+      <h2>Habilidades</h2>
 
-    <h2>Habilidades</h2>
-
-    <ul>
+      <ul>
         <li>Python</li>
         <li>SQL</li>
         <li>Spark</li>
@@ -335,68 +454,77 @@
         <li>JavaScript</li>
         <li>REGEX</li>
         <li>Marketing Digital</li>
-    </ul>
+      </ul>
 
-    <div class="col-sm-2 top">
+      <div class="col-sm-2 top">
         <span id="to-top6">
-            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+          <i class="fa fa-chevron-up" aria-hidden="true"></i>
         </span>
+      </div>
     </div>
-</div>
-<!-- End #skills -->
+    <!-- End #skills -->
 
-<div id="contact">
+    <div id="contact">
+      <h2>Contato</h2>
 
-    <h2>Contato</h2>
-
-    <div id="contact-form">
-        <form method="POST " action="https://formspree.io/f/mwkayroo">
-            <input type="hidden " name="_subject " value="Assunto" />
-            <input type="text " name="nome " placeholder="Digite seu nome" required>
-            <input type="email " name="_replyto " placeholder="Seu E-mail" required>
-            <textarea name="message " placeholder="Sua mensagem" required></textarea>
-            <button type="submit">Enviar</button>
+      <div id="contact-form">
+        <form method="POST " 
+              action="https://formspree.io/f/mwkayroo">
+          <input type="hidden " 
+                 name="_subject " 
+                 value="Assunto" />
+          <input type="text " 
+                 name="nome " 
+                 placeholder="Digite seu nome" 
+                 required>
+          <input type="email " 
+                 name="_replyto " 
+                 placeholder="Seu E-mail" 
+                 required>
+          <textarea name="message " 
+                    placeholder="Sua mensagem" 
+                    required></textarea>
+          <button type="submit">Enviar</button>
         </form>
-    </div>
-    <!-- End #contact-form -->
+      </div>
+      <!-- End #contact-form -->
 
-    <div class="col-sm-2 top">
+      <div class="col-sm-2 top">
         <span id="to-top7">
-            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+          <i class="fa fa-chevron-up" aria-hidden="true"></i>
         </span>
+      </div>
     </div>
-</div>
-<!-- End #contact -->
+    <!-- End #contact -->
 
-<footer>
-    <div class="col-sm-5 email">
+    <footer>
+      <div class="col-sm-5 email">
         <p>
-            E-mail: <a href="mailto:contact@dataengineer.net.br">contact@dataengineer.net.br</a>
+          E-mail: <a href="mailto:contact@dataengineer.net.br">
+            contact@dataengineer.net.br</a>
         </p>
-    </div>
+      </div>
 
-    <div class="col-sm-5 copyright">
+      <div class="col-sm-5 copyright">
         <p>
-            Copyright&copy; dataengineer.net.br <script>document.write(new Date().getFullYear());</script>
+          Copyright&copy; dataengineer.net.br 
+          <script>document.write(new Date().getFullYear());</script>
         </p>
-    </div>
+      </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="js/cookies.js"></script>
-    <script src="js/hamburguer.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
-
-</footer>
-
-</body>
-
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="js/scripts.js"></script>
+      <script src="js/cookies.js"></script>
+      <script src="js/hamburguer.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+              integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+              crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+              integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+              crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+              integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+              crossorigin="anonymous"></script>
+    </footer>
+  </body>
 </html>
