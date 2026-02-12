@@ -10,28 +10,35 @@
     <meta name="google-site-verification" 
           content="brEs0opbGfoyXUoOQ8QALewYvIIMnxyTlrILvkj-PdE" />
 
-    <title>Portifólio do Marcos</title>
+    <title>Portfólio de Marcos Vasconcellos - Engenheiro de Dados</title>
 
     <meta name="description" 
-          content="Experienced Data Engineer with expertise in designing 
-                   cloud-based data pipelines and real-time analytics 
-                   solutions. Proficient in SQL, Python, Spark, Kafka, 
-                   and AWS Cloud Computing.">
+          content="Portfólio profissional de Marcos Vasconcellos, Engenheiro de Dados especializado em pipelines de dados, big data, IA e cloud computing. Expertise em Python, Spark, Airflow e AWS.">
+    <meta name="keywords" content="engenheiro de dados, data engineer, Python, Spark, Airflow, AWS, big data, IA, machine learning, portfólio">
 
     <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
     <meta property="og:title" 
-          content="Marcos Data Engineer Portfolio">
+          content="Portfólio de Marcos - Engenheiro de Dados">
     <meta property="og:description" 
-          content="Experienced Data Engineer with expertise in designing 
-                   cloud-based data pipelines and real-time analytics 
-                   solutions.">
+          content="Engenheiro de Dados especializado em pipelines de dados, big data, inteligência artificial e cloud computing.">
     <meta property="og:image" 
           content="https://dataengineer.net.br/images/dataengineer2.jpg">
+    <meta property="og:image:alt" content="Foto de Marcos Vasconcellos">
     <meta property="og:url" content="https://dataengineer.net.br">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Portfólio de Marcos - Engenheiro de Dados">
+    <meta name="twitter:description" content="Especialista em Data Engineering, Big Data e IA">
+    <meta name="author" content="Marcos Vasconcellos de Andrade">
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://dataengineer.net.br/">
+    
+    <!-- Additional SEO -->
+    <meta name="theme-color" content="#0f9b0f">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" 
@@ -41,14 +48,30 @@
     <link href="https://fonts.googleapis.com/css?family=Chivo+Mono:300,400,700,900" 
           rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" 
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
-          crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link rel="stylesheet" 
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Marcos Vasconcellos de Andrade",
+      "url": "https://dataengineer.net.br",
+      "image": "https://dataengineer.net.br/images/dataengineer2.jpg",
+      "jobTitle": "Data Engineer",
+      "description": "Engenheiro de Dados especializado em pipelines de dados, big data, inteligência artificial e cloud computing",
+      "email": "contact@dataengineer.net.br",
+      "sameAs": [
+        "https://github.com/marcos-data-engineer",
+        "https://www.linkedin.com/in/marcos-data-engineer",
+        "https://instagram.com/dataengineer.jobs",
+        "https://www.youtube.com/channel/UCyNq6Jt-P3L2oPkV1qUtXaA"
+      ]
+    }
+    </script>
 
     <!-- Google Analytics -->
     <script async 
@@ -63,7 +86,7 @@
     </script>
 
     <!-- Tawk.to Live Chat Script -->
-    <script type="text/javascript">
+    <script type="text/javascript" defer>
       var Tawk_API = Tawk_API || {}, 
           Tawk_LoadStart = new Date();
       (function () {
@@ -79,61 +102,6 @@
   </head>
 
   <body>
-    <div id="google_translate_element"></div>
-
-    <!-- Custom Mobile Language Switcher (Hidden on Desktop) -->
-    <select id="custom-language-switcher" class="mobile-only">
-      <option value="en">English</option>
-      <option value="es">Spanish</option>
-      <option value="fr">French</option>
-      <!-- Add more languages as needed -->
-    </select>
-
-    <script>
-      function googleTranslateElementInit() {
-        new google.translate.TranslateElement(
-          { pageLanguage: 'pt-br' },
-          'google_translate_element'
-        );
-      }
-
-      // Custom language switcher for mobile
-      var switcher = document.getElementById(
-        'custom-language-switcher'
-      );
-      switcher.addEventListener('change', function(e) {
-        var lang = e.target.value;
-        var googleTranslate = document.querySelector(
-          '.goog-te-combo'
-        );
-        if (googleTranslate) {
-          googleTranslate.value = lang;
-          googleTranslate.dispatchEvent(new Event('change'));
-        }
-      });
-    </script>
-
-    <style>
-      /* Hide default Google Translate on mobile */
-      @media (max-width: 767px) {
-        #google_translate_element {
-          display: none !important;
-        }
-        .mobile-only {
-          display: block;
-        }
-      }
-
-      /* Hide custom switcher on desktop */
-      @media (min-width: 768px) {
-        .mobile-only {
-          display: none !important;
-        }
-      }
-    </style>
-
-    <script type="text/javascript" 
-            src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <!-- Your website content here -->
 
@@ -171,14 +139,12 @@
     </header>
     <!-- End header -->
 
-    <div class="mobile-menu-icon">
-      <span class="material-symbols-outlined" 
-            onclick="clickMenu()">Menu</span>
+    <div class="mobile-menu-icon" aria-label="Menu de navegação">
+      <span class="material-symbols-outlined">Menu</span>
     </div>
 
     <div class="mobile-menu">
-      <span class="close-btn material-symbols-outlined" 
-            onclick="clickMenu()">close</span>
+      <span class="close-btn material-symbols-outlined" aria-label="Fechar menu">close</span>
       <ul id="itens">
         <li>
           <a href="#about">Sobre</a>
@@ -220,11 +186,9 @@
           <b>Você não será solicitado novamente!</b>
         </p>
 
-        <a href="https://google.com/">
-          <button class="btn btn-secondary">
-            Fechar esta janela
-          </button>
-        </a>
+        <button class="btn btn-secondary" onclick="document.querySelector('.cookie-container').classList.remove('active')" aria-label="Fechar banner de cookies">
+          Fechar esta janela
+        </button>
 
         <button class="cookie-btn">
           Sim, eu aceito os cookies
@@ -243,6 +207,15 @@
         conhecimento em várias distribuições, como CentOS, 
         Debian e Ubuntu, atuando em administração de servidores 
         Linux, redes e suporte a usuários até 2015.
+      </p>
+
+      <p>
+        A partir de 2016, meu foco profissional se direcionou para a 
+        área de dados, onde desenvolvi expertise em ferramentas como 
+        Oracle SQL, Power BI, Pentaho e outras plataformas de 
+        análise e visualização de dados. Durante esse período, 
+        trabalhei na construção de soluções de business intelligence e tratamento
+        de dados.
       </p>
 
       <p>
@@ -330,38 +303,41 @@
 
     <!-- End #about -->
 
-    <div id="projects">
+    <div id="projects" role="region" aria-label="Seção de projetos">
       <div id="projects-title">
         <h2>Projetos</h2>
       </div>
 
-      <!-- <div id="project-image-blog">
-        <img src="images/blog2.png" 
-             alt="Blog de Data Engineering" />
+      <div id="project-image-blog">
+        <img src="images/blog.jpg" 
+             alt="Marcos' AI Blog - Artigos sobre Inteligência Artificial e Dados"
+             loading="lazy" />
       </div>
 
       <div id="project-info-blog">
-        <h3>Blog - Data Engineering & AI</h3>
+        <h3>
+          2026 - Marcos' AI Blog - Conversando sobre IA
+        </h3>
         <p>
-          <b>Descrição</b>: Blog dedicado a compartilhar 
-          conhecimento e insights sobre Engenharia de Dados, 
-          Inteligência Artificial, Python, SQL e tecnologias 
-          de dados em geral.
-          <b>Objetivo</b>: Criar um espaço para aprender, 
-          compartilhar experiências e conectar com a comunidade 
-          de dados e IA.
-          <b>Conteúdo</b>: Artigos técnicos, tutoriais, boas 
-          práticas e discussões sobre o futuro da engenharia 
-          de dados.
+          <b>Descrição</b>: Um blog dedicado a compartilhar artigos e insights sobre
+           inteligência artificial. Conteúdo técnico e acessível para profissionais 
+           e entusiastas da área.
+          <b>Tecnologias utilizadas:</b> Jekyll, Chirpy Theme, HTML5, CSS3, GitHub Pages.
+          <b>Objetivo</b>: Criar um espaço para publicar artigos técnicos, estudos de caso
+         e análises sobre tendências em IA.
         </p>
-        </br>
+        <br>
         <a href="https://github.com/marcos-data-engineer/blog" 
-           target="_blank">Link para o projeto no GitHub</a>
-      </div> -->
+           target="_blank">Projeto no GitHub</a>
+
+        <a href="https://blog.dataengineer.net.br" 
+           target="_blank">Visualização do Projeto</a>
+      </div>
 
       <div id="project-image-lab-natty-or-not">
         <img src="images/imagem_criada_chatgpt2.jpg" 
-             alt="Natty natural ou falso? Como vencer na era das AIs generativas" />
+             alt="Natty natural ou falso? Como vencer na era das AIs generativas"
+             loading="lazy" />
       </div>
 
       <div id="project-info-lab-natty-or-not">
@@ -379,13 +355,14 @@
           ChatGPT e questionei a IA sobre sua própria perspectiva 
           de futuro.
         </p>
-        </br>
+        <br>
         <a href="https://github.com/marcosvandrade/lab-natty-or-not" 
            target="_blank">Link para o projeto no GitHub</a>
       </div>
 
       <div id="project-image-stocks">
         <img src="images/stocks.jpg" 
+             loading="lazy"
              alt="Captura de tela do Stocks Monitor" />
       </div>
 
@@ -400,14 +377,14 @@
           realizem suas análises de forma eficiente e sem 
           interrupções.
         </p>
-        </br>
-        <a href="https://github.com/marcos-data-engineer/
-                 realtime-stock-analysis-XPe" 
+        <br>
+        <a href="https://github.com/marcos-data-engineer/realtime-stock-analysis-XPe" 
            target="_blank">Link para o projeto no GitHub</a>
       </div>
 
       <div id="project-image-condominium">
         <img src="images/condominiumanager.jpg" 
+             loading="lazy"
              alt="Captura de tela do sistema de gestão de condomínios" />
       </div>
 
@@ -421,9 +398,8 @@
           gestão de condomínios. Oferece uma interface amigável 
           e ferramentas poderosas para síndicos e moradores.
         </p>
-        </br>
-        <a href="https://github.com/marcosvandrade/
-                 condominium-management" 
+        <br>
+        <a href="https://github.com/marcosvandrade/condominium-management" 
            target="_blank">Link para o projeto no GitHub</a>
       </div>
 
@@ -435,26 +411,107 @@
     </div>
     <!-- End #projects -->
 
-    <div id="skills">
+    <div id="skills" role="region" aria-label="Seção de habilidades">
       <h2>Habilidades</h2>
+      <div class="skills-container" role="grid" aria-label="Categorias de habilidades">
+        
+        <div class="skill-category">
+          <h3>💻 Linguagens de Programação</h3>
+          <div class="skill-items">
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">SQL</span>
+            <span class="skill-badge">Java</span>
+            <span class="skill-badge">JavaScript</span>
+            <span class="skill-badge">TypeScript</span>
+            <span class="skill-badge">HTML5</span>
+            <span class="skill-badge">CSS3</span>
+            <span class="skill-badge">REGEX</span>
+          </div>
+        </div>
 
-      <ul>
-        <li>Python</li>
-        <li>SQL</li>
-        <li>Spark</li>
-        <li>Airflow</li>
-        <li>Databricks</li>
-        <li>DBT</li>
-        <li>Linux</li>
-        <li>PowerBI</li>
-        <li>AI</li>
-        <li>Java</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>REGEX</li>
-        <li>Marketing Digital</li>
-      </ul>
+        <div class="skill-category">
+          <h3>📊 Big Data & Data Engineering</h3>
+          <div class="skill-items">
+            <span class="skill-badge">Apache Spark</span>
+            <span class="skill-badge">Apache Airflow</span>
+            <span class="skill-badge">Databricks</span>
+            <span class="skill-badge">DBT</span>
+            <span class="skill-badge">Jupyter Notebook</span>
+            <span class="skill-badge">Oracle SQL</span>
+            <span class="skill-badge">PostgreSQL</span>
+            <span class="skill-badge">MySQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>📈 BI & Visualização</h3>
+          <div class="skill-items">
+            <span class="skill-badge">Power BI</span>
+            <span class="skill-badge">Pentaho</span>
+            <span class="skill-badge">Streamlit</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>🤖 Inteligência Artificial</h3>
+          <div class="skill-items">
+            <span class="skill-badge">Inteligência Artificial</span>
+            <span class="skill-badge">Machine Learning</span>
+            <span class="skill-badge">Generative AI</span>
+            <span class="skill-badge">ChatGPT & Claude</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>🛠️ Ferramentas de Desenvolvimento</h3>
+          <div class="skill-items">
+            <span class="skill-badge">Git & GitHub</span>
+            <span class="skill-badge">VS Code</span>
+            <span class="skill-badge">Spring Boot</span>
+            <span class="skill-badge">Node.js</span>
+            <span class="skill-badge">Ionic/Vue.js</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3> APIs & Integração</h3>
+          <div class="skill-items">
+            <span class="skill-badge">Yahoo Finance API</span>
+            <span class="skill-badge">Alpha Vantage</span>
+            <span class="skill-badge">Quandl</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>☁️ DevOps & Cloud</h3>
+          <div class="skill-items">
+            <span class="skill-badge">Linux</span>
+            <span class="skill-badge">AWS</span>
+            <span class="skill-badge">Kafka</span>
+            <span class="skill-badge">GitHub Pages</span>
+            <span class="skill-badge">Jekyll</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>🖥️ Admin & Sistemas</h3>
+          <div class="skill-items">
+            <span class="skill-badge">Admin Servidores Linux</span>
+            <span class="skill-badge">Redes</span>
+            <span class="skill-badge">Suporte Técnico</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>📚 Soft Skills</h3>
+          <div class="skill-items">
+            <span class="skill-badge">Business Intelligence</span>
+            <span class="skill-badge">Análise de Dados</span>
+            <span class="skill-badge">Marketing Digital</span>
+          </div>
+        </div>
+
+      </div>
 
       <div class="col-sm-2 top">
         <span id="to-top6">
@@ -464,27 +521,33 @@
     </div>
     <!-- End #skills -->
 
-    <div id="contact">
+    <div id="contact" role="region" aria-label="Seção de contato">
       <h2>Contato</h2>
 
       <div id="contact-form">
-        <form method="POST " 
-              action="https://formspree.io/f/mwkayroo">
-          <input type="hidden " 
-                 name="_subject " 
-                 value="Assunto" />
-          <input type="text " 
-                 name="nome " 
+        <form method="POST" 
+              action="https://formspree.io/f/mwkayroo"
+              name="contact-form"
+              aria-label="Formulário de contato"
+              novalidate>
+          <input type="hidden" 
+                 name="_subject" 
+                 value="Novo contato - Portfólio" />
+          <input type="text" 
+                 name="nome" 
                  placeholder="Digite seu nome" 
-                 required>
-          <input type="email " 
-                 name="_replyto " 
+                 required
+                 aria-label="Nome">
+          <input type="email" 
+                 name="_replyto" 
                  placeholder="Seu E-mail" 
-                 required>
-          <textarea name="message " 
+                 required
+                 aria-label="Email">
+          <textarea name="message" 
                     placeholder="Sua mensagem" 
-                    required></textarea>
-          <button type="submit">Enviar</button>
+                    required
+                    aria-label="Mensagem"></textarea>
+          <button type="submit" aria-label="Enviar mensagem">Enviar</button>
         </form>
       </div>
       <!-- End #contact-form -->
@@ -507,24 +570,17 @@
 
       <div class="col-sm-5 copyright">
         <p>
-          Copyright&copy; dataengineer.net.br 
-          <script>document.write(new Date().getFullYear());</script>
+          Copyright © <span id="year">2026</span> dataengineer.net.br — Todos os direitos reservados.
         </p>
       </div>
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <script src="js/scripts.js"></script>
-      <script src="js/cookies.js"></script>
-      <script src="js/hamburguer.js"></script>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-              integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-              crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-              integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-              crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-              integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-              crossorigin="anonymous"></script>
+      <script src="js/scripts.js" defer></script>
+      <script src="js/cookies.js" defer></script>
+      <script src="js/hamburguer.js" defer></script>
+      
+      <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+      </script>
     </footer>
   </body>
 </html>

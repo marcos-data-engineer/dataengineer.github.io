@@ -1,39 +1,72 @@
-(function($) {
-
-    // Remove no-js class
-    $('html').removeClass('no-js');
+(function() {
 
     // Animate to section when nav is clicked
-    $('header a').click(function(e) {
-
-        // Treat as normal link if no-scroll class
-        if ($(this).hasClass('no-scroll')) return;
-
-        var heading = $(this).attr('href');
-
-        // Check if the href is a valid CSS selector (starts with #)
-        if (heading.startsWith('#')) {
-            e.preventDefault(); // Prevent default behavior only for valid selectors
-
-            var scrollDistance = $(heading).offset().top;
-
-            $('html, body').animate({
-                scrollTop: scrollDistance + 'px'
-            }, Math.abs(window.pageYOffset - $(heading).offset().top) / 1);
-
-            // Hide the menu once clicked if mobile
-            if ($('header').hasClass('active')) {
-                $('header, body').removeClass('active');
+    const headerLinks = document.querySelectorAll('header a');
+    const mobileMenuLinks = document.querySelectorAll('.mobile-menu a');
+    const allLinks = [...headerLinks, ...mobileMenuLinks];
+    
+    allLinks.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            
+            // Treat as normal link if no-scroll class
+            if (this.classList.contains('no-scroll')) return;
+            
+            const heading = this.getAttribute('href');
+            
+            // Check if the href is a valid CSS selector (starts with #)
+            if (heading && heading.startsWith('#')) {
+                e.preventDefault();
+                
+                const targetElement = document.querySelector(heading);
+                
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    
+                    // Focus on the target element for accessibility
+                    targetElement.focus();
+                    
+                    // Hide the menu once clicked if mobile
+                    const mobileMenu = document.querySelector('.mobile-menu');
+                    if (mobileMenu && mobileMenu.classList.contains('open')) {
+                        mobileMenu.classList.remove('open');
+                    }
+                }
             }
-        }
-        // If it's not a valid selector (e.g., a URL), allow the link to behave normally
+        });
     });
-
+    
     // Scroll to top
-    $('#to-top1, #to-top2, #to-top3, #to-top4, #to-top5, #to-top6, #to-top7').click(function() {
-        $('html, body').animate({
-            scrollTop: 0
-        }, 500);
+    const scrollToTopButtons = document.querySelectorAll('#to-top1, #to-top2, #to-top3, #to-top4, #to-top5, #to-top6, #to-top7');
+    
+    scrollToTopButtons.forEach(function(button) {
+        button.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+            // Focus on header for accessibility
+            const header = document.querySelector('header');
+            if (header) {
+                header.focus();
+            }
+        });
+        
+        // Make buttons keyboard accessible
+        button.setAttribute('role', 'button');
+        button.setAttribute('tabindex', '0');
     });
 
-})(jQuery);
+    // Enable keyboard navigation for scroll-to-top buttons
+    scrollToTopButtons.forEach(function(button) {
+        button.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                this.click();
+            }
+        });
+    });
+
+})();

@@ -1,17 +1,25 @@
-const cookieContainer = document.querySelector(".cookie-container");
-const cookieButton = document.querySelector(".cookie-btn");
+document.addEventListener('DOMContentLoaded', () => {
+    const cookieContainer = document.querySelector(".cookie-container");
+    const cookieButton = document.querySelector(".cookie-btn");
+    const closeButton = document.querySelector(".btn-secondary");
 
-cookieButton.addEventListener("click", () => {
-    cookieContainer.classList.remove("active");
-    localStorage.setItem("cookieBannerDisplayed", "true");
-});
+    const hideCookieBanner = () => {
+        cookieContainer.classList.remove("active");
+        localStorage.setItem("cookieBannerDisplayed", "true");
+    };
 
-setTimeout(() => {
-    if (!localStorage.getItem("cookieBannerDisplayed")) {
-        cookieContainer.classList.add("active");
+    if (cookieButton) {
+        cookieButton.addEventListener("click", hideCookieBanner);
     }
-}, 1000);
 
-setTimeout(() => {
-    cookieContainer.classList.remove("active")
-}, 10000);
+    if (closeButton) {
+        closeButton.addEventListener("click", hideCookieBanner);
+    }
+
+    // Show banner after 2 seconds if not previously accepted
+    setTimeout(() => {
+        if (!localStorage.getItem("cookieBannerDisplayed")) {
+            cookieContainer.classList.add("active");
+        }
+    }, 2000);
+});

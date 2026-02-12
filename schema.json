@@ -1,0 +1,41 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Marcos Vasconcellos de Andrade",
+  "url": "https://dataengineer.net.br",
+  "image": "https://dataengineer.net.br/images/dataengineer2.jpg",
+  "jobTitle": "Data Engineer",
+  "description": "Engenheiro de Dados especializado em pipelines de dados, big data, inteligência artificial e cloud computing",
+  "email": "contact@dataengineer.net.br",
+  "sameAs": [
+    "https://github.com/marcos-data-engineer",
+    "https://www.linkedin.com/in/marcos-data-engineer",
+    "https://instagram.com/dataengineer.jobs",
+    "https://www.youtube.com/channel/UCyNq6Jt-P3L2oPkV1qUtXaA",
+    "https://blog.dataengineer.net.br"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Data Engineer Portfolio"
+  },
+  "knowsAbout": [
+    "Python",
+    "SQL",
+    "Apache Spark",
+    "Apache Airflow",
+    "Databricks",
+    "DBT",
+    "AWS",
+    "Machine Learning",
+    "Data Engineering",
+    "Big Data",
+    "Business Intelligence",
+    "Power BI",
+    "Streamlit"
+  ],
+  "alumniOf": {
+    "@type": "Organization",
+    "name": "Instituto Federal de Brasília (IFB)",
+    "url": "https://www.ifb.edu.br"
+  }
+}

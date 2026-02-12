@@ -1,4 +1,4 @@
-/* resetando a configuração padrão */
+/* Reset Styles & Base Configuration */
 * {
     margin: 0;
     padding: 0;
@@ -6,48 +6,17 @@
 }
 
 html {
-    /* a cada 1rem será considerado 10px */
-    font-size: 62.5%;
-    /*o padrão do root são 16px*/
+    font-size: 62.5%; /* 1rem = 10px for easier calculations */
 }
 
 body {
-font-family: "Chivo Mono", sans-serif;
-font-size: 1.6rem;
-/* Combine o gradient e a imagem na mesma linha */
-background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("/images/dataengineer2.jpg");
-
-/* Mantém as outras propriedades da imagem de fundo */
-background-size: cover;
-background-position: center;
-background-attachment: fixed;
-
-/* Você pode remover as linhas de background antigas */
-/* background: #000000; */
-/* background: -webkit-linear-gradient(to right, #0f9b0f, #000000); */
-  /* background: linear-gradient(to right, #0f9b0f, #000000); */
-}
-
-/* body {
     font-family: "Chivo Mono", sans-serif;
     font-size: 1.6rem;
-    background: -webkit-linear-gradient(to right, #0f9b0f, #000000);
-    background: linear-gradient(to right, #0f9b0f, #000000);
-    background-image: url("/images/dataengineer2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("/images/dataengineer2.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin-top: 50px; Offset to avoid the widget covering content
-} */
-
-#google_translate_element {
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    padding: 10px;
-    background-color: #f2f2f2;
-    border-radius: 5px;
+    color: whitesmoke;
 }
 
 /* menu */
@@ -61,16 +30,18 @@ header {
 
 header ul {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: nowrap;
+    justify-content: center;
     align-content: center;
     align-items: center;
     text-align: center;
     background: transparent;
-    margin: auto 35%;
+    margin: 0 auto;
     padding: 1%;
     border-radius: 15px;
     border-style: hidden;
+    gap: 2rem;
+    width: fit-content;
 }
 
 header li {
@@ -85,19 +56,25 @@ header li {
 header a {
     color: whitesmoke;
     padding: auto;
-    margin: auto
+    margin: auto;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
 }
 
 header a:hover {
     color: #0f9b0f;
-    text-decoration: none;
+    text-decoration: none !important;
     background: whitesmoke;
     border-radius: 4px;
+    padding: 0.5rem;
 }
 
 header a:focus {
     color: #0f9b0f;
-    text-decoration: none;
+    text-decoration: none !important;
+    outline: 2px solid #0f9b0f;
+    border-radius: 4px;
+    padding: 0.5rem;
 }
 
 /* hamburguer menu */
@@ -243,7 +220,7 @@ header a:focus {
     margin: 1%;
     padding: 1%;
     grid-template-columns: auto auto;
-    grid-template-rows: 10% auto auto auto auto;
+    grid-template-rows: 10% auto auto auto auto auto auto auto auto;
 }
 
 #projects-title {
@@ -297,11 +274,56 @@ header a:focus {
     text-align: center;
 }
 
-#project-image-lab-natty-or-not {
+#project-image-blog {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
+}    
+
+#project-image-blog img {
+    height: 35vh;
+    opacity: 0.8;
+}
+
+#project-info-blog {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-bottom: 8%;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: lightgrey;
+    background-color: #202020;
+    border-radius: 5pt;
+    height: 35vh;
+    opacity: 0.8;
+}
+
+#project-info-blog a {
+    color: #202020;
+    padding: 1%;
+    margin: 1%;
+}
+
+#project-info-blog a:hover {
+    color: #0f9b0f;
+    text-decoration: none;
+    background: whitesmoke;
+    border-radius: 4px;
+}
+
+#project-info-blog a:focus {
+    color: #202020;
+    text-decoration: none;
+}
+
+#project-image-lab-natty-or-not {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
 }    
 
 #project-image-lab-natty-or-not img {
@@ -312,8 +334,8 @@ header a:focus {
 #project-info-lab-natty-or-not {
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
     margin-bottom: 8%;
     margin-left: 3%;
     margin-right: 3%;
@@ -345,8 +367,8 @@ header a:focus {
 #project-image-stocks {
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
 }    
 
 #project-image-stocks img {
@@ -357,8 +379,8 @@ header a:focus {
 #project-info-stocks {
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
     margin-bottom: 8%;
     margin-left: 3%;
     margin-right: 3%;
@@ -390,8 +412,8 @@ header a:focus {
 #project-image-condominium {
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-start: 8;
+    grid-row-end: 9;
     opacity: 0.8;
 }
 
@@ -402,8 +424,8 @@ header a:focus {
 #project-info-condominium {
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-start: 8;
+    grid-row-end: 9;
     margin-bottom: 10%;
     margin-left: 3%;
     margin-right: 3%;
@@ -435,8 +457,8 @@ header a:focus {
 #projects .top {
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 7;
-    grid-row-end: 8;
+    grid-row-start: 10;
+    grid-row-end: 11;
     text-align: center;
     margin: auto;
     margin-bottom: 5%;
@@ -453,37 +475,82 @@ header a:focus {
     font-weight: bold;
 }
 
+/* Skills Section */
 #skills {
-    display: flexbox;
-    text-align: center;
-    height: auto;
+    color: whitesmoke;
+    padding: 3%;
+    margin: 1%;
 }
 
 #skills h2 {
     color: whitesmoke;
     font-size: 3rem;
     font-weight: 600;
-    padding: 3%;
-    margin: auto; 
-}
-
-#skills ul {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-    max-width: 980px;
+    margin-bottom: 2rem;
 }
 
-#skills li {
-    display: inline-block;
-    margin: 2.5%;
-    padding: 20px 25px;
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.skill-category {
+    background-color: #1a1a1a;
+    border-left: 5px solid #0f9b0f;
+    border-radius: 8px;
+    padding: 1.8rem;
+    color: lightgrey;
+    transition: all 0.3s ease;
+}
+
+.skill-category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(15, 155, 15, 0.2);
+}
+
+.skill-category h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
     color: whitesmoke;
-    background: black;
-    border-radius: 5px;
-    list-style: none;
-    cursor: default;
-    font-size: 1.8rem;
-    opacity: 0.8;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.skill-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+}
+
+.skill-badge {
+    background-color: #0f9b0f;
+    color: #202020;
+    padding: 0.6rem 1.1rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.skill-badge:hover {
+    background-color: #0d7a0d;
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(15, 155, 15, 0.3);
+}
+
+#skills {
+    display: block;
+    text-align: center;
+    height: auto;
+    color: whitesmoke;
+    padding: 3%;
+    margin: 1%;
 }
 
 #skills .top {
@@ -530,7 +597,7 @@ header a:focus {
     max-width: 1024px;
     padding: 15px;
     border-radius: 4px;
-    border: none;
+    border: 2px solid #0f9b0f;
     margin-bottom: 10px;
     background: whitesmoke;
     color: #140c25;
@@ -563,6 +630,8 @@ header a:focus {
 #contact-form textarea:focus {
     outline: none;
     background: #d2cbe0;
+    border-color: #0d7a0d;
+    box-shadow: 0 0 0 3px rgba(15, 155, 15, 0.2);
 }
 
 #contact-form textarea {
@@ -576,17 +645,26 @@ header a:focus {
     max-width: 1024px;
     background: #0f9b0f;
     border-radius: 4px;
-    padding: 5px 10px;
-    border: none;
+    padding: 15px 10px;
+    border: 2px solid #0d7a0d;
     color: whitesmoke;
     font-weight: 550;
+    font-size: 1.6rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: 0.5s ease all;
-    opacity: 0.8;
+    opacity: 0.9;
+    cursor: pointer;
 }
 
 #contact-form button:hover {
+    background: #0d7a0d;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    transform: translateY(-2px);
+}
+
+#contact-form button:focus {
+    outline: 3px solid #0d7a0d;
+    outline-offset: 2px;
 }
 
 #contact .top {
@@ -606,23 +684,36 @@ header a:focus {
 
 footer {
     display: flex;
+    flex-direction: column;
     font-weight: 600;
     text-align: center;
     margin: 1%;
-    margin-left: 10%;
+    padding: 2%;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
 }
 
-footer .copyright p {
-    color: whitesmoke;
-    margin: auto;
-    text-align: center;
-    height: auto;
+footer .email {
+    width: 100%;
+    margin-bottom: 1%;
 }
 
 footer .email p {
     color: whitesmoke;
-    margin: auto;
+    margin: 0.5% 0;
     text-align: center;
+}
+
+footer .copyright {
+    width: 100%;
+}
+
+footer .copyright p {
+    color: whitesmoke;
+    margin: 0.5% 0;
+    text-align: center;
+    height: auto;
 }
 .cookie-container {
     position: fixed;

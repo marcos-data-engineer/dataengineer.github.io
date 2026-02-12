@@ -1,28 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://dataengineer.net.br/index.html</loc>
-        <lastmod>2024-10-13</lastmod>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://dataengineer.net.br/#about</loc>
-        <lastmod>2024-10-13</lastmod>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://dataengineer.net.br/#projects</loc>
-        <lastmod>2024-10-13</lastmod>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://dataengineer.net.br/#skills</loc>
-        <lastmod>2024-10-13</lastmod>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://dataengineer.net.br/#contact</loc>
-        <lastmod>2024-10-13</lastmod>
-        <priority>0.7</priority>
-    </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://dataengineer.net.br/</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://dataengineer.net.br/images/dataengineer2.jpg</image:loc>
+      <image:title>Foto de Marcos Vasconcellos - Data Engineer</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://dataengineer.net.br/#about</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://dataengineer.net.br/#projects</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://dataengineer.net.br/images/blog.jpg</image:loc>
+      <image:title>Marcos' AI Blog - Artigos sobre IA e Dados</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dataengineer.net.br/images/imagem_criada_chatgpt2.jpg</image:loc>
+      <image:title>Projeto - Natural or Fake Natty</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dataengineer.net.br/images/stocks.jpg</image:loc>
+      <image:title>Projeto - Monitoramento de Ações</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dataengineer.net.br/images/condominiumanager.jpg</image:loc>
+      <image:title>Projeto - Sistema de Gestão de Condomínios</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://dataengineer.net.br/#skills</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dataengineer.net.br/#contact</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.dataengineer.net.br</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

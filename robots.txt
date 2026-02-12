@@ -1,0 +1,32 @@
+# Robots.txt for dataengineer.net.br
+# Optimized for SEO and search engine crawling
+
+User-agent: *
+Allow: /
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /libs/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: *.json
+Disallow: *.old
+
+# Crawl-delay in seconds
+Crawl-delay: 1
+
+# Request-rate (requests per 10 seconds)
+Request-rate: 10/10s
+
+# Sitemaps
+Sitemap: https://dataengineer.net.br/sitemap.xml
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
