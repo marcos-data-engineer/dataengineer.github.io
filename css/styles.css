@@ -89,7 +89,17 @@ header a:focus {
     margin-top: 5%;
     margin-right: 20%;
     color: whitesmoke;
-    cursor: pointer;  
+    cursor: pointer;
+    transition: scale 0.2s ease;
+}
+
+.material-symbols-outlined:hover {
+    scale: 1.1;
+}
+
+.material-symbols-outlined:focus {
+    outline: 2px solid #0f9b0f;
+    border-radius: 4px;
 }
 
 .mobile-menu-icon {

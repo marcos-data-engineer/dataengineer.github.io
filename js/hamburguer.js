@@ -18,14 +18,30 @@ document.addEventListener('DOMContentLoaded', () => {
     // Toggle menu on hamburger click
     if (mobileMenuIcon) {
         mobileMenuIcon.addEventListener('click', toggleMenu);
-        mobileMenuIcon.setAttribute('role', 'button');
         mobileMenuIcon.setAttribute('aria-expanded', 'false');
-        mobileMenuIcon.setAttribute('aria-label', 'Menu de navegação');
+        mobileMenuIcon.setAttribute('tabindex', '0');
+        
+        // Keyboard support for menu icon
+        mobileMenuIcon.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                toggleMenu();
+            }
+        });
     }
 
     // Close menu on close button click
     if (closeBtn) {
         closeBtn.addEventListener('click', closeMenu);
+        closeBtn.setAttribute('tabindex', '0');
+        
+        // Keyboard support for close button
+        closeBtn.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                closeMenu();
+            }
+        });
     }
 
     // Close menu when link is clicked
