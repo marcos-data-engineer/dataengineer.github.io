@@ -37,7 +37,7 @@ html {
 body {
     font-family: var(--font-family);
     font-size: var(--font-size-base);
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("/images/dataengineer2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("../images/dataengineer2.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
