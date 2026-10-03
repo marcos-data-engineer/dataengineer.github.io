@@ -4,10 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeBtn = document.querySelector('.close-btn');
     const menuLinks = document.querySelectorAll('.mobile-menu a');
 
+    if (!mobileMenuIcon || !mobileMenu) {
+        return;
+    }
+
     const toggleMenu = () => {
         mobileMenu.classList.toggle('open');
-        mobileMenuIcon.setAttribute('aria-expanded', 
-            mobileMenu.classList.contains('open') ? 'true' : 'false');
+        mobileMenuIcon.setAttribute('aria-expanded', String(mobileMenu.classList.contains('open')));
     };
 
     const closeMenu = () => {
@@ -15,44 +18,24 @@ document.addEventListener('DOMContentLoaded', () => {
         mobileMenuIcon.setAttribute('aria-expanded', 'false');
     };
 
-    // Toggle menu on hamburger click
-    if (mobileMenuIcon) {
-        mobileMenuIcon.addEventListener('click', toggleMenu);
-        mobileMenuIcon.setAttribute('aria-expanded', 'false');
-        mobileMenuIcon.setAttribute('tabindex', '0');
-        
-        // Keyboard support for menu icon
-        mobileMenuIcon.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                toggleMenu();
-            }
-        });
-    }
+    mobileMenuIcon.addEventListener('click', toggleMenu);
+    mobileMenuIcon.setAttribute('aria-expanded', 'false');
 
-    // Close menu on close button click
     if (closeBtn) {
-        closeBtn.addEventListener('click', closeMenu);
-        closeBtn.setAttribute('tabindex', '0');
-        
-        // Keyboard support for close button
-        closeBtn.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                closeMenu();
-            }
+        closeBtn.addEventListener('click', () => {
+            closeMenu();
+            mobileMenuIcon.focus();
         });
     }
 
-    // Close menu when link is clicked
     menuLinks.forEach(link => {
         link.addEventListener('click', closeMenu);
     });
 
-    // Close menu on Escape key
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape' && mobileMenu.classList.contains('open')) {
             closeMenu();
+            mobileMenuIcon.focus();
         }
     });
 });
