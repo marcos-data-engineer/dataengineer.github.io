@@ -2,7 +2,7 @@
 
 Site pessoal de Marcos Vasconcellos de Andrade, com apresentação profissional, projetos, competências e formulário de contato.
 
-**Acesse:** [marcos-data-engineer.github.io]([https://marcos-data-engineer.github.io](https://marcos-data-engineer.github.io/dataengineer.github.io/))
+**Acesse:** [[marcos-data-engineer.github.io](https://marcos-data-engineer.github.io/dataengineer.github.io/)]([https://marcos-data-engineer.github.io](https://marcos-data-engineer.github.io/dataengineer.github.io/))
 
 ## Conteúdo
 
