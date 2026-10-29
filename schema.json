@@ -3,40 +3,44 @@
   "@type": "Person",
   "name": "Marcos Vasconcellos de Andrade",
   "url": "https://marcos-data-engineer.github.io/",
-  "image": "https://marcos-data-engineer.github.io/images/dataengineer2.jpg",
-  "jobTitle": "Analista de Suporte Técnico Nível 2/3 e Especialista em Sistemas Linux",
-  "description": "Profissional de infraestrutura de TI especializado em suporte técnico Nível 2/3, administração de sistemas Linux, diagnóstico de redes e automação de tarefas.",
+  "image": "https://marcos-data-engineer.github.io/images/profile.png",
+  "jobTitle": "Consultor de TI & Especialista em Soluções Autônomas | Infraestrutura Linux, Automação N2/N3 & IA Privada",
+  "description": "Consultor de TI e Especialista em Soluções Autônomas com mais de 10 anos de experiência prática em infraestrutura crítica, administração de sistemas Linux (Debian, Ubuntu, CentOS, Fedora), suporte especializado N2/N3, otimização de bancos de dados Oracle SQL, automação com n8n/Python e implantação de IA Privada (Ollama) em conformidade com a LGPD/GDPR.",
   "email": "contact.marcos.dataengineer@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Brasília",
+    "addressRegion": "DF",
+    "addressCountry": "BR"
+  },
   "sameAs": [
     "https://github.com/marcos-data-engineer",
-    "https://www.linkedin.com/in/marcos-vasconcellos-de-andrade-098b07297",
-    "https://marcos-data-engineer.github.io/blog/"
+    "https://www.linkedin.com/in/marcos-data-engineer",
+    "https://marcos-data-engineer.github.io/blog/",
+    "https://x.com/dataaiinsights"
   ],
-  "worksFor": {
-    "@type": "Organization",
-    "name": "Data Engineer Portfolio"
-  },
   "knowsAbout": [
-    "Python",
-    "SQL",
-    "Apache Spark",
-    "Apache Airflow",
-    "Databricks",
-    "DBT",
-    "AWS",
-    "Machine Learning",
-    "Engenharia de Dados",
-    "Big Data",
-    "Business Intelligence",
-    "Power BI",
-    "Streamlit",
-    "Suporte técnico",
-    "Administração de sistemas Linux",
-    "Automação de tarefas"
+    "Infraestrutura Linux (Debian, Ubuntu, CentOS, Fedora)",
+    "Hardening de Servidores e Segurança de Redes",
+    "Suporte Técnico Especializado N2/N3",
+    "Automação de Processos com n8n Self-Hosted e Docker",
+    "IA Privada On-Premise (Ollama, Open WebUI, Agentes de IA)",
+    "Shell/Bash Scripting e Systemd",
+    "Python para Automação e Engenharia de Dados",
+    "Oracle SQL Avançado (Performance Tuning)",
+    "Pentaho ETL e Power BI",
+    "Governança de TI (ITIL, SLAs, Conformidade LGPD/GDPR)"
   ],
-  "alumniOf": {
-    "@type": "Organization",
-    "name": "Instituto Federal de Brasília (IFB)",
-    "url": "https://www.ifb.edu.br"
-  }
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "XP Educação (XPe-IGTI)",
+      "url": "https://www.xpeducacao.com.br"
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Instituto Federal de Brasília (IFB)",
+      "url": "https://www.ifb.edu.br"
+    }
+  ]
 }

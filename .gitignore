@@ -1,42 +1,51 @@
+# Dependências locais (recriadas via npm install se necessário)
 node_modules/
-# OS
-.DS_Store
-Thumbs.db
-*.swp
-*.swo
-*~
+.venv/
+__pycache__/
 
-# IDE
+# Arquivos de Sistema Operacional
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Editores, IDEs e Contexto Privado de IA
+# Importante: doc.txt, setup_notebook.txt e .clinerules ficam apenas locais / sincronizados via gdrive-sync
+doc.txt
+setup_notebook.txt
+.clinerules
 .vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
+*.swp
+*.swo
+*~
+nano.save*
 
-# Build & Temp
+# Cache, Build e Arquivos Temporários
+_site/
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
 dist/
 build/
 *.cache
 *.tmp
 *.temp
-nano.save
 *.bak
-.env
-.env.local
-
-# Old/Backup files
 *.old
 *.copy
-index copy.html
 package.old.json
+
+# Variáveis de Ambiente e Segredos Locais
+.env
+.env.*
+!.env.example
 
 # Logs
 *.log
 npm-debug.log*
 yarn-debug.log*
-
-# Package managers
-yarn.lock
-
-# System files
-.AppleDouble
-.LSOverride
+yarn-error.log*

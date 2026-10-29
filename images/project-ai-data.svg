@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#172033"/>
+    </linearGradient>
+    <pattern id="grid4" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="rgba(148,163,184,0.06)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="420" fill="url(#bg4)"/>
+  <rect width="800" height="420" fill="url(#grid4)"/>
+
+  <!-- Left Panel: Airflow DAGs -->
+  <rect x="45" y="40" width="340" height="340" rx="12" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5"/>
+  <rect x="45" y="40" width="340" height="38" rx="12" fill="rgba(56,189,248,0.15)"/>
+  <text x="215" y="64" fill="#38bdf8" font-family="monospace" font-size="13" font-weight="bold" text-anchor="middle">DATAOPS &amp; APACHE AIRFLOW DAGs</text>
+
+  <rect x="85" y="105" width="260" height="50" rx="8" fill="#1e293b" stroke="#38bdf8"/>
+  <text x="215" y="135" fill="#f8fafc" font-family="monospace" font-size="13" text-anchor="middle">1. Extract: Financial APIs</text>
+  <path d="M 215 155 L 215 185" stroke="#38bdf8" stroke-width="2"/>
+
+  <rect x="85" y="185" width="260" height="50" rx="8" fill="#1e293b" stroke="#10b981"/>
+  <text x="215" y="215" fill="#f8fafc" font-family="monospace" font-size="13" text-anchor="middle">2. Transform: Python / SQL</text>
+  <path d="M 215 235 L 215 265" stroke="#10b981" stroke-width="2"/>
+
+  <rect x="85" y="265" width="260" height="50" rx="8" fill="#1e293b" stroke="#10b981"/>
+  <text x="215" y="295" fill="#34d399" font-family="monospace" font-size="13" font-weight="bold" text-anchor="middle">3. Load &amp; Observability</text>
+
+  <!-- Right Panel: AI Second Brain & JEPA -->
+  <rect x="415" y="40" width="340" height="340" rx="12" fill="#0f172a" stroke="#10b981" stroke-width="1.5"/>
+  <rect x="415" y="40" width="340" height="38" rx="12" fill="rgba(16,185,129,0.15)"/>
+  <text x="585" y="64" fill="#34d399" font-family="monospace" font-size="13" font-weight="bold" text-anchor="middle">AI AGENTS &amp; KNOWLEDGE BASE</text>
+
+  <rect x="445" y="105" width="280" height="75" rx="8" fill="#1e293b" stroke="rgba(148,163,184,0.25)"/>
+  <text x="585" y="132" fill="#f8fafc" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Curated Research Sources</text>
+  <text x="585" y="155" fill="#94a3b8" font-family="monospace" font-size="11" text-anchor="middle">ArXiv · Meta AI (JEPA) · OpenAI</text>
+
+  <path d="M 585 180 L 585 210" stroke="#10b981" stroke-width="2"/>
+
+  <rect x="445" y="210" width="280" height="125" rx="8" fill="rgba(16,185,129,0.1)" stroke="#10b981"/>
+  <text x="585" y="240" fill="#34d399" font-family="monospace" font-size="13" font-weight="bold" text-anchor="middle">AI Second Brain Synthesis</text>
+  <text x="585" y="268" fill="#e2e8f0" font-family="monospace" font-size="11" text-anchor="middle">Grounded Citations &amp; RAG</text>
+  <text x="585" y="292" fill="#e2e8f0" font-family="monospace" font-size="11" text-anchor="middle">World Models vs Autoregressive</text>
+  <text x="585" y="316" fill="#6ee7b7" font-family="monospace" font-size="11" text-anchor="middle">● Technical Artifacts Generated</text>
+</svg>

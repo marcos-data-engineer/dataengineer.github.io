@@ -11,77 +11,62 @@
     display: none !important;
   }
 
-  .skills-container {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .hero-metrics {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  #projects {
-    align-items: stretch;
-    display: grid;
+  .projects-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: var(--spacing-md);
   }
 
-  #projects-title {
-    grid-column: 1 / -1;
-  }
-
-  #projects .top {
-    grid-column: 1 / -1;
-  }
-
-  .project-card {
-    max-width: none;
-    height: 100%;
-  }
-}
-
-@media (min-width: 1024px) {
-  #projects {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: var(--spacing-lg);
-  }
-
-  .project-card {
-    max-width: none;
-  }
-}
-
-@media (min-width: 1024px) {
   .skills-container {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: var(--spacing-lg);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  #about {
-    max-width: 880px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+  .contact-wrapper {
+    grid-template-columns: 1fr 1.25fr;
   }
-  #skills {
-    max-width: 880px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+}
+
+@media (min-width: 1024px) {
+  .hero-container {
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+    gap: var(--spacing-xl);
   }
-  #projects {
-    max-width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+
+  .hero-content {
+    text-align: left;
+  }
+
+  .hero-badges,
+  .hero-cta-group {
+    justify-content: flex-start;
+  }
+
+  .home-intro {
+    margin-left: 0;
+  }
+
+  .avatar-wrapper img {
+    width: 270px;
+    height: 270px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1.6fr 1fr;
+    align-items: center;
+  }
+
+  .experience-grid {
+    grid-template-columns: 1.25fr 1fr;
+    align-items: start;
+  }
+
+  .projects-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: var(--spacing-lg);
-  }
-  #contact,
-  footer {
-    max-width: var(--container-width);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    gap: 2.4rem;
   }
 }
