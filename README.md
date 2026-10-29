@@ -12,7 +12,7 @@ Site profissional e portfólio técnico de **Marcos Vasconcellos de Andrade** �
 - **Projetos em Destaque:**
   - [`n8n-workflows`](https://github.com/marcos-data-engineer/n8n-workflows): Pipelines autônomos de automação, containers Docker e agentes de IA locais (Ollama).
   - [`gdrive-sync`](https://github.com/marcos-data-engineer/gdrive-sync): Sincronização bidirecional resiliente no Linux com `rclone bisync`, `inotify-tools` e `systemd`.
-  - [`Beyond AI Code (Blog)`](https://marcos-data-engineer.github.io/blog/): Hub de artigos técnicos sobre Linux, Engenharia de Dados e IA Privada.
+  - [`Blog: Arquitetura de Dados & IA`](https://marcos-data-engineer.github.io/blog/): Portal técnico e pipeline autônomo de publicação com Jekyll Chirpy, Agente Python e resumos em vídeo.
   - [`sysadmin-linux-scripts`](https://github.com/marcos-data-engineer/sysadmin-linux-scripts): Scripts de monitoramento, diagnóstico N2/N3 e backup automatizado em Bash.
   - [`CO2-Calculator (EcoTrack)`](https://github.com/marcos-data-engineer/CO2-Calculator): Aplicação web reativa em Vue.js 3, Vite e APIs RESTful (OpenStreetMap/OSRM).
   - [`Agentes de IA & Engenharia de Dados`](https://github.com/marcos-data-engineer/desafio-dio-gemini-notebook-agentes-ia): Arquitetura de Segundo Cérebro com IA e pipelines Apache Airflow.

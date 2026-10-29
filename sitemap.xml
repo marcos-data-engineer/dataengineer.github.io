@@ -6,6 +6,7 @@
     <loc>https://marcos-data-engineer.github.io/</loc>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://marcos-data-engineer.github.io/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://marcos-data-engineer.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://marcos-data-engineer.github.io/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://marcos-data-engineer.github.io/"/>
     <lastmod>2026-10-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -24,7 +25,7 @@
     </image:image>
     <image:image>
       <image:loc>https://marcos-data-engineer.github.io/images/blog.jpg</image:loc>
-      <image:title>Beyond AI Code — Hub Técnico de Linux, Dados e IA</image:title>
+      <image:title>Blog: Arquitetura de Dados &amp; IA — Publicações Técnicas e Agente Autônomo</image:title>
     </image:image>
     <image:image>
       <image:loc>https://marcos-data-engineer.github.io/images/linux_sysadmin.png</image:loc>
@@ -43,6 +44,17 @@
     <loc>https://marcos-data-engineer.github.io/en/</loc>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://marcos-data-engineer.github.io/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://marcos-data-engineer.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://marcos-data-engineer.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcos-data-engineer.github.io/"/>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://marcos-data-engineer.github.io/es/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://marcos-data-engineer.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcos-data-engineer.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://marcos-data-engineer.github.io/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://marcos-data-engineer.github.io/"/>
     <lastmod>2026-10-29</lastmod>
     <changefreq>monthly</changefreq>
