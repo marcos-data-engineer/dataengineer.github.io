@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420">
+  <defs>
+    <linearGradient id="bgSql" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17"/>
+      <stop offset="100%" stop-color="#1a1c2e"/>
+    </linearGradient>
+    <pattern id="gridSql" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="rgba(244,63,94,0.06)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="420" fill="url(#bgSql)"/>
+  <rect width="800" height="420" fill="url(#gridSql)"/>
+
+  <!-- Left: Core Patterns -->
+  <rect x="40" y="35" width="345" height="350" rx="12" fill="#111524" stroke="#f43f5e" stroke-width="1.6"/>
+  <rect x="40" y="35" width="345" height="42" rx="12" fill="rgba(244,63,94,0.15)"/>
+  <text x="212" y="62" fill="#fb7185" font-family="monospace" font-size="13" font-weight="bold" text-anchor="middle">ORACLE &amp; POSTGRESQL TUNING</text>
+
+  <rect x="65" y="95" width="295" height="75" rx="8" fill="#1a1e33" stroke="rgba(244,63,94,0.4)"/>
+  <text x="80" y="122" fill="#fb7185" font-family="sans-serif" font-size="13" font-weight="bold">Hierarchical Queries (Tree Traversal)</text>
+  <text x="80" y="145" fill="#cbd5e1" font-family="monospace" font-size="11">CONNECT BY PRIOR · SYS_CONNECT_BY_PATH</text>
+  <text x="80" y="160" fill="#94a3b8" font-family="monospace" font-size="10">ANSI-SQL Recursive CTEs (DAGs)</text>
+
+  <rect x="65" y="185" width="295" height="75" rx="8" fill="#1a1e33" stroke="rgba(244,63,94,0.4)"/>
+  <text x="80" y="212" fill="#fb7185" font-family="sans-serif" font-size="13" font-weight="bold">Window Analytics &amp; Matrix Pivot</text>
+  <text x="80" y="235" fill="#cbd5e1" font-family="monospace" font-size="11">DENSE_RANK() · LAG/LEAD · SUM OVER</text>
+  <text x="80" y="250" fill="#94a3b8" font-family="monospace" font-size="10">PIVOT Dinâmico &amp; Análise Temporal</text>
+
+  <rect x="65" y="275" width="295" height="90" rx="8" fill="rgba(244,63,94,0.1)" stroke="#f43f5e"/>
+  <text x="80" y="302" fill="#fb7185" font-family="sans-serif" font-size="13" font-weight="bold">PL/SQL Batching (High Throughput)</text>
+  <text x="80" y="325" fill="#f8fafc" font-family="monospace" font-size="11">BULK COLLECT ... LIMIT (PGA Control)</text>
+  <text x="80" y="342" fill="#f8fafc" font-family="monospace" font-size="11">FORALL ... SAVE EXCEPTIONS</text>
+  <text x="80" y="358" fill="#fda4af" font-family="monospace" font-size="10">Zero Context Switch Overhead</text>
+
+  <!-- Right: Architecture & Compliance -->
+  <rect x="415" y="35" width="345" height="350" rx="12" fill="#111524" stroke="#38bdf8" stroke-width="1.6"/>
+  <rect x="415" y="35" width="345" height="42" rx="12" fill="rgba(56,189,248,0.15)"/>
+  <text x="587" y="62" fill="#38bdf8" font-family="monospace" font-size="13" font-weight="bold" text-anchor="middle">GOVERNANÇA &amp; DYNAMIC MASKING</text>
+
+  <rect x="440" y="95" width="295" height="120" rx="8" fill="#1a1e33" stroke="#38bdf8"/>
+  <text x="455" y="125" fill="#38bdf8" font-family="sans-serif" font-size="14" font-weight="bold">LGPD / GDPR Privacy by Design</text>
+  <text x="455" y="152" fill="#e2e8f0" font-family="monospace" font-size="11">STANDARD_HASH(..., 'SHA256')</text>
+  <text x="455" y="175" fill="#cbd5e1" font-family="monospace" font-size="11">Mascaramento determinístico de PII</text>
+  <text x="455" y="198" fill="#94a3b8" font-family="monospace" font-size="11">Preservação de Integridade Relacional</text>
+
+  <rect x="440" y="235" width="295" height="130" rx="8" fill="rgba(56,189,248,0.08)" stroke="rgba(56,189,248,0.4)"/>
+  <text x="455" y="265" fill="#38bdf8" font-family="sans-serif" font-size="13" font-weight="bold">Otimização de Índices &amp; Planos</text>
+  <text x="455" y="292" fill="#e2e8f0" font-family="monospace" font-size="11">B-Tree Composta &amp; Partitioning</text>
+  <text x="455" y="315" fill="#cbd5e1" font-family="monospace" font-size="11">Eliminação de Full Table Scans</text>
+  <text x="455" y="338" fill="#34d399" font-family="monospace" font-size="11">● Execução Analítica Sub-segundo</text>
+</svg>

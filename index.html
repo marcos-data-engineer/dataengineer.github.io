@@ -390,7 +390,41 @@
         </div>
 
         <div class="projects-grid">
-          <!-- 1. n8n-workflows -->
+          <!-- 1. homelab-ai-cluster -->
+          <article class="project-card featured" aria-labelledby="project-homelab-title">
+            <div class="project-thumb">
+              <img src="images/project-homelab-cluster.svg"
+                   alt="Arquitetura do cluster distribuído de Homelab com nós Master Workstation e Satellite Notebook"
+                   width="800"
+                   height="420"
+                   loading="lazy">
+            </div>
+            <div class="project-card-header">
+              <span class="project-category"><i class="fa fa-cubes" aria-hidden="true"></i> IA Privada &amp; Cluster Linux</span>
+              <span class="project-status">Destaque</span>
+            </div>
+            <div class="project-body">
+              <h3 id="project-homelab-title">Homelab AI Cluster: Infraestrutura Distribuída On-Premise</h3>
+              <p>
+                Arquitetura distribuída multi-nó para inferência de <strong>IA Privada (Ollama)</strong>, descarregando tarefas de RAG e embeddings vetoriais (<code>bge-m3</code>) em nó satélite. Conta com KVM sem fio no <strong>GNOME Wayland (Deskflow)</strong> com auto-aprovação de portal via <code>Atspi</code> e streaming de áudio sem perdas multi-sala (PipeWire + Snapcast).
+              </p>
+              <div class="project-tags" aria-label="Tecnologias utilizadas">
+                <span>Fedora Linux (Wayland)</span>
+                <span>Ollama Cluster (GPU)</span>
+                <span>Deskflow (libei)</span>
+                <span>PipeWire &amp; Snapcast</span>
+                <span>Open WebUI Docker</span>
+                <span>Python &amp; systemd</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/marcos-data-engineer/homelab-ai-cluster" target="_blank" rel="noopener noreferrer" class="project-link">
+                <i class="fa fa-github" aria-hidden="true"></i> Ver Repositório
+              </a>
+            </div>
+          </article>
+
+          <!-- 2. n8n-workflows -->
           <article class="project-card featured" aria-labelledby="project-n8n-title">
             <div class="project-thumb">
               <img src="images/project-n8n.svg"
@@ -588,33 +622,33 @@
             </div>
           </article>
 
-          <!-- 7. Segundo Cérebro & Agentes de IA -->
-          <article class="project-card" aria-labelledby="project-ai-agents-title">
+          <!-- 8. Advanced Enterprise SQL & PL/SQL Architecture -->
+          <article class="project-card" aria-labelledby="project-oracle-sql-title">
             <div class="project-thumb">
-              <img src="images/project-ai-second-brain.jpg"
-                   alt="Segundo Cérebro Inteligente com Agentes de IA para organização do conhecimento"
+              <img src="images/project-oracle-sql.svg"
+                   alt="Arquitetura de padrões avançados em Oracle SQL, PL/SQL corporativo e conformidade LGPD"
                    width="800"
                    height="420"
                    loading="lazy">
             </div>
             <div class="project-card-header">
-              <span class="project-category"><i class="fa fa-cogs" aria-hidden="true"></i> Inteligência Artificial &amp; Produtividade</span>
+              <span class="project-category"><i class="fa fa-database" aria-hidden="true"></i> Banco de Dados &amp; Tuning Avançado</span>
             </div>
             <div class="project-body">
-              <h3 id="project-ai-agents-title">Segundo Cérebro com IA &amp; Assistentes Inteligentes</h3>
+              <h3 id="project-oracle-sql-title">Padrões Avançados de SQL &amp; PL/SQL (Oracle / PostgreSQL)</h3>
               <p>
-                Um ecossistema inteligente de produtividade que centraliza documentos, organiza automaticamente o conhecimento e responde a dúvidas complexas com máxima precisão, sem alucinações.
+                Repositório técnico corporativo contendo padrões de alta performance em SQL e PL/SQL: consultas hierárquicas recursivas (<code>CONNECT BY PRIOR</code> e CTEs ANSI), funções analíticas de janela (<code>DENSE_RANK</code>, <code>PIVOT</code>), pacotes em lote de alta vazão (<code>BULK COLLECT / FORALL</code>) e mascaramento dinâmico em conformidade com a LGPD.
               </p>
               <div class="project-tags" aria-label="Tecnologias utilizadas">
-                <span>Agentes de IA</span>
-                <span>Pesquisa Inteligente</span>
-                <span>Produtividade</span>
-                <span>Python</span>
-                <span>Segundo Cérebro</span>
+                <span>Oracle 19c/21c</span>
+                <span>PL/SQL Tuning</span>
+                <span>PostgreSQL</span>
+                <span>Bulk Collect / FORALL</span>
+                <span>Dynamic Data Masking (LGPD)</span>
               </div>
             </div>
             <div class="project-footer">
-              <a href="https://github.com/marcos-data-engineer/desafio-dio-gemini-notebook-agentes-ia" target="_blank" rel="noopener noreferrer" class="project-link">
+              <a href="https://github.com/marcos-data-engineer/advanced-sql-oracle-lab" target="_blank" rel="noopener noreferrer" class="project-link">
                 <i class="fa fa-github" aria-hidden="true"></i> Ver Repositório
               </a>
             </div>

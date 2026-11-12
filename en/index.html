@@ -391,7 +391,41 @@
         </div>
 
         <div class="projects-grid">
-          <!-- 1. n8n-workflows -->
+          <!-- 1. homelab-ai-cluster -->
+          <article class="project-card featured" aria-labelledby="project-homelab-title">
+            <div class="project-thumb">
+              <img src="../images/project-homelab-cluster.svg"
+                   alt="Distributed Homelab AI Cluster architecture diagram with Master Workstation and Satellite Notebook"
+                   width="800"
+                   height="420"
+                   loading="lazy">
+            </div>
+            <div class="project-card-header">
+              <span class="project-category"><i class="fa fa-cubes" aria-hidden="true"></i> Private AI &amp; Linux Cluster</span>
+              <span class="project-status">Featured</span>
+            </div>
+            <div class="project-body">
+              <h3 id="project-homelab-title">Homelab AI Cluster: On-Premise Distributed Infrastructure</h3>
+              <p>
+                Multi-node distributed architecture for **Private AI inference (Ollama)**, offloading vector embeddings and RAG processing (<code>bge-m3</code>) to a dedicated satellite node. Features seamless wireless KVM on **GNOME Wayland (Deskflow)** with auto-approved portal capture via <code>Atspi</code>, and sample-accurate multi-room audio streaming (PipeWire + Snapcast).
+              </p>
+              <div class="project-tags" aria-label="Technologies used">
+                <span>Fedora Linux (Wayland)</span>
+                <span>Ollama Cluster (GPU)</span>
+                <span>Deskflow (libei)</span>
+                <span>PipeWire &amp; Snapcast</span>
+                <span>Open WebUI Docker</span>
+                <span>Python &amp; systemd</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/marcos-data-engineer/homelab-ai-cluster" target="_blank" rel="noopener noreferrer" class="project-link">
+                <i class="fa fa-github" aria-hidden="true"></i> View Repository
+              </a>
+            </div>
+          </article>
+
+          <!-- 2. n8n-workflows -->
           <article class="project-card featured" aria-labelledby="project-n8n-title">
             <div class="project-thumb">
               <img src="../images/project-n8n.svg"
@@ -589,33 +623,33 @@
             </div>
           </article>
 
-          <!-- 7. AI Second Brain & Smart Assistants -->
-          <article class="project-card" aria-labelledby="project-ai-agents-title">
+          <!-- 8. Advanced Enterprise SQL & PL/SQL Architecture -->
+          <article class="project-card" aria-labelledby="project-oracle-sql-title">
             <div class="project-thumb">
-              <img src="../images/project-ai-second-brain.jpg"
-                   alt="Smart AI Second Brain and personal knowledge assistant"
+              <img src="../images/project-oracle-sql.svg"
+                   alt="Architecture of advanced patterns in Oracle SQL, enterprise PL/SQL and GDPR compliance"
                    width="800"
                    height="420"
                    loading="lazy">
             </div>
             <div class="project-card-header">
-              <span class="project-category"><i class="fa fa-cogs" aria-hidden="true"></i> Artificial Intelligence &amp; Productivity</span>
+              <span class="project-category"><i class="fa fa-database" aria-hidden="true"></i> Databases &amp; Advanced Tuning</span>
             </div>
             <div class="project-body">
-              <h3 id="project-ai-agents-title">AI Second Brain &amp; Smart Assistants</h3>
+              <h3 id="project-oracle-sql-title">Advanced SQL &amp; PL/SQL Enterprise Architecture (Oracle / PostgreSQL)</h3>
               <p>
-                An intelligent productivity ecosystem that centralizes documents, automatically organizes knowledge, and answers complex questions with pinpoint accuracy and zero hallucinations.
+                Enterprise technical repository featuring high-performance SQL and PL/SQL patterns: recursive hierarchical tree queries (<code>CONNECT BY PRIOR</code> and ANSI CTEs), analytical windowing functions (<code>DENSE_RANK</code>, <code>PIVOT</code>), high-throughput batch packages (<code>BULK COLLECT / FORALL</code>), and dynamic data masking for full privacy compliance (GDPR/LGPD).
               </p>
               <div class="project-tags" aria-label="Technologies used">
-                <span>AI Agents</span>
-                <span>Smart Search</span>
-                <span>Productivity</span>
-                <span>Python</span>
-                <span>Second Brain</span>
+                <span>Oracle 19c/21c</span>
+                <span>PL/SQL Tuning</span>
+                <span>PostgreSQL</span>
+                <span>Bulk Collect / FORALL</span>
+                <span>Dynamic Data Masking (GDPR)</span>
               </div>
             </div>
             <div class="project-footer">
-              <a href="https://github.com/marcos-data-engineer/desafio-dio-gemini-notebook-agentes-ia" target="_blank" rel="noopener noreferrer" class="project-link">
+              <a href="https://github.com/marcos-data-engineer/advanced-sql-oracle-lab" target="_blank" rel="noopener noreferrer" class="project-link">
                 <i class="fa fa-github" aria-hidden="true"></i> View Repository
               </a>
             </div>

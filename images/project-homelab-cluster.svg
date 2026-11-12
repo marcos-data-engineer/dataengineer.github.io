@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420">
+  <defs>
+    <linearGradient id="bgCluster" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="100%" stop-color="#111c30"/>
+    </linearGradient>
+    <pattern id="gridCluster" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="rgba(148,163,184,0.06)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="420" fill="url(#bgCluster)"/>
+  <rect width="800" height="420" fill="url(#gridCluster)"/>
+
+  <!-- Left: Node 1 PC Master -->
+  <rect x="40" y="35" width="345" height="350" rx="12" fill="#0c1322" stroke="#38bdf8" stroke-width="1.6"/>
+  <rect x="40" y="35" width="345" height="42" rx="12" fill="rgba(56,189,248,0.15)"/>
+  <text x="212" y="62" fill="#38bdf8" font-family="monospace" font-size="13" font-weight="bold" text-anchor="middle">NODE 1: WORKSTATION (AMD RX 7600)</text>
+
+  <rect x="65" y="95" width="295" height="60" rx="8" fill="#162238" stroke="#38bdf8" stroke-width="1"/>
+  <text x="80" y="120" fill="#38bdf8" font-family="sans-serif" font-size="13" font-weight="bold">Ollama Master LLM Engine</text>
+  <text x="80" y="142" fill="#94a3b8" font-family="monospace" font-size="11">qwen2.5-coder:7b | gemma2:9b (8GB VRAM)</text>
+
+  <rect x="65" y="170" width="295" height="55" rx="8" fill="#162238" stroke="rgba(148,163,184,0.3)"/>
+  <text x="80" y="195" fill="#f8fafc" font-family="sans-serif" font-size="13" font-weight="bold">Wayland KVM Server (Deskflow)</text>
+  <text x="80" y="215" fill="#94a3b8" font-family="monospace" font-size="11">libei / libportal · Auto-Accept Atspi</text>
+
+  <rect x="65" y="240" width="295" height="55" rx="8" fill="#162238" stroke="rgba(148,163,184,0.3)"/>
+  <text x="80" y="265" fill="#f8fafc" font-family="sans-serif" font-size="13" font-weight="bold">Snapcast Audio Server</text>
+  <text x="80" y="285" fill="#94a3b8" font-family="monospace" font-size="11">Low-Latency PCM PipeWire Filter-Chain</text>
+
+  <rect x="65" y="310" width="295" height="55" rx="8" fill="rgba(56,189,248,0.1)" stroke="#38bdf8"/>
+  <text x="80" y="335" fill="#38bdf8" font-family="sans-serif" font-size="13" font-weight="bold">Open WebUI Orchestration</text>
+  <text x="80" y="355" fill="#cbd5e1" font-family="monospace" font-size="11">Docker Hub Upstream (:8080)</text>
+
+  <!-- Connection Links -->
+  <path d="M 385 125 L 415 125" stroke="#10b981" stroke-width="2.5" stroke-dasharray="4"/>
+  <path d="M 385 197 L 415 197" stroke="#38bdf8" stroke-width="2.5"/>
+  <path d="M 385 267 L 415 267" stroke="#f59e0b" stroke-width="2.5"/>
+
+  <!-- Right: Node 2 Notebook Edge -->
+  <rect x="415" y="35" width="345" height="350" rx="12" fill="#0c1322" stroke="#10b981" stroke-width="1.6"/>
+  <rect x="415" y="35" width="345" height="42" rx="12" fill="rgba(16,185,129,0.15)"/>
+  <text x="587" y="62" fill="#34d399" font-family="monospace" font-size="13" font-weight="bold" text-anchor="middle">NODE 2: SATELLITE (NVIDIA MX150)</text>
+
+  <rect x="440" y="95" width="295" height="60" rx="8" fill="#162238" stroke="#10b981" stroke-width="1"/>
+  <text x="455" y="120" fill="#34d399" font-family="sans-serif" font-size="13" font-weight="bold">Dedicated RAG &amp; Embeddings</text>
+  <text x="455" y="142" fill="#94a3b8" font-family="monospace" font-size="11">bge-m3:latest (Offloading Master GPU)</text>
+
+  <rect x="440" y="170" width="295" height="55" rx="8" fill="#162238" stroke="rgba(148,163,184,0.3)"/>
+  <text x="455" y="195" fill="#f8fafc" font-family="sans-serif" font-size="13" font-weight="bold">KVM Client &amp; 3rd Lateral Screen</text>
+  <text x="455" y="215" fill="#94a3b8" font-family="monospace" font-size="11">Mouse/Teclado transparente na rede</text>
+
+  <rect x="440" y="240" width="295" height="55" rx="8" fill="#162238" stroke="rgba(148,163,184,0.3)"/>
+  <text x="455" y="265" fill="#f8fafc" font-family="sans-serif" font-size="13" font-weight="bold">Snapcast Satellite Client</text>
+  <text x="455" y="285" fill="#94a3b8" font-family="monospace" font-size="11">Audio Canal Esquerdo Equalizado</text>
+
+  <rect x="440" y="310" width="295" height="55" rx="8" fill="rgba(16,185,129,0.1)" stroke="#10b981"/>
+  <text x="455" y="335" fill="#34d399" font-family="sans-serif" font-size="13" font-weight="bold">Sincronização de Contexto</text>
+  <text x="455" y="355" fill="#cbd5e1" font-family="monospace" font-size="11">lan-clip-sync (GTK3 / SSH / SHA256)</text>
+</svg>
