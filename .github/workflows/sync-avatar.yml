@@ -1,0 +1,38 @@
+name: Sync GitHub Avatar to Profile Image
+
+on:
+  schedule:
+    # Executa diariamente às 04:00 UTC para verificar se houve alteração na foto de perfil
+    - cron: '0 4 * * *'
+  workflow_dispatch: # Permite disparo manual via aba Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "sync-avatar"
+  cancel-in-progress: true
+
+jobs:
+  sync-avatar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Fetch Latest GitHub Avatar
+        run: |
+          mkdir -p images
+          curl -sL -A "curl/7.88.1" "https://github.com/marcos-data-engineer.png" -o images/profile.png
+
+      - name: Commit and Push if Changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet images/profile.png; then
+            git add images/profile.png
+            git commit -m "chore(profile): sync avatar with latest GitHub profile picture [skip ci]"
+            git push
+          else
+            echo "Avatar is already up to date. No changes to commit."
+          fi
